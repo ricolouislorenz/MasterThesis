@@ -1,0 +1,325 @@
+\documentclass[
+	ngerman,
+	11pt,
+	twoside,
+	a4paper,
+	headsepline,
+	footsepline, 
+	toc=bib
+]{scrbook}
+% \makeatletter
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+% \DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+% \DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+% \DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+% \DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+
+
+\include{commands}
+%Hier Name des bib files einfügen
+\addbibresource{test.bib}
+%Ref
+\usepackage[ngerman]{cleveref}
+
+% Nette Hinweise zum LaTexen einer Diss:
+% - http://iacweb.ethz.ch/en/various/Mittelbau/disslatex.html
+% - http://www.zib.de/pfetsch/Diss-Styles/
+% - http://www2.informatik.hu-berlin.de/~nlohmann/arbeit/koma.html
+
+\begin{document}
+\selectlanguage{ngerman} 
+
+\crefname{listing}{Programmcode}{Programmcodes}  
+\Crefname{listing}{Programmcode}{Programmcodes}
+
+
+\frontmatter
+
+%---------------------------------------------------------------------------
+% Todos
+%---------------------------------------------------------------------------
+
+% Alle Todos und diese Liste können einfach in der commands.tex deaktiviert
+% werden ~Zeile 171
+%
+\newpage
+%Verhindert Konflikt mit Appendix
+\pagenumbering{Alph}
+\setcounter{page}{1}
+\listoftodos[Todo-Liste]
+\thispagestyle{empty}
+%---------------------------------------------------------------------------
+% Frontpage
+%---------------------------------------------------------------------------
+
+% Die Richtline zum Aufbau des Deckblatts von Bachelor- und Masterarbeiten
+% findet sich hier:
+% @see: http://www.uni-luebeck.de/fileadmin/uzl_ssc/PDF-Dateien/Richtlinie-Deckblatt-MINT-Abschlussarbeit-2012-10-18.pdf
+
+\newcommand{\titlepageskip}{\vskip 20pt}
+
+% @see: http://tex.stackexchange.com/questions/31705/different-margins-for-title-page
+\newgeometry{top=1in,bottom=1in,right=1in,left=1.2in}
+\begin{titlepage}
+
+\title{Bachelor-/Masterarbeit am ITM}
+\author{Student}
+
+{\Large
+	% 1. Offizielles Logo des Instituts, an dem die Arbeit angesiedelt ist. (Das offizielle Logo
+	% enthält das Siegel der Universität zusammen mit dem Text "Universität zu Lübeck"
+	% und darunter den Namen des Instituts.) Dieses Logo ist bei den Instituten zu
+	% bekommen. Das Logo muss oben links platziert werden.
+	\includegraphics[width=80mm]{images/Logo_Inst_Telematik_cropped.pdf}
+	\vskip 44pt
+
+	% 2. Optional: Noch einmal Name des Instituts und Angabe der Direktorin oder des
+	% Direktors des Instituts.
+
+	% 3. Titel der Arbeit in deutscher Sprache und ebenfalls in englischer Sprache. Dabei soll
+	% die Sprache, in der die Arbeit verfasst wurde, als erste angeführt werden; die andere
+	% Sprache kann weniger prominent dargestellt werden.
+	% Auch bei englischsprachigen Studiengängen sollen die Titelblätter auf Deutsch sein.
+	\textbf{\LARGE Bachelor-/Masterarbeit am ITM}\\
+	\LARGE Bachelor-/Masterthesis at ITM
+
+	\titlepageskip
+	% 4. Der Text "Bachelorarbeit" oder "Masterarbeit" (nicht "Bachelor-Arbeit" oder "Master-Arbeit").
+	%\textbf{Bachelorarbeit}
+	\textbf{Bachelor-/Masterarbeit}
+
+	\titlepageskip
+	%5. Der Text "im Rahmen des Studiengangs"
+	im Rahmen des Studiengangs\\
+	%6. Der ausgeschriebene Name des Studiengangs (also beispielsweise "Informatik"
+	%oder "Molecular Life Science", hingegen nicht "Bioinformatik" oder "MLS")
+	\textbf{Informatik}\\
+	%7. Der Text "der Universität zu Lübeck"
+	der Universit"at zu L"ubeck
+
+	\titlepageskip
+	%8. Der Text "Vorgelegt von" und der Name der Studentin oder des Studenten
+	vorgelegt von\\
+	\textbf{Autor}
+
+	\titlepageskip
+	%9. Der Text "Ausgegeben und betreut von"
+	ausgegeben und betreut von\\
+	%10. Der Name der ersten Prüferin oder des ersten Prüfers. Dies ist immer gleichzeitig
+	%die Betreuerin oder der Betreuer im Sinne der Prüfungsordnung.
+	\textbf{Prof.~Dr.~Stefan~Fischer}
+
+	% Diesen Teil entfernen, wenn die Arbeit KEINEN Unterstützer hatte
+	\titlepageskip
+	{
+		%11. Optional der Text "Mit Unterstützung von" und der Name von weiteren Personen,
+		%die die Betreuung besonders unterstützt haben. Beispielsweise können dies
+		%wissenschaftliche Mitarbeiter sein oder Mitarbeiter von Firmen, wenn die Arbeit
+		%extern geschrieben wurde.
+		mit Unterstützung von\\
+		\textbf{WiMi}\\
+	}
+
+	% % Diesen Teil entfernen, wenn die Arbeit NICHT in einer Firma entstanden ist
+	% \titlepageskip
+	% {
+	% 	%12. Optional ein Hinweis, dass die Arbeit zum Teil bei einer Firma entstanden ist wie
+	% 	%"Die Bachelorarbeit ist im Rahmen von Arbeiten bei Firma XY entstanden".
+	% 	%Die Arbeit ist im Rahmen einer Tätigkeit bei der Firma Muster GmbH entstanden.
+	% }
+
+	\vfill
+	%13. Der Text "Lübeck, den" und das Abgabedatum.
+	{
+		Lübeck, den \today
+	}
+
+	% Diesen Teil entfernen, wenn "Im Focus das Leben" nicht drauf stehen soll
+	%14. Optional der Text "Im Focus das Leben".
+	{
+		\titlepageskip
+		Im Focus das Leben
+	}
+}
+\end{titlepage}
+\restoregeometry
+
+\cleardoublepage
+
+% Erklaerung
+\newpage
+\chapter*{Erkl"arung}
+
+Ich versichere an Eides statt, die vorliegende Arbeit selbstst"andig und nur unter Benutzung
+der angegebenen Hilfsmittel angefertigt zu haben.
+
+\vspace*{3cm}
+Lübeck, den \today
+
+\thispagestyle{empty}
+\cleardoublepage
+
+
+% Kurzfassung und Abstract
+
+\chapter*{Kurzfassung}
+
+Diese Arbeit ganz kurz.
+
+%
+\vskip 3cm
+%
+
+\section*{\huge Abstract}
+
+This thesis in short.
+
+\thispagestyle{empty}
+\cleardoublepage
+
+% Aufgabenstellung
+
+\chapter*{Aufgabenstellung}
+
+Die Aufgabenstellung der Master-/Diplom-/Bachelor-/Studienarbeit
+
+%---------------------------------------------------------------------------
+% Inhaltsverzeichnis
+%---------------------------------------------------------------------------
+
+	%\tableofcontents
+	\thispagestyle{empty}
+	\cleardoublepage
+
+%---------------------------------------------------------------------------
+% Der eigentliche Inhalt
+%---------------------------------------------------------------------------
+	\mainmatter
+	%\pagestyle{itm}
+
+%---------------------------------------------------------------------------
+% Einleitung
+%---------------------------------------------------------------------------
+
+\chapter{Einleitung}
+\label{cha:einleitung}
+
+Keine Überschrift ohne Text $\dots$
+
+\section{Das Lübecker Holstentor}
+\label{sec:holstentor}
+
+\subsection{Zitieren}
+\label{sec:cite}
+
+Das Eigenbase-Projekt \cite{Akyildiz2008a} ist sehr cool.
+
+\subsection{Grafik}
+
+%See also Grafiken in commands.tex ab Zeile 341 für subfigures etc. 
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{images/LuebeckHolstentor}
+		\caption[Kurzfassung für Abbildungsverzeichnis]{Ausführlicher Titel}
+		\label{fig:Holstentor}
+		\end{center}
+\end{figure}
+
+%Cref ergänzt automatisch Abbildung oder Tabellle etc.
+In \Cref{fig:Holstentor} sehen wir das \todo{Eine Randnotiz!} Lübecker Holstentor.
+
+\subsection{Tabelle}
+
+\begin{table}
+\centering
+\footnotesize
+\caption[Kurze Tabellenüberschrift]{Lange Tabellenüberschrift}
+\label{tab:eins}
+\begin{tabular}{p{1.4cm} p{2.0cm} p{2.0cm}}\toprule
+			& A 			& B 		\\[0.1cm]\midrule
+	1		& w				& s 		\\[0.2cm]
+	2 		& e				& f			\\[0.2cm]
+	3		& r				& s			\\[0.2cm]
+	4 		& t				& n 		\\\bottomrule
+\end{tabular}
+\end{table}
+
+In \Cref{tab:eins} sehen wir...
+
+\subsection{Gleichung}
+
+\begin{equation}\label{eq:test}
+  a=b
+\end{equation}
+
+In \Cref{eq:test} sehen wir...
+
+\subsection{Code-Listing}
+
+\lstinputlisting[label={lst:hello}, caption={This is a code.}]{helloworld.cpp}
+
+
+In \Cref{lst:hello} wird...
+
+\subsection{Zitat}
+
+Ein Zitat aus der Wikipedia:
+
+\begin{quote}
+	\begin{myquote}
+		Die Universität zu Lübeck ist eine Hochschule in der Hansestadt Lübeck (Deutschland), die 1964 zunächst als zweite Medizinische Fakultät der Universität Kiel eingerichtet wurde. Studienangebot und Forschungstätigkeit der Universität zu Lübeck haben ihren Ausgangspunkt in der Medizin.
+		\label{quote:uni}
+	\end{myquote}
+\end{quote}
+
+\todo[inline,color=green!40,caption={Kurzversion des Todos}]{Ein Inline-Todo}
+
+%
+% Hinweis: CRef funktioniert nicht für Zitate! Bitte \quoteref{...} verwenden
+%
+In \quoteref{uni}...
+
+\todo[inline]{Mit Besitzer und Datum}
+
+\newpage
+
+Etwas mehr Inhalt auf einer weiteren Seite
+
+\newpage
+
+Etwas mehr Inhalt auf noch einer tollen Seite
+
+
+
+%---------------------------------------------------------------------------
+% Noch mehr inhaltliche Chapter
+%---------------------------------------------------------------------------
+
+
+%---------------------------------------------------------------------------
+% Anhang
+%---------------------------------------------------------------------------
+	\cleardoublepage
+	\newpage
+	\pagenumbering{roman}
+	\setcounter{page}{1}
+	\appendix
+
+				\listoffigures
+
+	    \listoftables
+
+		
+
+	%---------------------------------------------------------------------------
+
+    %using: \abk{Abk.}{Abkürzung}
+		\printnomenclature
+
+		\printbibliography
+
+    \printindex
+
+\end{document}

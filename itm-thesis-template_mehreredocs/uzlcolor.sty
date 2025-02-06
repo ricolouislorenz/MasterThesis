@@ -1,0 +1,162 @@
+%%
+%% This is file 'uzlcolor.sty'
+%%
+%% Copyright 2012 Christian Renner
+%%
+%% This file is part of the TUHH-Script-bundle.
+%%
+%% This system is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+%%
+
+% Exit if the style file is already loaded
+% (suggested by Lee Shombert <las@potomac.wash.inmet.com>
+\ifx \uzlcolorstyloaded\relax \endinput\else\let\uzlcolorstyloaded\relax\fi
+
+\NeedsTeXFormat{LaTeX2e}[2009/09/24]
+
+\makeatletter
+
+\def\uzlcolor@PackageName{uzlcolor}
+\def\uzlcolor@PackageDesc{Uni Luebeck color definitions}
+\def\uzlcolor@PackageVersion{1.0}
+\def\uzlcolor@PackageFullVersion{\uzlcolor@PackageVersion}
+
+\ProvidesPackage{\uzlcolor@PackageName}[%
+  2014/10/15\space%
+  v\uzlcolor@PackageFullVersion\space\uzlcolor@PackageDesc]
+\typeout{Package \uzlcolor@PackageName, \csname ver@\uzlcolor@PackageName.sty\endcsname%
+  ^^J\@spaces\@spaces\@spaces\@spaces\space\space
+  Copyright (C) Christian Renner, 2014^^J}
+
+%%% using key/value pairs as options to packages and classes
+\RequirePackage{kvoptions}
+
+\SetupKeyvalOptions{%
+  family=uzlcolor,
+  prefix=@uzlcolor@
+}
+
+% allow for grayscale option
+\DeclareBoolOption{gray}
+
+\DeclareDefaultOption{%
+  \PackageWarning{\uzlcolor@PackageName}{Unknown option '\CurrentOption'}%
+}
+
+\ProcessKeyvalOptions*\relax
+
+\RequirePackage{xcolor}[2005/12/21]
+
+
+%%
+%% black/white renaming
+%%
+	
+% black        - RGB:  0,   0,   0
+\xglobal\providecolor{uzl_black}{RGB}{0,0,0}
+% white        - RGB 255, 255, 255
+\xglobal\providecolor{uzl_white}{RGB}{255,255,255}
+
+
+%%
+%% main theme color
+%%
+
+% ocean green: [0 75 90]
+\xglobal\providecolor[named]{uzl_oceangreen}{RGB}{0,75,90}
+\xglobal\colorlet[named]{uzl_oceangreen_90}{uzl_oceangreen!90!uzl_white}
+\xglobal\colorlet[named]{uzl_oceangreen_80}{uzl_oceangreen!80!uzl_white}
+\xglobal\colorlet[named]{uzl_oceangreen_70}{uzl_oceangreen!70!uzl_white}
+\xglobal\colorlet[named]{uzl_oceangreen_60}{uzl_oceangreen!60!uzl_white}
+\xglobal\colorlet[named]{uzl_oceangreen_50}{uzl_oceangreen!50!uzl_white}
+\xglobal\colorlet[named]{uzl_oceangreen_40}{uzl_oceangreen!40!uzl_white}
+\xglobal\colorlet[named]{uzl_oceangreen_30}{uzl_oceangreen!30!uzl_white}
+\xglobal\colorlet[named]{uzl_oceangreen_25}{uzl_oceangreen!25!uzl_white}
+\xglobal\colorlet[named]{uzl_oceangreen_20}{uzl_oceangreen!20!uzl_white}
+\xglobal\colorlet[named]{uzl_oceangreen_10}{uzl_oceangreen!10!uzl_white}
+
+
+%%
+%% gray styles
+%%
+
+% cold gray: [214 223 228; 191 203 213; 140 158 171; 88 105 121]
+\xglobal\providecolor{uzl_coldgray_1}{RGB}{214,223,228}
+\xglobal\providecolor{uzl_coldgray_2}{RGB}{191,203,213}
+\xglobal\providecolor{uzl_coldgray_3}{RGB}{140,158,171}
+\xglobal\providecolor{uzl_coldgray_4}{RGB}{ 88,105,121}
+
+% neutral gray: [228; 208; 157; 101]
+\xglobal\providecolor{uzl_gray_1}{RGB}{228,228,228}
+\xglobal\providecolor{uzl_gray_2}{RGB}{208,208,208}
+\xglobal\providecolor{uzl_gray_3}{RGB}{157,157,157}
+\xglobal\providecolor{uzl_gray_4}{RGB}{101,101,101}
+
+% warm gray: [237 226 228; 218 214 203; 163 160 145; 117 115 105]
+\xglobal\providecolor{uzl_warmgray_1}{RGB}{237,226,228}
+\xglobal\providecolor{uzl_warmgray_2}{RGB}{218,214,203}
+\xglobal\providecolor{uzl_warmgray_3}{RGB}{163,160,145}
+\xglobal\providecolor{uzl_warmgray_4}{RGB}{117,115,105}
+
+%% define grays used in tikz
+\definecolor{gray}{gray}{.5}
+\definecolor{lightgray}{gray}{.70}
+\definecolor{background}{gray}{.9}
+
+%%
+%% extra palette
+%%
+
+% red: [232 191 173; 228 32 50; 181 22 33; 127 21 24]
+\xglobal\providecolor{uzl_red_1}{RGB}{232,191,173}
+\xglobal\providecolor{uzl_red_2}{RGB}{228, 32, 50}
+\xglobal\providecolor{uzl_red_3}{RGB}{181, 22, 33}
+\xglobal\providecolor{uzl_red_4}{RGB}{127, 21, 24}
+
+% orange: [240 205 178; 236 116 4; 203 81 25; 129 53 19]
+\xglobal\providecolor{uzl_orange_1}{RGB}{240,205,178}
+\xglobal\providecolor{uzl_orange_2}{RGB}{236,116,  4}
+\xglobal\providecolor{uzl_orange_3}{RGB}{203, 81, 25}
+\xglobal\providecolor{uzl_orange_4}{RGB}{129, 53, 19}
+
+% yellow: [236 218 136; 250 187 0; 191 134 20; 117 83 17]
+\xglobal\providecolor{uzl_yellow_1}{RGB}{236,218,136}
+\xglobal\providecolor{uzl_yellow_2}{RGB}{250,187,  0}
+\xglobal\providecolor{uzl_yellow_3}{RGB}{191,134, 20}
+\xglobal\providecolor{uzl_yellow_4}{RGB}{117, 83, 17}
+
+% green: [219 215 187; 149 188 14; 126 133 37; 50 88 75]
+\xglobal\providecolor{uzl_green_1}{RGB}{219,215,187}
+\xglobal\providecolor{uzl_green_2}{RGB}{149,188, 14}
+\xglobal\providecolor{uzl_green_3}{RGB}{126,133, 37}
+\xglobal\providecolor{uzl_green_4}{RGB}{ 50, 88, 75}
+
+% turquoise: [205 219 216; 59 178 160; 36 143 133; 0 90 91]
+\xglobal\providecolor{uzl_turquoise_1}{RGB}{205,219,216}
+\xglobal\providecolor{uzl_turquoise_2}{RGB}{ 59,178,160}
+\xglobal\providecolor{uzl_turquoise_3}{RGB}{ 36,143,133}
+\xglobal\providecolor{uzl_turquoise_4}{RGB}{  0, 90,91}
+
+% ocean green: [198 220 226; 0 174 199; 0 145 168; 0 97 122]
+\xglobal\providecolor{uzl_oceanblue_1}{RGB}{198,220,226}
+\xglobal\providecolor{uzl_oceanblue_2}{RGB}{  0,174,199}
+\xglobal\providecolor{uzl_oceanblue_3}{RGB}{  0,145,168}
+\xglobal\providecolor{uzl_oceanblue_4}{RGB}{  0, 97,122}
+
+% mediumblue: [194 217 230; 60 169 213; 0 131 173; 0 88 119]
+\xglobal\providecolor{uzl_mediumblue_1}{RGB}{194,217,230}
+\xglobal\providecolor{uzl_mediumblue_2}{RGB}{ 60,169,213}
+\xglobal\providecolor{uzl_mediumblue_3}{RGB}{  0,131,173}
+\xglobal\providecolor{uzl_mediumblue_4}{RGB}{  0, 88,119}
+
+% intenseblue: [195 217 237; 110 165 206; 0 106 163; 0 70 114] 
+\xglobal\providecolor{uzl_intenseblue_1}{RGB}{195,217,237}
+\xglobal\providecolor{uzl_intenseblue_2}{RGB}{110,165,206}
+\xglobal\providecolor{uzl_intenseblue_3}{RGB}{  0,106,163}
+\xglobal\providecolor{uzl_intenseblue_4}{RGB}{  0, 70,114}
+
+
+\makeatother
+\endinput
