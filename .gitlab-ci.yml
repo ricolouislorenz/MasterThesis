@@ -1,0 +1,17 @@
+image: texlive/texlive:latest
+
+build:
+  script:
+    - apt-get update
+    - apt-get install -y zip
+    - cd itm-thesis-template_mehreredocs  
+    - latexmk -pdf thesis.tex
+    - cp thesis.pdf ../thesis-example.pdf
+    - make clean
+    - cd ..
+    - git rev-parse HEAD > VERSION
+    - zip -9 -r thesis.zip itm-thesis-template_mehreredocs thesis-example.pdf VERSION
+  artifacts:
+    paths:
+      - "thesis-example.pdf"
+      - "thesis.zip"
