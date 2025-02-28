@@ -1,0 +1,39 @@
+/* src/styles/global.css */
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Gesamthöhe des Viewports */
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .left-sidebar,
+  .right-sidebar {
+    width: 200px; /* Feste Breite */
+    background-color: #f0f0f0;
+    overflow-y: auto;
+  }
+  
+  .world-map-container {
+    flex: 1;
+    overflow: auto;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
