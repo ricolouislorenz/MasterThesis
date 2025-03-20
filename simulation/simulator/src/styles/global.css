@@ -1,39 +1,70 @@
 /* src/styles/global.css */
 html, body, #root {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .app-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Gesamthöhe des Viewports */
-  }
-  
-  .main-content {
-    flex: 1;
-    display: flex;
-    overflow: hidden;
-  }
-  
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Gesamthöhe des Viewports */
+  width: 100%;   /* Volle Breite */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.left-sidebar,
+.right-sidebar {
+  width: 200px; /* Feste Breite für größere Bildschirme */
+  background-color: #f0f0f0;
+  overflow-y: auto;
+}
+
+.world-map-container {
+  flex: 1;
+  overflow: auto;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Responsive Anpassungen */
+
+/* Bei mittleren Bildschirmbreiten: Sidebars etwas schmaler */
+@media (max-width: 1024px) {
   .left-sidebar,
   .right-sidebar {
-    width: 200px; /* Feste Breite */
-    background-color: #f0f0f0;
-    overflow-y: auto;
+    width: 150px;
   }
-  
+}
+
+/* Bei kleinen Bildschirmen (z.B. Tablets und Smartphones):
+   - Das Layout wird vertikal (Column) angeordnet,
+   - Die Sidebars nehmen 100% Breite ein und werden untereinander gestapelt,
+   - Der WorldMap-Container bekommt eine feste Höhe, z. B. 50vh */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+  .left-sidebar,
+  .right-sidebar {
+    width: 100%;
+    height: auto;
+  }
   .world-map-container {
-    flex: 1;
-    overflow: auto;
+    width: 100%;
+    flex: none;
+    height: 50vh; /* Beispielhöhe, passe das an deine Bedürfnisse an */
   }
-  
-  .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-  }
-  
+}

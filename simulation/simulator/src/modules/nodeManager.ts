@@ -1,100 +1,57 @@
 // src/modules/nodeManager.ts
+
 export interface NodeProfile {
   role: 'relay' | 'block-producing' | 'light' | 'archival';
-  networkLatency: number; // in ms
-  availability: number;   // in Prozent
-  cpu: number;            // in GHz
-  memory: number;         // in GB
-  storage: number;        // in GB
-  bandwidth: number;      // in Mbps
-  stake?: number;         // nur für block-producing Nodes
 }
 
 export interface Node {
   id: string;
-  name: string;
+  name: string; // Neu: Name des Knotens
   type: 'static' | 'dynamic';
   latitude: number;
   longitude: number;
   fixed: boolean;
-  profile: NodeProfile;
+  profile?: NodeProfile;
 }
 
-let nodes: Node[] = [];
-
-export function generateRandomProfile(nodeType: 'static' | 'dynamic'): NodeProfile {
-  let role: 'relay' | 'block-producing' | 'light' | 'archival';
-  if (nodeType === 'static') {
-    const rand = Math.random();
-    if (rand < 0.7) role = 'relay';
-    else if (rand < 0.9) role = 'block-producing';
-    else if (rand < 0.95) role = 'archival';
-    else role = 'light';
-  } else {
-    const rand = Math.random();
-    if (rand < 0.5) role = 'relay';
-    else role = 'light';
-  }
-  switch (role) {
-    case 'relay':
-      return {
-        role,
-        networkLatency: Math.floor(50 + Math.random() * 100),
-        availability: 98 + Math.random() * 2,
-        cpu: 2 + Math.random() * 2,
-        memory: 8 + Math.random() * 8,
-        storage: 256 + Math.random() * 256,
-        bandwidth: 50 + Math.random() * 50,
-      };
-    case 'block-producing':
-      return {
-        role,
-        networkLatency: Math.floor(30 + Math.random() * 70),
-        availability: 99 + Math.random(),
-        cpu: 3 + Math.random() * 2,
-        memory: 16 + Math.random() * 16,
-        storage: 512 + Math.random() * 512,
-        bandwidth: 100 + Math.random() * 50,
-        stake: Math.floor(1000 + Math.random() * 9000),
-      };
-    case 'light':
-      return {
-        role,
-        networkLatency: Math.floor(70 + Math.random() * 100),
-        availability: 95 + Math.random() * 5,
-        cpu: 1 + Math.random(),
-        memory: 4 + Math.random() * 4,
-        storage: 128 + Math.random() * 128,
-        bandwidth: 20 + Math.random() * 30,
-      };
-    case 'archival':
-      return {
-        role,
-        networkLatency: Math.floor(80 + Math.random() * 100),
-        availability: 97 + Math.random() * 3,
-        cpu: 2 + Math.random() * 2,
-        memory: 16 + Math.random() * 16,
-        storage: 1024 + Math.random() * 1024,
-        bandwidth: 50 + Math.random() * 50,
-      };
-    default:
-      return {
-        role: 'relay',
-        networkLatency: 100,
-        availability: 98,
-        cpu: 2,
-        memory: 8,
-        storage: 256,
-        bandwidth: 50,
-      };
-  }
+export interface SpawnConfig {
+  getRandomLandCoordinate: () => [number, number] | null;
 }
 
+// Verwende eine Map für effizientes Node-Management
+const nodesMap = new Map<string, Node>();
+
+/**
+ * Erzeugt ein zufälliges Profil für einen Knoten.
+ * Es wird nur die Rolle zufällig ausgewählt.
+ */
+export function generateRandomProfile(): NodeProfile {
+  const roles: NodeProfile['role'][] = ['relay', 'block-producing', 'light', 'archival'];
+  const role = roles[Math.floor(Math.random() * roles.length)];
+  return { role };
+}
+
+/**
+ * Fügt einen Knoten in die interne Map ein.
+ */
+export function addNode(node: Node): void {
+  nodesMap.set(node.id, node);
+}
+
+/**
+ * Wrapper-Funktion zum Hinzufügen eines festen (static) Knotens.
+ * Sie setzt den Typ auf 'static' und ruft addNode auf.
+ */
 export function addFixedNode(node: Node): void {
-  nodes.push(node);
+  node.type = 'static';
+  addNode(node);
 }
 
-export function spawnDynamicNode(config: { getRandomLandCoordinate: () => [number, number] | null }): Node {
+/**
+ * Erzeugt einen dynamischen Knoten, indem die übergebene Funktion getRandomLandCoordinate genutzt wird.
+ * Wird ein gültiger Punkt gefunden, wird ein neuer Knoten mit dem Standardnamen "Dynamic Node" erzeugt.
+ */
+export function spawnDynamicNode(config: SpawnConfig): Node {
   const coord = config.getRandomLandCoordinate();
   if (!coord) {
     throw new Error("No valid land coordinate");
@@ -106,16 +63,48 @@ export function spawnDynamicNode(config: { getRandomLandCoordinate: () => [numbe
     latitude: coord[1],
     longitude: coord[0],
     fixed: false,
-    profile: generateRandomProfile('dynamic'),
+    profile: generateRandomProfile(),
   };
-  nodes.push(newNode);
+  addNode(newNode);
   return newNode;
 }
 
+/**
+ * Entfernt einen Knoten anhand seiner ID.
+ */
 export function removeNode(nodeId: string): void {
-  nodes = nodes.filter(node => node.id !== nodeId);
+  nodesMap.delete(nodeId);
 }
 
+/**
+ * Gibt alle Knoten als Array zurück.
+ */
 export function getNodes(): Node[] {
-  return [...nodes];
+  return Array.from(nodesMap.values());
+}
+
+/**
+ * Fügt in einem Batch 'count' Knoten hinzu.
+ * Es werden nur Knoten erzeugt, wenn getRandomLandCoordinate einen gültigen Wert liefert.
+ * Der Parameter type bestimmt, ob die Knoten als 'static' oder 'dynamic' markiert werden.
+ */
+export function bulkAddNodes(
+  count: number,
+  getRandomLandCoordinate: () => [number, number] | null,
+  type: 'static' | 'dynamic'
+): void {
+  for (let i = 0; i < count; i++) {
+    const coord = getRandomLandCoordinate();
+    if (!coord) continue;
+    const newNode: Node = {
+      id: Math.random().toString(36).substring(2, 9),
+      name: type === 'static' ? "Static Node" : "Dynamic Node",
+      type,
+      latitude: coord[1],
+      longitude: coord[0],
+      fixed: type === 'static',
+      profile: generateRandomProfile(),
+    };
+    addNode(newNode);
+  }
 }

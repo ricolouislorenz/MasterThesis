@@ -1,6 +1,6 @@
 // src/components/RightSidebar.tsx
 import React from 'react';
-import { Box, Typography, Button } from '@mui/material';
+import { Box, Typography, Divider } from '@mui/material';
 import { Node } from '../modules/nodeManager';
 
 interface RightSidebarProps {
@@ -8,49 +8,39 @@ interface RightSidebarProps {
 }
 
 const RightSidebar: React.FC<RightSidebarProps> = ({ selectedNode }) => {
+  // Falls kein Profil vorhanden ist, nutzen wir einen Fallback
+  const profile = selectedNode?.profile ?? { role: 'Kein Profil verfügbar' };
+
   return (
-    <Box
-      sx={{
-        backgroundColor: '#333',
-        color: '#fff',
-        padding: '16px',
-        minWidth: '250px',
-        height: '100%',
-      }}
-    >
-      <Typography variant="h6" sx={{ mb: 2 }}>Peer Details</Typography>
-      {!selectedNode ? (
-        <Typography variant="body1">No Peer selected</Typography>
-      ) : (
+    <Box sx={{ backgroundColor: '#222', color: '#fff', padding: '16px', width: '300px' }}>
+      {selectedNode ? (
         <>
-          <Typography variant="body1"><strong>Name:</strong> {selectedNode.name}</Typography>
-          <Typography variant="body1"><strong>Type:</strong> {selectedNode.type}</Typography>
-          <Typography variant="body1"><strong>Roll:</strong> {selectedNode.profile.role}</Typography>
+          <Typography variant="h6" gutterBottom>
+            {selectedNode.name}
+          </Typography>
+          <Divider sx={{ bgcolor: 'grey.500', mb: 1 }} />
           <Typography variant="body1">
-            <strong>Latency:</strong> {selectedNode.profile.networkLatency} ms
+            <strong>ID:</strong> {selectedNode.id}
           </Typography>
           <Typography variant="body1">
-            <strong>Availability:</strong> {selectedNode.profile.availability.toFixed(1)}%
+            <strong>Latitude:</strong> {selectedNode.latitude.toFixed(4)}
           </Typography>
           <Typography variant="body1">
-            <strong>CPU:</strong> {selectedNode.profile.cpu.toFixed(1)} GHz
+            <strong>Longitude:</strong> {selectedNode.longitude.toFixed(4)}
           </Typography>
           <Typography variant="body1">
-            <strong>Memory:</strong> {selectedNode.profile.memory.toFixed(1)} GB
+            <strong>Type:</strong> {selectedNode.type}
           </Typography>
           <Typography variant="body1">
-            <strong>Storage:</strong> {selectedNode.profile.storage.toFixed(0)} GB
+            <strong>Fixed:</strong> {selectedNode.fixed ? 'Yes' : 'No'}
           </Typography>
+          <Divider sx={{ bgcolor: 'grey.500', my: 1 }} />
           <Typography variant="body1">
-            <strong>Bandwidth:</strong> {selectedNode.profile.bandwidth.toFixed(0)} Mbps
+            <strong>Role:</strong> {profile.role}
           </Typography>
-          {selectedNode.profile.stake !== undefined && (
-            <Typography variant="body1">
-              <strong>Stake:</strong> {selectedNode.profile.stake} ADA
-            </Typography>
-          )}
-          <Button variant="contained" sx={{ mt: 2 }}>Parameter bearbeiten</Button>
         </>
+      ) : (
+        <Typography variant="h6">Kein Knoten ausgewählt</Typography>
       )}
     </Box>
   );

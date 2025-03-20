@@ -1,16 +1,7004 @@
 {
-    "nodes": [
-      { "id": "Hamburg", "name": "Hamburg", "latitude": 53.5511, "longitude": 9.9937, "fixed": true },
-      { "id": "Berlin", "name": "Berlin", "latitude": 52.5200, "longitude": 13.4050, "fixed": true },
-      { "id": "Munich", "name": "Munich", "latitude": 48.1351, "longitude": 11.5820, "fixed": true },
-      { "id": "Frankfurt", "name": "Frankfurt", "latitude": 50.1109, "longitude": 8.6821, "fixed": true },
-      { "id": "Zurich", "name": "Zürich", "latitude": 47.3769, "longitude": 8.5417, "fixed": true },
-      { "id": "Rome", "name": "Rome", "latitude": 41.9028, "longitude": 12.4964, "fixed": true },
-      { "id": "Moscow", "name": "Moscow", "latitude": 55.7558, "longitude": 37.6173, "fixed": true },
-      { "id": "NewYork", "name": "New York", "latitude": 40.7128, "longitude": -74.0060, "fixed": false },
-      { "id": "Paris", "name": "Paris", "latitude": 48.8566, "longitude": 2.3522, "fixed": false },
-      { "id": "BuenosAires", "name": "Buenos Aires", "latitude": -34.6037, "longitude": -58.3816, "fixed": false },
-      { "id": "CapeTown", "name": "Cape Town", "latitude": -33.9249, "longitude": 18.4241, "fixed": false }
-    ]
-  }
-  
+  "nodes": [
+    {
+      "id": "node-0",
+      "name": "Unknown",
+      "latitude": 33.28251597020514,
+      "longitude": -150.3562504831441,
+      "fixed": false
+    },
+    {
+      "id": "node-1",
+      "name": "Canada",
+      "latitude": 65.20637268545727,
+      "longitude": -73.59608409385248,
+      "fixed": false
+    },
+    {
+      "id": "node-2",
+      "name": "Unknown",
+      "latitude": -25.481208226129084,
+      "longitude": -125.11115936417255,
+      "fixed": false
+    },
+    {
+      "id": "node-3",
+      "name": "Unknown",
+      "latitude": 28.483205818715533,
+      "longitude": -30.0488482085114,
+      "fixed": false
+    },
+    {
+      "id": "node-4",
+      "name": "Antarctica",
+      "latitude": -72.82323971422338,
+      "longitude": 85.2508375912031,
+      "fixed": false
+    },
+    {
+      "id": "node-5",
+      "name": "Russia",
+      "latitude": 67.36537516941112,
+      "longitude": 90.82849754992844,
+      "fixed": false
+    },
+    {
+      "id": "node-6",
+      "name": "Unknown",
+      "latitude": 86.60324220703575,
+      "longitude": 81.39417105392869,
+      "fixed": false
+    },
+    {
+      "id": "node-7",
+      "name": "Ethiopia",
+      "latitude": 5.079758416026365,
+      "longitude": 37.39728263201849,
+      "fixed": false
+    },
+    {
+      "id": "node-8",
+      "name": "Unknown",
+      "latitude": 27.878670132580964,
+      "longitude": -153.7482093431478,
+      "fixed": false
+    },
+    {
+      "id": "node-9",
+      "name": "Unknown",
+      "latitude": -41.52328954276753,
+      "longitude": 22.830454385239506,
+      "fixed": false
+    },
+    {
+      "id": "node-10",
+      "name": "Unknown",
+      "latitude": -31.069242803608958,
+      "longitude": -89.99619850493006,
+      "fixed": false
+    },
+    {
+      "id": "node-11",
+      "name": "India",
+      "latitude": 14.563803591259102,
+      "longitude": 78.27156439853314,
+      "fixed": false
+    },
+    {
+      "id": "node-12",
+      "name": "Unknown",
+      "latitude": -55.51029599705254,
+      "longitude": -155.76732748551382,
+      "fixed": false
+    },
+    {
+      "id": "node-13",
+      "name": "Unknown",
+      "latitude": 21.840561717327887,
+      "longitude": -49.45828251623627,
+      "fixed": false
+    },
+    {
+      "id": "node-14",
+      "name": "Russia",
+      "latitude": 66.83781450688966,
+      "longitude": 60.94405496438526,
+      "fixed": false
+    },
+    {
+      "id": "node-15",
+      "name": "United Kingdom",
+      "latitude": 53.76570435933732,
+      "longitude": -2.8167899160702916,
+      "fixed": false
+    },
+    {
+      "id": "node-16",
+      "name": "Indonesia",
+      "latitude": -1.4150607711569876,
+      "longitude": 116.61122080928487,
+      "fixed": false
+    },
+    {
+      "id": "node-17",
+      "name": "Antarctica",
+      "latitude": -86.39714974279394,
+      "longitude": 7.345225726651222,
+      "fixed": false
+    },
+    {
+      "id": "node-18",
+      "name": "Norway",
+      "latitude": 67.2970601864821,
+      "longitude": 15.638868305458942,
+      "fixed": false
+    },
+    {
+      "id": "node-19",
+      "name": "China",
+      "latitude": 37.896516664666706,
+      "longitude": 96.93398510067408,
+      "fixed": false
+    },
+    {
+      "id": "node-20",
+      "name": "Australia",
+      "latitude": -22.67500445773493,
+      "longitude": 125.66126307135494,
+      "fixed": false
+    },
+    {
+      "id": "node-21",
+      "name": "Unknown",
+      "latitude": -2.704774670374732,
+      "longitude": -1.6191972354237407,
+      "fixed": false
+    },
+    {
+      "id": "node-22",
+      "name": "Unknown",
+      "latitude": 83.29347646666776,
+      "longitude": 118.08061766155953,
+      "fixed": false
+    },
+    {
+      "id": "node-23",
+      "name": "Unknown",
+      "latitude": -72.25628781691064,
+      "longitude": -175.42195624162315,
+      "fixed": false
+    },
+    {
+      "id": "node-24",
+      "name": "Antarctica",
+      "latitude": -77.81838306723846,
+      "longitude": -13.1862362480081,
+      "fixed": false
+    },
+    {
+      "id": "node-25",
+      "name": "Unknown",
+      "latitude": 89.47406181797157,
+      "longitude": -23.863976911751394,
+      "fixed": false
+    },
+    {
+      "id": "node-26",
+      "name": "Unknown",
+      "latitude": -72.40840497380135,
+      "longitude": -53.568615481918485,
+      "fixed": false
+    },
+    {
+      "id": "node-27",
+      "name": "Unknown",
+      "latitude": -9.378278409084558,
+      "longitude": 145.97712934427489,
+      "fixed": false
+    },
+    {
+      "id": "node-28",
+      "name": "Unknown",
+      "latitude": -59.39522789614118,
+      "longitude": 34.78524917182253,
+      "fixed": false
+    },
+    {
+      "id": "node-29",
+      "name": "Colombia",
+      "latitude": 4.784908660598575,
+      "longitude": -75.04151451565585,
+      "fixed": false
+    },
+    {
+      "id": "node-30",
+      "name": "Russia",
+      "latitude": 65.48447016356647,
+      "longitude": 128.70303554812836,
+      "fixed": false
+    },
+    {
+      "id": "node-31",
+      "name": "Antarctica",
+      "latitude": -73.77415730373106,
+      "longitude": 125.87953970343261,
+      "fixed": false
+    },
+    {
+      "id": "node-32",
+      "name": "Unknown",
+      "latitude": 32.22690834597792,
+      "longitude": 15.923178802488422,
+      "fixed": false
+    },
+    {
+      "id": "node-33",
+      "name": "Unknown",
+      "latitude": -32.88144628507228,
+      "longitude": -14.616179838464745,
+      "fixed": false
+    },
+    {
+      "id": "node-34",
+      "name": "Unknown",
+      "latitude": -51.29684534440563,
+      "longitude": 127.81966180322064,
+      "fixed": false
+    },
+    {
+      "id": "node-35",
+      "name": "Unknown",
+      "latitude": -14.583503649431819,
+      "longitude": -129.27754830670347,
+      "fixed": false
+    },
+    {
+      "id": "node-36",
+      "name": "Unknown",
+      "latitude": -66.20321186048493,
+      "longitude": 179.60868463413738,
+      "fixed": false
+    },
+    {
+      "id": "node-37",
+      "name": "Antarctica",
+      "latitude": -87.57614642125111,
+      "longitude": 136.7369662646273,
+      "fixed": false
+    },
+    {
+      "id": "node-38",
+      "name": "Unknown",
+      "latitude": -52.33278903092946,
+      "longitude": -14.260571817564085,
+      "fixed": false
+    },
+    {
+      "id": "node-39",
+      "name": "Unknown",
+      "latitude": -14.202256145015227,
+      "longitude": 82.09555051175869,
+      "fixed": false
+    },
+    {
+      "id": "node-40",
+      "name": "Unknown",
+      "latitude": 19.144322278234895,
+      "longitude": 142.97968782538914,
+      "fixed": false
+    },
+    {
+      "id": "node-41",
+      "name": "Russia",
+      "latitude": 79.9928210913146,
+      "longitude": 95.37500693313882,
+      "fixed": false
+    },
+    {
+      "id": "node-42",
+      "name": "Unknown",
+      "latitude": -67.58545829004416,
+      "longitude": 74.21451444407825,
+      "fixed": false
+    },
+    {
+      "id": "node-43",
+      "name": "Unknown",
+      "latitude": 46.727749984138285,
+      "longitude": -132.69932809010783,
+      "fixed": false
+    },
+    {
+      "id": "node-44",
+      "name": "Unknown",
+      "latitude": -60.73328712365529,
+      "longitude": -80.48267935074358,
+      "fixed": false
+    },
+    {
+      "id": "node-45",
+      "name": "Unknown",
+      "latitude": 3.2828509743251573,
+      "longitude": -49.87869346953906,
+      "fixed": false
+    },
+    {
+      "id": "node-46",
+      "name": "Unknown",
+      "latitude": 66.23380638525293,
+      "longitude": -85.28332011486825,
+      "fixed": false
+    },
+    {
+      "id": "node-47",
+      "name": "Antarctica",
+      "latitude": -70.32633208151125,
+      "longitude": 52.20030300649893,
+      "fixed": false
+    },
+    {
+      "id": "node-48",
+      "name": "Unknown",
+      "latitude": 1.7165169856832705,
+      "longitude": 141.81497179228558,
+      "fixed": false
+    },
+    {
+      "id": "node-49",
+      "name": "Antarctica",
+      "latitude": -88.80812396439553,
+      "longitude": 159.2283979832975,
+      "fixed": false
+    },
+    {
+      "id": "node-50",
+      "name": "Russia",
+      "latitude": 46.919826078260456,
+      "longitude": 48.23226885880513,
+      "fixed": false
+    },
+    {
+      "id": "node-51",
+      "name": "Unknown",
+      "latitude": -54.18152514038081,
+      "longitude": -143.29461421222402,
+      "fixed": false
+    },
+    {
+      "id": "node-52",
+      "name": "Unknown",
+      "latitude": 67.44662224021951,
+      "longitude": 10.681916085329703,
+      "fixed": false
+    },
+    {
+      "id": "node-53",
+      "name": "Unknown",
+      "latitude": 9.668470506459343,
+      "longitude": -112.3419252840967,
+      "fixed": false
+    },
+    {
+      "id": "node-54",
+      "name": "Canada",
+      "latitude": 52.09140594767916,
+      "longitude": -90.36999424215918,
+      "fixed": false
+    },
+    {
+      "id": "node-55",
+      "name": "India",
+      "latitude": 24.93962650481022,
+      "longitude": 85.08581911063504,
+      "fixed": false
+    },
+    {
+      "id": "node-56",
+      "name": "Antarctica",
+      "latitude": -73.00822454584826,
+      "longitude": 36.90275527375573,
+      "fixed": false
+    },
+    {
+      "id": "node-57",
+      "name": "Russia",
+      "latitude": 72.2455843341906,
+      "longitude": 85.7580004321386,
+      "fixed": false
+    },
+    {
+      "id": "node-58",
+      "name": "Unknown",
+      "latitude": 31.34909814789539,
+      "longitude": 32.385154801974124,
+      "fixed": false
+    },
+    {
+      "id": "node-59",
+      "name": "Unknown",
+      "latitude": -15.765296586848521,
+      "longitude": -123.1756605987309,
+      "fixed": false
+    },
+    {
+      "id": "node-60",
+      "name": "Guinea",
+      "latitude": 8.660072111715735,
+      "longitude": -9.159884517461393,
+      "fixed": false
+    },
+    {
+      "id": "node-61",
+      "name": "Unknown",
+      "latitude": -44.15458636929006,
+      "longitude": 152.0410866066777,
+      "fixed": false
+    },
+    {
+      "id": "node-62",
+      "name": "Unknown",
+      "latitude": 11.123945709223094,
+      "longitude": 89.09281563388203,
+      "fixed": false
+    },
+    {
+      "id": "node-63",
+      "name": "Antarctica",
+      "latitude": -78.7328560729871,
+      "longitude": -32.604746313462385,
+      "fixed": false
+    },
+    {
+      "id": "node-64",
+      "name": "Unknown",
+      "latitude": 86.8513844475001,
+      "longitude": 99.66541453394694,
+      "fixed": false
+    },
+    {
+      "id": "node-65",
+      "name": "Canada",
+      "latitude": 48.869944694132954,
+      "longitude": -89.12257470282893,
+      "fixed": false
+    },
+    {
+      "id": "node-66",
+      "name": "Unknown",
+      "latitude": -31.503921651636,
+      "longitude": -88.89180681541384,
+      "fixed": false
+    },
+    {
+      "id": "node-67",
+      "name": "Unknown",
+      "latitude": -25.063891908154574,
+      "longitude": 165.2015404884935,
+      "fixed": false
+    },
+    {
+      "id": "node-68",
+      "name": "Canada",
+      "latitude": 45.865470477857656,
+      "longitude": -82.09512556446771,
+      "fixed": false
+    },
+    {
+      "id": "node-69",
+      "name": "Unknown",
+      "latitude": -30.396188002390268,
+      "longitude": -41.74135627918821,
+      "fixed": false
+    },
+    {
+      "id": "node-70",
+      "name": "Jordan",
+      "latitude": 32.58015755184694,
+      "longitude": 35.722289971073195,
+      "fixed": false
+    },
+    {
+      "id": "node-71",
+      "name": "Unknown",
+      "latitude": 21.957293714392492,
+      "longitude": -94.72647949768943,
+      "fixed": false
+    },
+    {
+      "id": "node-72",
+      "name": "Australia",
+      "latitude": -20.951118713146684,
+      "longitude": 141.33599042651912,
+      "fixed": false
+    },
+    {
+      "id": "node-73",
+      "name": "Unknown",
+      "latitude": -12.719655381972686,
+      "longitude": -146.90469214615132,
+      "fixed": false
+    },
+    {
+      "id": "node-74",
+      "name": "Unknown",
+      "latitude": 8.629063599730259,
+      "longitude": -40.20223197841054,
+      "fixed": false
+    },
+    {
+      "id": "node-75",
+      "name": "Unknown",
+      "latitude": -44.96352435171009,
+      "longitude": -113.68713497378081,
+      "fixed": false
+    },
+    {
+      "id": "node-76",
+      "name": "Unknown",
+      "latitude": -19.036638213657056,
+      "longitude": -0.7731171854263437,
+      "fixed": false
+    },
+    {
+      "id": "node-77",
+      "name": "Unknown",
+      "latitude": -41.0459365310079,
+      "longitude": 33.56072392926737,
+      "fixed": false
+    },
+    {
+      "id": "node-78",
+      "name": "Panama",
+      "latitude": 8.00192069350473,
+      "longitude": -80.80064186706134,
+      "fixed": false
+    },
+    {
+      "id": "node-79",
+      "name": "Unknown",
+      "latitude": -35.50454125367554,
+      "longitude": 75.39579980408143,
+      "fixed": false
+    },
+    {
+      "id": "node-80",
+      "name": "Nepal",
+      "latitude": 29.512525345746752,
+      "longitude": 82.02500977618934,
+      "fixed": false
+    },
+    {
+      "id": "node-81",
+      "name": "Unknown",
+      "latitude": -74.43557217864469,
+      "longitude": -57.63130467453449,
+      "fixed": false
+    },
+    {
+      "id": "node-82",
+      "name": "Russia",
+      "latitude": 75.81912178031641,
+      "longitude": 114.11239654085881,
+      "fixed": false
+    },
+    {
+      "id": "node-83",
+      "name": "Antarctica",
+      "latitude": -77.17558095837711,
+      "longitude": 100.15552960508438,
+      "fixed": false
+    },
+    {
+      "id": "node-84",
+      "name": "Unknown",
+      "latitude": -35.95890517248864,
+      "longitude": 112.74444666586339,
+      "fixed": false
+    },
+    {
+      "id": "node-85",
+      "name": "Brazil",
+      "latitude": -2.5540340804629125,
+      "longitude": -64.61120473552742,
+      "fixed": false
+    },
+    {
+      "id": "node-86",
+      "name": "Unknown",
+      "latitude": 65.64009663946675,
+      "longitude": 35.96883993130945,
+      "fixed": false
+    },
+    {
+      "id": "node-87",
+      "name": "Unknown",
+      "latitude": 10.280013087064717,
+      "longitude": -170.72203478186736,
+      "fixed": false
+    },
+    {
+      "id": "node-88",
+      "name": "Unknown",
+      "latitude": -5.625624184077026,
+      "longitude": -157.05507108804596,
+      "fixed": false
+    },
+    {
+      "id": "node-89",
+      "name": "Russia",
+      "latitude": 60.5970684800744,
+      "longitude": 71.41228438596059,
+      "fixed": false
+    },
+    {
+      "id": "node-90",
+      "name": "Iceland",
+      "latitude": 64.47658171198395,
+      "longitude": -17.825055916086143,
+      "fixed": false
+    },
+    {
+      "id": "node-91",
+      "name": "Unknown",
+      "latitude": -12.392636747299221,
+      "longitude": 159.5602519497661,
+      "fixed": false
+    },
+    {
+      "id": "node-92",
+      "name": "Unknown",
+      "latitude": -28.224162453369402,
+      "longitude": 11.761511920690936,
+      "fixed": false
+    },
+    {
+      "id": "node-93",
+      "name": "Unknown",
+      "latitude": -46.081865044133814,
+      "longitude": -170.282041338799,
+      "fixed": false
+    },
+    {
+      "id": "node-94",
+      "name": "Unknown",
+      "latitude": -55.143312920862726,
+      "longitude": -60.81986517940679,
+      "fixed": false
+    },
+    {
+      "id": "node-95",
+      "name": "Unknown",
+      "latitude": 77.52749872220784,
+      "longitude": 23.143942922432103,
+      "fixed": false
+    },
+    {
+      "id": "node-96",
+      "name": "Unknown",
+      "latitude": -0.1797868074456943,
+      "longitude": -47.220284983385994,
+      "fixed": false
+    },
+    {
+      "id": "node-97",
+      "name": "Unknown",
+      "latitude": 53.23624197109177,
+      "longitude": -171.2535886588233,
+      "fixed": false
+    },
+    {
+      "id": "node-98",
+      "name": "Unknown",
+      "latitude": -28.76278961586111,
+      "longitude": -81.74048999576796,
+      "fixed": false
+    },
+    {
+      "id": "node-99",
+      "name": "Unknown",
+      "latitude": -75.54284481136503,
+      "longitude": -179.53170464331112,
+      "fixed": false
+    },
+    {
+      "id": "node-100",
+      "name": "Germany",
+      "latitude": 51.37480284246749,
+      "longitude": 8.114543447613642,
+      "fixed": false
+    },
+    {
+      "id": "node-101",
+      "name": "United States of America",
+      "latitude": 36.62413213501641,
+      "longitude": -99.81085709641033,
+      "fixed": false
+    },
+    {
+      "id": "node-102",
+      "name": "Unknown",
+      "latitude": -33.10124730311621,
+      "longitude": 165.68719504042906,
+      "fixed": false
+    },
+    {
+      "id": "node-103",
+      "name": "Libya",
+      "latitude": 24.012819284204554,
+      "longitude": 22.319891488527418,
+      "fixed": false
+    },
+    {
+      "id": "node-104",
+      "name": "Unknown",
+      "latitude": 3.0359620712392967,
+      "longitude": -112.25168681735504,
+      "fixed": false
+    },
+    {
+      "id": "node-105",
+      "name": "Unknown",
+      "latitude": 87.41044210850774,
+      "longitude": 49.15931602605187,
+      "fixed": false
+    },
+    {
+      "id": "node-106",
+      "name": "Unknown",
+      "latitude": 66.20780755837734,
+      "longitude": -59.303424825155304,
+      "fixed": false
+    },
+    {
+      "id": "node-107",
+      "name": "Russia",
+      "latitude": 58.93566008110594,
+      "longitude": 125.38989502142954,
+      "fixed": false
+    },
+    {
+      "id": "node-108",
+      "name": "Unknown",
+      "latitude": 73.19736095840562,
+      "longitude": -11.120805548008093,
+      "fixed": false
+    },
+    {
+      "id": "node-109",
+      "name": "Unknown",
+      "latitude": 8.58881528087808,
+      "longitude": 58.63970770875238,
+      "fixed": false
+    },
+    {
+      "id": "node-110",
+      "name": "Unknown",
+      "latitude": 73.85394482570254,
+      "longitude": -112.87992782500059,
+      "fixed": false
+    },
+    {
+      "id": "node-111",
+      "name": "Australia",
+      "latitude": -25.149500362500717,
+      "longitude": 135.51863846103714,
+      "fixed": false
+    },
+    {
+      "id": "node-112",
+      "name": "Unknown",
+      "latitude": 88.91902735263119,
+      "longitude": 55.851020708490296,
+      "fixed": false
+    },
+    {
+      "id": "node-113",
+      "name": "Greenland",
+      "latitude": 80.85103685105207,
+      "longitude": -35.81099879750374,
+      "fixed": false
+    },
+    {
+      "id": "node-114",
+      "name": "Unknown",
+      "latitude": 34.19297775114626,
+      "longitude": -179.73462957145514,
+      "fixed": false
+    },
+    {
+      "id": "node-115",
+      "name": "Unknown",
+      "latitude": -68.88484279915562,
+      "longitude": -163.8476628933391,
+      "fixed": false
+    },
+    {
+      "id": "node-116",
+      "name": "Unknown",
+      "latitude": -45.57549603925368,
+      "longitude": 115.1705690015209,
+      "fixed": false
+    },
+    {
+      "id": "node-117",
+      "name": "Unknown",
+      "latitude": 87.38114016717793,
+      "longitude": 14.451415706868147,
+      "fixed": false
+    },
+    {
+      "id": "node-118",
+      "name": "Canada",
+      "latitude": 63.120233544547546,
+      "longitude": -107.75539665728583,
+      "fixed": false
+    },
+    {
+      "id": "node-119",
+      "name": "Unknown",
+      "latitude": -44.81560969512717,
+      "longitude": 66.7969724151788,
+      "fixed": false
+    },
+    {
+      "id": "node-120",
+      "name": "Unknown",
+      "latitude": -55.5416921493061,
+      "longitude": 169.561060999454,
+      "fixed": false
+    },
+    {
+      "id": "node-121",
+      "name": "Unknown",
+      "latitude": 78.92826636412204,
+      "longitude": -154.94053553074977,
+      "fixed": false
+    },
+    {
+      "id": "node-122",
+      "name": "Australia",
+      "latitude": -28.788224764711828,
+      "longitude": 128.09596089128405,
+      "fixed": false
+    },
+    {
+      "id": "node-123",
+      "name": "Unknown",
+      "latitude": -10.550757518260525,
+      "longitude": -123.48321070041249,
+      "fixed": false
+    },
+    {
+      "id": "node-124",
+      "name": "China",
+      "latitude": 35.55630694476952,
+      "longitude": 94.4629644408493,
+      "fixed": false
+    },
+    {
+      "id": "node-125",
+      "name": "Unknown",
+      "latitude": -28.039717978030822,
+      "longitude": 6.558449821625743,
+      "fixed": false
+    },
+    {
+      "id": "node-126",
+      "name": "Unknown",
+      "latitude": -66.16321622307076,
+      "longitude": 127.0275747394274,
+      "fixed": false
+    },
+    {
+      "id": "node-127",
+      "name": "Greenland",
+      "latitude": 64.75632789074425,
+      "longitude": -43.202936898486286,
+      "fixed": false
+    },
+    {
+      "id": "node-128",
+      "name": "Unknown",
+      "latitude": -11.705569452928799,
+      "longitude": -128.75495249311462,
+      "fixed": false
+    },
+    {
+      "id": "node-129",
+      "name": "China",
+      "latitude": 32.13053519970154,
+      "longitude": 82.53736254702397,
+      "fixed": false
+    },
+    {
+      "id": "node-130",
+      "name": "Unknown",
+      "latitude": 82.6487978707018,
+      "longitude": -2.371870504305292,
+      "fixed": false
+    },
+    {
+      "id": "node-131",
+      "name": "Canada",
+      "latitude": 64.25489309934892,
+      "longitude": -134.5892713944463,
+      "fixed": false
+    },
+    {
+      "id": "node-132",
+      "name": "Sweden",
+      "latitude": 68.50614391890952,
+      "longitude": 20.439139057462512,
+      "fixed": false
+    },
+    {
+      "id": "node-133",
+      "name": "Unknown",
+      "latitude": 3.2642178944817744,
+      "longitude": 159.8533323524785,
+      "fixed": false
+    },
+    {
+      "id": "node-134",
+      "name": "Unknown",
+      "latitude": 20.918982698550636,
+      "longitude": -54.113967102824134,
+      "fixed": false
+    },
+    {
+      "id": "node-135",
+      "name": "Unknown",
+      "latitude": -68.10936133545079,
+      "longitude": -102.71405919930858,
+      "fixed": false
+    },
+    {
+      "id": "node-136",
+      "name": "Antarctica",
+      "latitude": -89.41261182139701,
+      "longitude": -53.30504383354125,
+      "fixed": false
+    },
+    {
+      "id": "node-137",
+      "name": "Unknown",
+      "latitude": -6.055339947623864,
+      "longitude": 95.30655088683375,
+      "fixed": false
+    },
+    {
+      "id": "node-138",
+      "name": "Unknown",
+      "latitude": -42.85351380862805,
+      "longitude": 75.48092382678948,
+      "fixed": false
+    },
+    {
+      "id": "node-139",
+      "name": "Unknown",
+      "latitude": 54.933374199320696,
+      "longitude": -79.50931428961891,
+      "fixed": false
+    },
+    {
+      "id": "node-140",
+      "name": "Unknown",
+      "latitude": 29.53724731202564,
+      "longitude": -142.58697892891192,
+      "fixed": false
+    },
+    {
+      "id": "node-141",
+      "name": "Unknown",
+      "latitude": 68.63832708673104,
+      "longitude": 57.29945587730407,
+      "fixed": false
+    },
+    {
+      "id": "node-142",
+      "name": "Unknown",
+      "latitude": -70.63421474617684,
+      "longitude": 173.70752468474848,
+      "fixed": false
+    },
+    {
+      "id": "node-143",
+      "name": "India",
+      "latitude": 19.036436292120598,
+      "longitude": 84.29214589050628,
+      "fixed": false
+    },
+    {
+      "id": "node-144",
+      "name": "Unknown",
+      "latitude": 8.400558030784339,
+      "longitude": -20.017848719115904,
+      "fixed": false
+    },
+    {
+      "id": "node-145",
+      "name": "United Kingdom",
+      "latitude": 50.914705241776915,
+      "longitude": -3.2387124818777693,
+      "fixed": false
+    },
+    {
+      "id": "node-146",
+      "name": "United States of America",
+      "latitude": 34.18982431473175,
+      "longitude": -105.82895970799373,
+      "fixed": false
+    },
+    {
+      "id": "node-147",
+      "name": "Thailand",
+      "latitude": 17.792871946019204,
+      "longitude": 100.11996441625769,
+      "fixed": false
+    },
+    {
+      "id": "node-148",
+      "name": "Unknown",
+      "latitude": 67.96981666842905,
+      "longitude": -18.56881822522189,
+      "fixed": false
+    },
+    {
+      "id": "node-149",
+      "name": "Unknown",
+      "latitude": 0.9105019407343775,
+      "longitude": -148.15584817979058,
+      "fixed": false
+    },
+    {
+      "id": "node-150",
+      "name": "Unknown",
+      "latitude": 23.33626933522652,
+      "longitude": 126.12954023055352,
+      "fixed": false
+    },
+    {
+      "id": "node-151",
+      "name": "Unknown",
+      "latitude": -6.2312225545969255,
+      "longitude": -116.49922365587972,
+      "fixed": false
+    },
+    {
+      "id": "node-152",
+      "name": "Unknown",
+      "latitude": 84.09386841704915,
+      "longitude": 114.12990518944008,
+      "fixed": false
+    },
+    {
+      "id": "node-153",
+      "name": "Unknown",
+      "latitude": -41.00059779785,
+      "longitude": -150.47191730221522,
+      "fixed": false
+    },
+    {
+      "id": "node-154",
+      "name": "United States of America",
+      "latitude": 67.81231022501004,
+      "longitude": -152.0510704986197,
+      "fixed": false
+    },
+    {
+      "id": "node-155",
+      "name": "Unknown",
+      "latitude": 47.67877584951111,
+      "longitude": -130.76297599641447,
+      "fixed": false
+    },
+    {
+      "id": "node-156",
+      "name": "Antarctica",
+      "latitude": -78.65205710371268,
+      "longitude": 61.39363122213365,
+      "fixed": false
+    },
+    {
+      "id": "node-157",
+      "name": "Unknown",
+      "latitude": 41.47023851552942,
+      "longitude": 39.301019390278185,
+      "fixed": false
+    },
+    {
+      "id": "node-158",
+      "name": "China",
+      "latitude": 41.344293436309215,
+      "longitude": 81.469957234991,
+      "fixed": false
+    },
+    {
+      "id": "node-159",
+      "name": "Unknown",
+      "latitude": -9.83339729828262,
+      "longitude": 67.88382199754645,
+      "fixed": false
+    },
+    {
+      "id": "node-160",
+      "name": "Unknown",
+      "latitude": 87.75997999980785,
+      "longitude": -156.08409690262047,
+      "fixed": false
+    },
+    {
+      "id": "node-161",
+      "name": "Antarctica",
+      "latitude": -80.06656272600682,
+      "longitude": -78.50870211056666,
+      "fixed": false
+    },
+    {
+      "id": "node-162",
+      "name": "Unknown",
+      "latitude": -51.75810298435867,
+      "longitude": 59.89320906802047,
+      "fixed": false
+    },
+    {
+      "id": "node-163",
+      "name": "Unknown",
+      "latitude": -28.883412841936646,
+      "longitude": -170.40397444055955,
+      "fixed": false
+    },
+    {
+      "id": "node-164",
+      "name": "Antarctica",
+      "latitude": -71.14562253883938,
+      "longitude": 136.1008511574741,
+      "fixed": false
+    },
+    {
+      "id": "node-165",
+      "name": "Unknown",
+      "latitude": 20.727159998391954,
+      "longitude": -116.333720342674,
+      "fixed": false
+    },
+    {
+      "id": "node-166",
+      "name": "Antarctica",
+      "latitude": -73.34965964464654,
+      "longitude": 23.71498182307576,
+      "fixed": false
+    },
+    {
+      "id": "node-167",
+      "name": "Unknown",
+      "latitude": -63.38028702512581,
+      "longitude": 79.02363883963267,
+      "fixed": false
+    },
+    {
+      "id": "node-168",
+      "name": "Unknown",
+      "latitude": -7.330641337880181,
+      "longitude": -165.2536185779472,
+      "fixed": false
+    },
+    {
+      "id": "node-169",
+      "name": "Unknown",
+      "latitude": 6.272711671092452,
+      "longitude": -22.120754475956886,
+      "fixed": false
+    },
+    {
+      "id": "node-170",
+      "name": "Antarctica",
+      "latitude": -72.07858476180132,
+      "longitude": 154.01497718914072,
+      "fixed": false
+    },
+    {
+      "id": "node-171",
+      "name": "Unknown",
+      "latitude": 59.03114483059542,
+      "longitude": -15.763471092961112,
+      "fixed": false
+    },
+    {
+      "id": "node-172",
+      "name": "Unknown",
+      "latitude": 71.95397317525789,
+      "longitude": -173.78201130771654,
+      "fixed": false
+    },
+    {
+      "id": "node-173",
+      "name": "Antarctica",
+      "latitude": -68.53368770143861,
+      "longitude": -65.33931103629686,
+      "fixed": false
+    },
+    {
+      "id": "node-174",
+      "name": "Unknown",
+      "latitude": 85.12738922374041,
+      "longitude": -170.84047991820225,
+      "fixed": false
+    },
+    {
+      "id": "node-175",
+      "name": "Unknown",
+      "latitude": 87.69169147345113,
+      "longitude": -175.50161418270304,
+      "fixed": false
+    },
+    {
+      "id": "node-176",
+      "name": "Australia",
+      "latitude": -30.682143706320367,
+      "longitude": 134.5350176399241,
+      "fixed": false
+    },
+    {
+      "id": "node-177",
+      "name": "Unknown",
+      "latitude": 9.327367339494728,
+      "longitude": -163.15192937000114,
+      "fixed": false
+    },
+    {
+      "id": "node-178",
+      "name": "Unknown",
+      "latitude": 6.274266517847721,
+      "longitude": -170.2845882845453,
+      "fixed": false
+    },
+    {
+      "id": "node-179",
+      "name": "Unknown",
+      "latitude": -48.65378130862355,
+      "longitude": 91.63144008376219,
+      "fixed": false
+    },
+    {
+      "id": "node-180",
+      "name": "Unknown",
+      "latitude": 84.20748774801646,
+      "longitude": 25.245655678304445,
+      "fixed": false
+    },
+    {
+      "id": "node-181",
+      "name": "Antarctica",
+      "latitude": -67.44596919566037,
+      "longitude": 117.1253174789374,
+      "fixed": false
+    },
+    {
+      "id": "node-182",
+      "name": "Unknown",
+      "latitude": 39.066028822962835,
+      "longitude": -19.89325719665095,
+      "fixed": false
+    },
+    {
+      "id": "node-183",
+      "name": "Unknown",
+      "latitude": 26.951266220265538,
+      "longitude": -141.56446566702812,
+      "fixed": false
+    },
+    {
+      "id": "node-184",
+      "name": "Antarctica",
+      "latitude": -74.77235081482095,
+      "longitude": -66.44364186079838,
+      "fixed": false
+    },
+    {
+      "id": "node-185",
+      "name": "Unknown",
+      "latitude": 77.30821116583817,
+      "longitude": -93.63443747030229,
+      "fixed": false
+    },
+    {
+      "id": "node-186",
+      "name": "Unknown",
+      "latitude": -76.45498059913359,
+      "longitude": -54.437618994304884,
+      "fixed": false
+    },
+    {
+      "id": "node-187",
+      "name": "Unknown",
+      "latitude": -64.90261677416763,
+      "longitude": 140.75965461625344,
+      "fixed": false
+    },
+    {
+      "id": "node-188",
+      "name": "Unknown",
+      "latitude": 6.057393718807674,
+      "longitude": 57.90032809005521,
+      "fixed": false
+    },
+    {
+      "id": "node-189",
+      "name": "Unknown",
+      "latitude": -62.512250344318815,
+      "longitude": -60.75579104361934,
+      "fixed": false
+    },
+    {
+      "id": "node-190",
+      "name": "Unknown",
+      "latitude": 12.443100379105488,
+      "longitude": -102.14078231605585,
+      "fixed": false
+    },
+    {
+      "id": "node-191",
+      "name": "Unknown",
+      "latitude": 27.85419501593158,
+      "longitude": 51.49669688164738,
+      "fixed": false
+    },
+    {
+      "id": "node-192",
+      "name": "Russia",
+      "latitude": 52.675004021711686,
+      "longitude": 129.75324890699824,
+      "fixed": false
+    },
+    {
+      "id": "node-193",
+      "name": "Unknown",
+      "latitude": -24.041253007917362,
+      "longitude": 157.8758054646974,
+      "fixed": false
+    },
+    {
+      "id": "node-194",
+      "name": "Unknown",
+      "latitude": 39.90090009871423,
+      "longitude": -47.98764013199283,
+      "fixed": false
+    },
+    {
+      "id": "node-195",
+      "name": "Unknown",
+      "latitude": 65.47429139465407,
+      "longitude": -79.66471340086406,
+      "fixed": false
+    },
+    {
+      "id": "node-196",
+      "name": "Unknown",
+      "latitude": -31.606341436537264,
+      "longitude": -105.76303416931536,
+      "fixed": false
+    },
+    {
+      "id": "node-197",
+      "name": "Antarctica",
+      "latitude": -79.24313106354309,
+      "longitude": -110.39258456748571,
+      "fixed": false
+    },
+    {
+      "id": "node-198",
+      "name": "Unknown",
+      "latitude": 1.1590641969231399,
+      "longitude": 90.82264400716753,
+      "fixed": false
+    },
+    {
+      "id": "node-199",
+      "name": "Unknown",
+      "latitude": 83.53511833063459,
+      "longitude": 126.61629894832066,
+      "fixed": false
+    },
+    {
+      "id": "node-200",
+      "name": "Unknown",
+      "latitude": -29.320291479813,
+      "longitude": 92.35579179169326,
+      "fixed": false
+    },
+    {
+      "id": "node-201",
+      "name": "Unknown",
+      "latitude": 82.65351717627172,
+      "longitude": 76.16924852350292,
+      "fixed": false
+    },
+    {
+      "id": "node-202",
+      "name": "Unknown",
+      "latitude": 38.4069091939196,
+      "longitude": 160.13516080082007,
+      "fixed": false
+    },
+    {
+      "id": "node-203",
+      "name": "Unknown",
+      "latitude": -38.044753219574865,
+      "longitude": -178.2486129839529,
+      "fixed": false
+    },
+    {
+      "id": "node-204",
+      "name": "Unknown",
+      "latitude": 76.84148737002906,
+      "longitude": -8.74669682192669,
+      "fixed": false
+    },
+    {
+      "id": "node-205",
+      "name": "Unknown",
+      "latitude": -31.858165932310044,
+      "longitude": -38.77706304293321,
+      "fixed": false
+    },
+    {
+      "id": "node-206",
+      "name": "Russia",
+      "latitude": 66.99075711891061,
+      "longitude": -176.9160944904129,
+      "fixed": false
+    },
+    {
+      "id": "node-207",
+      "name": "Unknown",
+      "latitude": -34.26435294915891,
+      "longitude": 171.95938768319115,
+      "fixed": false
+    },
+    {
+      "id": "node-208",
+      "name": "India",
+      "latitude": 21.504029344001182,
+      "longitude": 77.2426850147196,
+      "fixed": false
+    },
+    {
+      "id": "node-209",
+      "name": "Unknown",
+      "latitude": -33.42121012261116,
+      "longitude": -12.80351960006962,
+      "fixed": false
+    },
+    {
+      "id": "node-210",
+      "name": "Libya",
+      "latitude": 29.849733757273,
+      "longitude": 24.247071539397695,
+      "fixed": false
+    },
+    {
+      "id": "node-211",
+      "name": "Unknown",
+      "latitude": 33.84495066736868,
+      "longitude": -135.31228883418174,
+      "fixed": false
+    },
+    {
+      "id": "node-212",
+      "name": "Antarctica",
+      "latitude": -72.7200418186313,
+      "longitude": 95.59772396622213,
+      "fixed": false
+    },
+    {
+      "id": "node-213",
+      "name": "Philippines",
+      "latitude": 13.321917638882013,
+      "longitude": 121.15267976718502,
+      "fixed": false
+    },
+    {
+      "id": "node-214",
+      "name": "Unknown",
+      "latitude": -27.464255478406933,
+      "longitude": -124.89127391826531,
+      "fixed": false
+    },
+    {
+      "id": "node-215",
+      "name": "Russia",
+      "latitude": 61.130683126624774,
+      "longitude": 134.7321921689658,
+      "fixed": false
+    },
+    {
+      "id": "node-216",
+      "name": "Antarctica",
+      "latitude": -86.14050931703432,
+      "longitude": 43.46897763338501,
+      "fixed": false
+    },
+    {
+      "id": "node-217",
+      "name": "Unknown",
+      "latitude": -55.116459562532555,
+      "longitude": 141.77794205872272,
+      "fixed": false
+    },
+    {
+      "id": "node-218",
+      "name": "United States of America",
+      "latitude": 55.86980995542868,
+      "longitude": -130.7821096984677,
+      "fixed": false
+    },
+    {
+      "id": "node-219",
+      "name": "Unknown",
+      "latitude": -60.782601050448086,
+      "longitude": 42.04594112556441,
+      "fixed": false
+    },
+    {
+      "id": "node-220",
+      "name": "Unknown",
+      "latitude": 30.358762509863325,
+      "longitude": -41.589653375591666,
+      "fixed": false
+    },
+    {
+      "id": "node-221",
+      "name": "Unknown",
+      "latitude": -46.882497697009825,
+      "longitude": 58.84218881423212,
+      "fixed": false
+    },
+    {
+      "id": "node-222",
+      "name": "Unknown",
+      "latitude": 85.44668189570132,
+      "longitude": -95.8148280884453,
+      "fixed": false
+    },
+    {
+      "id": "node-223",
+      "name": "Zambia",
+      "latitude": -12.834970406378673,
+      "longitude": 25.704330522549867,
+      "fixed": false
+    },
+    {
+      "id": "node-224",
+      "name": "Iran",
+      "latitude": 35.1759461772222,
+      "longitude": 53.294010923024075,
+      "fixed": false
+    },
+    {
+      "id": "node-225",
+      "name": "Unknown",
+      "latitude": 47.037590867877555,
+      "longitude": 153.38694964549336,
+      "fixed": false
+    },
+    {
+      "id": "node-226",
+      "name": "Unknown",
+      "latitude": 24.39807018432927,
+      "longitude": -141.96077412378185,
+      "fixed": false
+    },
+    {
+      "id": "node-227",
+      "name": "Ethiopia",
+      "latitude": 4.153641798465728,
+      "longitude": 39.00949571473558,
+      "fixed": false
+    },
+    {
+      "id": "node-228",
+      "name": "China",
+      "latitude": 48.02354872956249,
+      "longitude": 119.26297723162651,
+      "fixed": false
+    },
+    {
+      "id": "node-229",
+      "name": "Unknown",
+      "latitude": -48.75709925117715,
+      "longitude": 7.1375334651517335,
+      "fixed": false
+    },
+    {
+      "id": "node-230",
+      "name": "China",
+      "latitude": 33.787793531125246,
+      "longitude": 96.7127959317977,
+      "fixed": false
+    },
+    {
+      "id": "node-231",
+      "name": "Unknown",
+      "latitude": 89.83715323594322,
+      "longitude": 7.937405051737244,
+      "fixed": false
+    },
+    {
+      "id": "node-232",
+      "name": "Unknown",
+      "latitude": 24.363192881948834,
+      "longitude": -76.55740344124187,
+      "fixed": false
+    },
+    {
+      "id": "node-233",
+      "name": "Canada",
+      "latitude": 55.75851484468595,
+      "longitude": -72.63080174155662,
+      "fixed": false
+    },
+    {
+      "id": "node-234",
+      "name": "China",
+      "latitude": 41.4402731013179,
+      "longitude": 99.09870834701678,
+      "fixed": false
+    },
+    {
+      "id": "node-235",
+      "name": "United States of America",
+      "latitude": 37.09701587676517,
+      "longitude": -111.25273853354214,
+      "fixed": false
+    },
+    {
+      "id": "node-236",
+      "name": "Unknown",
+      "latitude": 12.265437688817002,
+      "longitude": 166.2028217803521,
+      "fixed": false
+    },
+    {
+      "id": "node-237",
+      "name": "Unknown",
+      "latitude": -41.8168324609192,
+      "longitude": 19.74152660994821,
+      "fixed": false
+    },
+    {
+      "id": "node-238",
+      "name": "Unknown",
+      "latitude": 86.33203625324603,
+      "longitude": 92.43385979607615,
+      "fixed": false
+    },
+    {
+      "id": "node-239",
+      "name": "India",
+      "latitude": 18.067184596049415,
+      "longitude": 77.66353574750269,
+      "fixed": false
+    },
+    {
+      "id": "node-240",
+      "name": "Unknown",
+      "latitude": -53.68935569280514,
+      "longitude": -170.69740577135704,
+      "fixed": false
+    },
+    {
+      "id": "node-241",
+      "name": "Unknown",
+      "latitude": -34.0659398462843,
+      "longitude": -46.44661527491067,
+      "fixed": false
+    },
+    {
+      "id": "node-242",
+      "name": "Unknown",
+      "latitude": -54.1100351496203,
+      "longitude": 151.38576420784602,
+      "fixed": false
+    },
+    {
+      "id": "node-243",
+      "name": "Unknown",
+      "latitude": 30.860095731857854,
+      "longitude": -118.18688604733597,
+      "fixed": false
+    },
+    {
+      "id": "node-244",
+      "name": "Russia",
+      "latitude": 59.87694429754612,
+      "longitude": 50.93343864482114,
+      "fixed": false
+    },
+    {
+      "id": "node-245",
+      "name": "Unknown",
+      "latitude": 50.91260757061269,
+      "longitude": -35.54827770377679,
+      "fixed": false
+    },
+    {
+      "id": "node-246",
+      "name": "Unknown",
+      "latitude": -49.15334095933907,
+      "longitude": 81.90865867607641,
+      "fixed": false
+    },
+    {
+      "id": "node-247",
+      "name": "Australia",
+      "latitude": -16.327538981824503,
+      "longitude": 127.32799618986934,
+      "fixed": false
+    },
+    {
+      "id": "node-248",
+      "name": "Unknown",
+      "latitude": 1.32056331335437,
+      "longitude": -46.19897200309276,
+      "fixed": false
+    },
+    {
+      "id": "node-249",
+      "name": "Unknown",
+      "latitude": 26.516550655632628,
+      "longitude": 168.123271233671,
+      "fixed": false
+    },
+    {
+      "id": "node-250",
+      "name": "Unknown",
+      "latitude": -9.331966529085548,
+      "longitude": -177.6279261667499,
+      "fixed": false
+    },
+    {
+      "id": "node-251",
+      "name": "Unknown",
+      "latitude": 76.23574229423247,
+      "longitude": 11.22849755389521,
+      "fixed": false
+    },
+    {
+      "id": "node-252",
+      "name": "Russia",
+      "latitude": 74.90027385256175,
+      "longitude": 96.88931545559939,
+      "fixed": false
+    },
+    {
+      "id": "node-253",
+      "name": "Unknown",
+      "latitude": 86.54077833766164,
+      "longitude": 10.664749026588112,
+      "fixed": false
+    },
+    {
+      "id": "node-254",
+      "name": "Unknown",
+      "latitude": 12.888515201383342,
+      "longitude": -92.05679263375131,
+      "fixed": false
+    },
+    {
+      "id": "node-255",
+      "name": "Unknown",
+      "latitude": -82.93118628669852,
+      "longitude": -178.81812549443197,
+      "fixed": false
+    },
+    {
+      "id": "node-256",
+      "name": "Antarctica",
+      "latitude": -76.52179631329021,
+      "longitude": 119.22363709808326,
+      "fixed": false
+    },
+    {
+      "id": "node-257",
+      "name": "Canada",
+      "latitude": 64.80491440419178,
+      "longitude": -124.59578088147151,
+      "fixed": false
+    },
+    {
+      "id": "node-258",
+      "name": "Antarctica",
+      "latitude": -87.15211433494451,
+      "longitude": 111.51098169857539,
+      "fixed": false
+    },
+    {
+      "id": "node-259",
+      "name": "Unknown",
+      "latitude": -57.24114579074933,
+      "longitude": -33.017879690461996,
+      "fixed": false
+    },
+    {
+      "id": "node-260",
+      "name": "Unknown",
+      "latitude": -13.003909708881352,
+      "longitude": 46.46443903208629,
+      "fixed": false
+    },
+    {
+      "id": "node-261",
+      "name": "Antarctica",
+      "latitude": -87.29162169922989,
+      "longitude": 177.04970711558008,
+      "fixed": false
+    },
+    {
+      "id": "node-262",
+      "name": "Antarctica",
+      "latitude": -87.35395531574252,
+      "longitude": 43.088223442559666,
+      "fixed": false
+    },
+    {
+      "id": "node-263",
+      "name": "Yemen",
+      "latitude": 16.608968782512505,
+      "longitude": 44.55269383734375,
+      "fixed": false
+    },
+    {
+      "id": "node-264",
+      "name": "Unknown",
+      "latitude": 36.73421888595284,
+      "longitude": 19.304374194147186,
+      "fixed": false
+    },
+    {
+      "id": "node-265",
+      "name": "Unknown",
+      "latitude": -19.463487029581756,
+      "longitude": -153.66593589728603,
+      "fixed": false
+    },
+    {
+      "id": "node-266",
+      "name": "Unknown",
+      "latitude": -64.5125584092568,
+      "longitude": 42.31838794400423,
+      "fixed": false
+    },
+    {
+      "id": "node-267",
+      "name": "Antarctica",
+      "latitude": -74.85979024056616,
+      "longitude": 129.32750912110896,
+      "fixed": false
+    },
+    {
+      "id": "node-268",
+      "name": "Unknown",
+      "latitude": 16.673911854245233,
+      "longitude": -136.71636420305168,
+      "fixed": false
+    },
+    {
+      "id": "node-269",
+      "name": "Unknown",
+      "latitude": 50.75838712122115,
+      "longitude": -149.31691881924422,
+      "fixed": false
+    },
+    {
+      "id": "node-270",
+      "name": "Unknown",
+      "latitude": 15.057161687804665,
+      "longitude": 97.65073711273146,
+      "fixed": false
+    },
+    {
+      "id": "node-271",
+      "name": "Unknown",
+      "latitude": 32.94290523996226,
+      "longitude": 27.786645341989782,
+      "fixed": false
+    },
+    {
+      "id": "node-272",
+      "name": "Antarctica",
+      "latitude": -83.94052614302929,
+      "longitude": -60.11279264253358,
+      "fixed": false
+    },
+    {
+      "id": "node-273",
+      "name": "Antarctica",
+      "latitude": -67.24543500146854,
+      "longitude": 87.8553867504595,
+      "fixed": false
+    },
+    {
+      "id": "node-274",
+      "name": "Armenia",
+      "latitude": 39.59110494163323,
+      "longitude": 45.63193889411076,
+      "fixed": false
+    },
+    {
+      "id": "node-275",
+      "name": "Canada",
+      "latitude": 65.29600418164023,
+      "longitude": -93.90550469673089,
+      "fixed": false
+    },
+    {
+      "id": "node-276",
+      "name": "Unknown",
+      "latitude": 81.32214696216337,
+      "longitude": 27.979707756107246,
+      "fixed": false
+    },
+    {
+      "id": "node-277",
+      "name": "Unknown",
+      "latitude": -35.344433109798715,
+      "longitude": 76.11061351172435,
+      "fixed": false
+    },
+    {
+      "id": "node-278",
+      "name": "Unknown",
+      "latitude": -11.958905720247643,
+      "longitude": 81.67683748898833,
+      "fixed": false
+    },
+    {
+      "id": "node-279",
+      "name": "Russia",
+      "latitude": 44.82849287072452,
+      "longitude": 136.4238543294622,
+      "fixed": false
+    },
+    {
+      "id": "node-280",
+      "name": "Unknown",
+      "latitude": -58.55846877537449,
+      "longitude": -138.10212442007872,
+      "fixed": false
+    },
+    {
+      "id": "node-281",
+      "name": "Russia",
+      "latitude": 50.4172499159192,
+      "longitude": 112.45433782977028,
+      "fixed": false
+    },
+    {
+      "id": "node-282",
+      "name": "Antarctica",
+      "latitude": -81.48815480557239,
+      "longitude": -12.519457448244083,
+      "fixed": false
+    },
+    {
+      "id": "node-283",
+      "name": "Unknown",
+      "latitude": -31.501043383229863,
+      "longitude": 54.338630640836385,
+      "fixed": false
+    },
+    {
+      "id": "node-284",
+      "name": "Antarctica",
+      "latitude": -79.41928685155881,
+      "longitude": 51.91590721563492,
+      "fixed": false
+    },
+    {
+      "id": "node-285",
+      "name": "Unknown",
+      "latitude": -29.10805185041101,
+      "longitude": -113.90219367767517,
+      "fixed": false
+    },
+    {
+      "id": "node-286",
+      "name": "Unknown",
+      "latitude": -35.321883545284955,
+      "longitude": 159.67960731659258,
+      "fixed": false
+    },
+    {
+      "id": "node-287",
+      "name": "Unknown",
+      "latitude": 89.60171597239616,
+      "longitude": -116.91755255246099,
+      "fixed": false
+    },
+    {
+      "id": "node-288",
+      "name": "Unknown",
+      "latitude": 82.82187240761607,
+      "longitude": 122.77982141241239,
+      "fixed": false
+    },
+    {
+      "id": "node-289",
+      "name": "Unknown",
+      "latitude": 50.80746253181309,
+      "longitude": -40.404227677785144,
+      "fixed": false
+    },
+    {
+      "id": "node-290",
+      "name": "Unknown",
+      "latitude": -22.44490254325312,
+      "longitude": -154.5700525920436,
+      "fixed": false
+    },
+    {
+      "id": "node-291",
+      "name": "France",
+      "latitude": 47.62373389433537,
+      "longitude": -1.3402440125415183,
+      "fixed": false
+    },
+    {
+      "id": "node-292",
+      "name": "Unknown",
+      "latitude": 89.32706796987421,
+      "longitude": -128.53679489956883,
+      "fixed": false
+    },
+    {
+      "id": "node-293",
+      "name": "Unknown",
+      "latitude": -22.495388468037987,
+      "longitude": -13.078164641418965,
+      "fixed": false
+    },
+    {
+      "id": "node-294",
+      "name": "Mongolia",
+      "latitude": 46.76097552113066,
+      "longitude": 105.19966483888993,
+      "fixed": false
+    },
+    {
+      "id": "node-295",
+      "name": "Unknown",
+      "latitude": -54.72669574552404,
+      "longitude": 156.16695943048632,
+      "fixed": false
+    },
+    {
+      "id": "node-296",
+      "name": "Unknown",
+      "latitude": -65.46817322288803,
+      "longitude": 153.81349419254525,
+      "fixed": false
+    },
+    {
+      "id": "node-297",
+      "name": "Unknown",
+      "latitude": 23.504639495252533,
+      "longitude": -141.296589593481,
+      "fixed": false
+    },
+    {
+      "id": "node-298",
+      "name": "China",
+      "latitude": 40.52308598996504,
+      "longitude": 78.29248173927243,
+      "fixed": false
+    },
+    {
+      "id": "node-299",
+      "name": "Unknown",
+      "latitude": -14.74315580445824,
+      "longitude": 159.4102906063921,
+      "fixed": false
+    },
+    {
+      "id": "node-300",
+      "name": "Unknown",
+      "latitude": 37.58861026192956,
+      "longitude": 149.3755862819852,
+      "fixed": false
+    },
+    {
+      "id": "node-301",
+      "name": "Antarctica",
+      "latitude": -81.52680329835076,
+      "longitude": -113.53033571835826,
+      "fixed": false
+    },
+    {
+      "id": "node-302",
+      "name": "Unknown",
+      "latitude": 11.18941767151594,
+      "longitude": -119.09235342852463,
+      "fixed": false
+    },
+    {
+      "id": "node-303",
+      "name": "Unknown",
+      "latitude": -8.31100195968223,
+      "longitude": 100.72357407261262,
+      "fixed": false
+    },
+    {
+      "id": "node-304",
+      "name": "Unknown",
+      "latitude": 64.80798132784344,
+      "longitude": -2.4651516371890523,
+      "fixed": false
+    },
+    {
+      "id": "node-305",
+      "name": "Antarctica",
+      "latitude": -85.50874319532755,
+      "longitude": -35.718493890770304,
+      "fixed": false
+    },
+    {
+      "id": "node-306",
+      "name": "Sudan",
+      "latitude": 15.479092648752072,
+      "longitude": 23.88238638706318,
+      "fixed": false
+    },
+    {
+      "id": "node-307",
+      "name": "Unknown",
+      "latitude": 26.10865400516012,
+      "longitude": -83.84120778386718,
+      "fixed": false
+    },
+    {
+      "id": "node-308",
+      "name": "Egypt",
+      "latitude": 29.726699680139518,
+      "longitude": 26.56534703048692,
+      "fixed": false
+    },
+    {
+      "id": "node-309",
+      "name": "Unknown",
+      "latitude": -3.2826542940859156,
+      "longitude": 148.85800058552888,
+      "fixed": false
+    },
+    {
+      "id": "node-310",
+      "name": "Unknown",
+      "latitude": 13.586928838242272,
+      "longitude": -113.82188958048873,
+      "fixed": false
+    },
+    {
+      "id": "node-311",
+      "name": "Unknown",
+      "latitude": -52.03694288224129,
+      "longitude": -146.36245233172505,
+      "fixed": false
+    },
+    {
+      "id": "node-312",
+      "name": "Canada",
+      "latitude": 56.66855009279902,
+      "longitude": -94.95963540086811,
+      "fixed": false
+    },
+    {
+      "id": "node-313",
+      "name": "Unknown",
+      "latitude": 27.96504595446818,
+      "longitude": 155.7104734555145,
+      "fixed": false
+    },
+    {
+      "id": "node-314",
+      "name": "India",
+      "latitude": 34.44168014267714,
+      "longitude": 76.94017406699828,
+      "fixed": false
+    },
+    {
+      "id": "node-315",
+      "name": "Unknown",
+      "latitude": -6.633978681780903,
+      "longitude": 147.79919821899728,
+      "fixed": false
+    },
+    {
+      "id": "node-316",
+      "name": "Unknown",
+      "latitude": 81.18817765760477,
+      "longitude": 120.10049168659094,
+      "fixed": false
+    },
+    {
+      "id": "node-317",
+      "name": "Mauritania",
+      "latitude": 19.75093081831392,
+      "longitude": -10.879925174069314,
+      "fixed": false
+    },
+    {
+      "id": "node-318",
+      "name": "Unknown",
+      "latitude": -3.7979820199620775,
+      "longitude": 116.76060173551446,
+      "fixed": false
+    },
+    {
+      "id": "node-319",
+      "name": "Antarctica",
+      "latitude": -74.11592135388628,
+      "longitude": 129.11036023597137,
+      "fixed": false
+    },
+    {
+      "id": "node-320",
+      "name": "Unknown",
+      "latitude": -59.20511649297856,
+      "longitude": -80.01340319234228,
+      "fixed": false
+    },
+    {
+      "id": "node-321",
+      "name": "Canada",
+      "latitude": 67.6774545427592,
+      "longitude": -111.59073710319907,
+      "fixed": false
+    },
+    {
+      "id": "node-322",
+      "name": "Unknown",
+      "latitude": 38.20617358134584,
+      "longitude": 151.51396315929077,
+      "fixed": false
+    },
+    {
+      "id": "node-323",
+      "name": "Unknown",
+      "latitude": -81.97204742919433,
+      "longitude": -166.08047983631502,
+      "fixed": false
+    },
+    {
+      "id": "node-324",
+      "name": "Unknown",
+      "latitude": -48.87804858663606,
+      "longitude": 145.05772149140842,
+      "fixed": false
+    },
+    {
+      "id": "node-325",
+      "name": "Unknown",
+      "latitude": -59.54240827452018,
+      "longitude": 76.51502975854459,
+      "fixed": false
+    },
+    {
+      "id": "node-326",
+      "name": "Unknown",
+      "latitude": 76.1612884889133,
+      "longitude": 16.408685653941035,
+      "fixed": false
+    },
+    {
+      "id": "node-327",
+      "name": "Unknown",
+      "latitude": -59.53388796144418,
+      "longitude": -3.4558824084253956,
+      "fixed": false
+    },
+    {
+      "id": "node-328",
+      "name": "Unknown",
+      "latitude": -39.33010161682502,
+      "longitude": -166.16034345047885,
+      "fixed": false
+    },
+    {
+      "id": "node-329",
+      "name": "Russia",
+      "latitude": 60.72352055113879,
+      "longitude": 75.04335689210475,
+      "fixed": false
+    },
+    {
+      "id": "node-330",
+      "name": "Unknown",
+      "latitude": 0.94227224993314,
+      "longitude": -80.37112078379032,
+      "fixed": false
+    },
+    {
+      "id": "node-331",
+      "name": "Unknown",
+      "latitude": -17.291490446994146,
+      "longitude": 97.49267626031263,
+      "fixed": false
+    },
+    {
+      "id": "node-332",
+      "name": "Russia",
+      "latitude": 64.07142901019148,
+      "longitude": 88.22245121959475,
+      "fixed": false
+    },
+    {
+      "id": "node-333",
+      "name": "Unknown",
+      "latitude": -4.572691628557635,
+      "longitude": 86.50994586538519,
+      "fixed": false
+    },
+    {
+      "id": "node-334",
+      "name": "Brazil",
+      "latitude": -5.629927615215863,
+      "longitude": -59.3937391977684,
+      "fixed": false
+    },
+    {
+      "id": "node-335",
+      "name": "Unknown",
+      "latitude": -55.7972422051538,
+      "longitude": -70.6746438960799,
+      "fixed": false
+    },
+    {
+      "id": "node-336",
+      "name": "Unknown",
+      "latitude": -63.07362027232412,
+      "longitude": -121.21845253687584,
+      "fixed": false
+    },
+    {
+      "id": "node-337",
+      "name": "Unknown",
+      "latitude": 28.145223568712836,
+      "longitude": 161.53219655415904,
+      "fixed": false
+    },
+    {
+      "id": "node-338",
+      "name": "Russia",
+      "latitude": 68.5537793716135,
+      "longitude": 141.87695831170316,
+      "fixed": false
+    },
+    {
+      "id": "node-339",
+      "name": "Canada",
+      "latitude": 64.27094381187908,
+      "longitude": -122.25911346872272,
+      "fixed": false
+    },
+    {
+      "id": "node-340",
+      "name": "Kazakhstan",
+      "latitude": 52.920708043957035,
+      "longitude": 67.35466140505986,
+      "fixed": false
+    },
+    {
+      "id": "node-341",
+      "name": "Unknown",
+      "latitude": 23.39948712107517,
+      "longitude": -76.81777183379845,
+      "fixed": false
+    },
+    {
+      "id": "node-342",
+      "name": "Unknown",
+      "latitude": 78.6190157011711,
+      "longitude": 178.45599559945828,
+      "fixed": false
+    },
+    {
+      "id": "node-343",
+      "name": "Unknown",
+      "latitude": -11.828941492919782,
+      "longitude": 132.2729362735373,
+      "fixed": false
+    },
+    {
+      "id": "node-344",
+      "name": "Unknown",
+      "latitude": 44.8158193447687,
+      "longitude": -45.52241141775258,
+      "fixed": false
+    },
+    {
+      "id": "node-345",
+      "name": "Unknown",
+      "latitude": -40.653168861570386,
+      "longitude": 171.66683156999665,
+      "fixed": false
+    },
+    {
+      "id": "node-346",
+      "name": "Jordan",
+      "latitude": 31.561927917615037,
+      "longitude": 36.48448624155262,
+      "fixed": false
+    },
+    {
+      "id": "node-347",
+      "name": "Russia",
+      "latitude": 57.50623338169612,
+      "longitude": 97.28088591713436,
+      "fixed": false
+    },
+    {
+      "id": "node-348",
+      "name": "United States of America",
+      "latitude": 67.0619845689202,
+      "longitude": -158.9790300502722,
+      "fixed": false
+    },
+    {
+      "id": "node-349",
+      "name": "Unknown",
+      "latitude": 3.041771997697623,
+      "longitude": 3.216905346576965,
+      "fixed": false
+    },
+    {
+      "id": "node-350",
+      "name": "Unknown",
+      "latitude": -19.63128867053146,
+      "longitude": -85.69759641273203,
+      "fixed": false
+    },
+    {
+      "id": "node-351",
+      "name": "Unknown",
+      "latitude": -67.09167122079131,
+      "longitude": 96.45892619978395,
+      "fixed": false
+    },
+    {
+      "id": "node-352",
+      "name": "Unknown",
+      "latitude": -32.997867166842,
+      "longitude": -74.03555863833292,
+      "fixed": false
+    },
+    {
+      "id": "node-353",
+      "name": "Brazil",
+      "latitude": -1.6754263015725002,
+      "longitude": -60.215235751546444,
+      "fixed": false
+    },
+    {
+      "id": "node-354",
+      "name": "Unknown",
+      "latitude": 86.82063040549673,
+      "longitude": -126.77973522270074,
+      "fixed": false
+    },
+    {
+      "id": "node-355",
+      "name": "Antarctica",
+      "latitude": -69.19869066993334,
+      "longitude": 45.041305792222204,
+      "fixed": false
+    },
+    {
+      "id": "node-356",
+      "name": "Unknown",
+      "latitude": -71.35220197834734,
+      "longitude": -34.912067936991406,
+      "fixed": false
+    },
+    {
+      "id": "node-357",
+      "name": "Unknown",
+      "latitude": -38.232474422246675,
+      "longitude": 132.2571361217876,
+      "fixed": false
+    },
+    {
+      "id": "node-358",
+      "name": "Unknown",
+      "latitude": -36.56813918733002,
+      "longitude": -107.23842252707043,
+      "fixed": false
+    },
+    {
+      "id": "node-359",
+      "name": "Antarctica",
+      "latitude": -88.11575278442204,
+      "longitude": -177.57045608385818,
+      "fixed": false
+    },
+    {
+      "id": "node-360",
+      "name": "Unknown",
+      "latitude": 55.120699094036894,
+      "longitude": -157.9477765681675,
+      "fixed": false
+    },
+    {
+      "id": "node-361",
+      "name": "Canada",
+      "latitude": 59.14734777243629,
+      "longitude": -119.35212488774387,
+      "fixed": false
+    },
+    {
+      "id": "node-362",
+      "name": "Unknown",
+      "latitude": -12.164855631816195,
+      "longitude": -144.10041755968442,
+      "fixed": false
+    },
+    {
+      "id": "node-363",
+      "name": "Unknown",
+      "latitude": -58.86825272720385,
+      "longitude": 122.0785174108342,
+      "fixed": false
+    },
+    {
+      "id": "node-364",
+      "name": "Unknown",
+      "latitude": 84.10122315677023,
+      "longitude": 102.40842232888872,
+      "fixed": false
+    },
+    {
+      "id": "node-365",
+      "name": "Unknown",
+      "latitude": -40.63580089854107,
+      "longitude": 127.92467153660442,
+      "fixed": false
+    },
+    {
+      "id": "node-366",
+      "name": "Unknown",
+      "latitude": 43.09078131664262,
+      "longitude": -159.41520144457726,
+      "fixed": false
+    },
+    {
+      "id": "node-367",
+      "name": "Unknown",
+      "latitude": 36.23804904416984,
+      "longitude": -17.472091834268014,
+      "fixed": false
+    },
+    {
+      "id": "node-368",
+      "name": "Unknown",
+      "latitude": 17.917293982604647,
+      "longitude": -88.06007598799877,
+      "fixed": false
+    },
+    {
+      "id": "node-369",
+      "name": "Antarctica",
+      "latitude": -86.27096390266303,
+      "longitude": -110.18017188411437,
+      "fixed": false
+    },
+    {
+      "id": "node-370",
+      "name": "Antarctica",
+      "latitude": -68.66045343580143,
+      "longitude": 146.47255306820148,
+      "fixed": false
+    },
+    {
+      "id": "node-371",
+      "name": "Unknown",
+      "latitude": -11.482609841075515,
+      "longitude": 148.4344822143214,
+      "fixed": false
+    },
+    {
+      "id": "node-372",
+      "name": "Russia",
+      "latitude": 71.98489450263477,
+      "longitude": 70.76852724209166,
+      "fixed": false
+    },
+    {
+      "id": "node-373",
+      "name": "Unknown",
+      "latitude": -23.85778447216005,
+      "longitude": -157.21305660382478,
+      "fixed": false
+    },
+    {
+      "id": "node-374",
+      "name": "Unknown",
+      "latitude": 2.6633484671626633,
+      "longitude": 119.87622953886421,
+      "fixed": false
+    },
+    {
+      "id": "node-375",
+      "name": "Russia",
+      "latitude": 63.92486447516774,
+      "longitude": 94.10513499723942,
+      "fixed": false
+    },
+    {
+      "id": "node-376",
+      "name": "Antarctica",
+      "latitude": -80.85042117979496,
+      "longitude": 23.671998073618,
+      "fixed": false
+    },
+    {
+      "id": "node-377",
+      "name": "Unknown",
+      "latitude": 24.001457964055234,
+      "longitude": 62.406986940988986,
+      "fixed": false
+    },
+    {
+      "id": "node-378",
+      "name": "Unknown",
+      "latitude": 11.087523556058045,
+      "longitude": -133.0508629950297,
+      "fixed": false
+    },
+    {
+      "id": "node-379",
+      "name": "Unknown",
+      "latitude": -68.75244725148366,
+      "longitude": -118.56421623780477,
+      "fixed": false
+    },
+    {
+      "id": "node-380",
+      "name": "Unknown",
+      "latitude": 18.660373904889866,
+      "longitude": 158.751444528332,
+      "fixed": false
+    },
+    {
+      "id": "node-381",
+      "name": "Unknown",
+      "latitude": 75.03948709256986,
+      "longitude": 135.7120317625272,
+      "fixed": false
+    },
+    {
+      "id": "node-382",
+      "name": "United States of America",
+      "latitude": 47.85136184395793,
+      "longitude": -99.2455444118096,
+      "fixed": false
+    },
+    {
+      "id": "node-383",
+      "name": "Unknown",
+      "latitude": 85.87143805819667,
+      "longitude": -113.39749626471568,
+      "fixed": false
+    },
+    {
+      "id": "node-384",
+      "name": "Unknown",
+      "latitude": 58.32642286023048,
+      "longitude": 151.52482196558367,
+      "fixed": false
+    },
+    {
+      "id": "node-385",
+      "name": "Unknown",
+      "latitude": -13.362340663653328,
+      "longitude": -16.459695222004427,
+      "fixed": false
+    },
+    {
+      "id": "node-386",
+      "name": "Unknown",
+      "latitude": 75.0840641290338,
+      "longitude": 10.209544295739164,
+      "fixed": false
+    },
+    {
+      "id": "node-387",
+      "name": "Antarctica",
+      "latitude": -72.97020923279092,
+      "longitude": -102.34668641688332,
+      "fixed": false
+    },
+    {
+      "id": "node-388",
+      "name": "Angola",
+      "latitude": -12.388930597850006,
+      "longitude": 15.341877139908718,
+      "fixed": false
+    },
+    {
+      "id": "node-389",
+      "name": "Unknown",
+      "latitude": 12.727879130841202,
+      "longitude": 119.06021925153107,
+      "fixed": false
+    },
+    {
+      "id": "node-390",
+      "name": "Unknown",
+      "latitude": -71.4738632623923,
+      "longitude": -173.18996746746166,
+      "fixed": false
+    },
+    {
+      "id": "node-391",
+      "name": "Unknown",
+      "latitude": -3.065320477442725,
+      "longitude": 123.47292936142753,
+      "fixed": false
+    },
+    {
+      "id": "node-392",
+      "name": "Unknown",
+      "latitude": -25.51299839499015,
+      "longitude": -99.94534863849944,
+      "fixed": false
+    },
+    {
+      "id": "node-393",
+      "name": "Canada",
+      "latitude": 51.25823429916241,
+      "longitude": -78.55086551117198,
+      "fixed": false
+    },
+    {
+      "id": "node-394",
+      "name": "Unknown",
+      "latitude": -45.001192924996666,
+      "longitude": 23.557522596262885,
+      "fixed": false
+    },
+    {
+      "id": "node-395",
+      "name": "Unknown",
+      "latitude": 76.71129160875938,
+      "longitude": 44.45657114882857,
+      "fixed": false
+    },
+    {
+      "id": "node-396",
+      "name": "Antarctica",
+      "latitude": -85.732278817467,
+      "longitude": 118.1222375735083,
+      "fixed": false
+    },
+    {
+      "id": "node-397",
+      "name": "Unknown",
+      "latitude": -62.004561969648265,
+      "longitude": 124.80009779110634,
+      "fixed": false
+    },
+    {
+      "id": "node-398",
+      "name": "Unknown",
+      "latitude": -12.93925524222523,
+      "longitude": 75.55093112455233,
+      "fixed": false
+    },
+    {
+      "id": "node-399",
+      "name": "Russia",
+      "latitude": 68.09747125108456,
+      "longitude": 46.29825232964666,
+      "fixed": false
+    },
+    {
+      "id": "node-400",
+      "name": "Unknown",
+      "latitude": 22.304366747717793,
+      "longitude": 60.48144945796483,
+      "fixed": false
+    },
+    {
+      "id": "node-401",
+      "name": "Unknown",
+      "latitude": -58.188893709108946,
+      "longitude": 72.42528798135234,
+      "fixed": false
+    },
+    {
+      "id": "node-402",
+      "name": "Unknown",
+      "latitude": 54.86481508866319,
+      "longitude": -57.01064064826254,
+      "fixed": false
+    },
+    {
+      "id": "node-403",
+      "name": "Unknown",
+      "latitude": -12.249680654850465,
+      "longitude": -132.6582074239812,
+      "fixed": false
+    },
+    {
+      "id": "node-404",
+      "name": "Unknown",
+      "latitude": 8.19383013580358,
+      "longitude": 107.55428607488238,
+      "fixed": false
+    },
+    {
+      "id": "node-405",
+      "name": "Unknown",
+      "latitude": -53.286248658740085,
+      "longitude": -26.22307064484943,
+      "fixed": false
+    },
+    {
+      "id": "node-406",
+      "name": "Unknown",
+      "latitude": -64.84108136353775,
+      "longitude": 1.4562397360625425,
+      "fixed": false
+    },
+    {
+      "id": "node-407",
+      "name": "Unknown",
+      "latitude": -20.840906685986965,
+      "longitude": -141.10707989512647,
+      "fixed": false
+    },
+    {
+      "id": "node-408",
+      "name": "Antarctica",
+      "latitude": -78.57475850004202,
+      "longitude": 60.316950894404755,
+      "fixed": false
+    },
+    {
+      "id": "node-409",
+      "name": "Canada",
+      "latitude": 55.5357803227279,
+      "longitude": -115.86174813053708,
+      "fixed": false
+    },
+    {
+      "id": "node-410",
+      "name": "Unknown",
+      "latitude": 2.776293326249615,
+      "longitude": 146.992952430665,
+      "fixed": false
+    },
+    {
+      "id": "node-411",
+      "name": "Unknown",
+      "latitude": -16.576408981735923,
+      "longitude": 70.3413326471829,
+      "fixed": false
+    },
+    {
+      "id": "node-412",
+      "name": "Unknown",
+      "latitude": -50.527005029086624,
+      "longitude": 75.61689818383411,
+      "fixed": false
+    },
+    {
+      "id": "node-413",
+      "name": "Unknown",
+      "latitude": 86.66931044343016,
+      "longitude": -46.88502107255303,
+      "fixed": false
+    },
+    {
+      "id": "node-414",
+      "name": "Mexico",
+      "latitude": 17.320962669151186,
+      "longitude": -92.79917010632505,
+      "fixed": false
+    },
+    {
+      "id": "node-415",
+      "name": "Unknown",
+      "latitude": 81.8781773822488,
+      "longitude": 108.36323635906791,
+      "fixed": false
+    },
+    {
+      "id": "node-416",
+      "name": "Unknown",
+      "latitude": -37.91363070159357,
+      "longitude": -8.414629719297636,
+      "fixed": false
+    },
+    {
+      "id": "node-417",
+      "name": "Unknown",
+      "latitude": -17.56181970763359,
+      "longitude": 107.79055540296372,
+      "fixed": false
+    },
+    {
+      "id": "node-418",
+      "name": "Unknown",
+      "latitude": 46.84816950929624,
+      "longitude": -60.85709110038911,
+      "fixed": false
+    },
+    {
+      "id": "node-419",
+      "name": "Unknown",
+      "latitude": -68.92042264295623,
+      "longitude": -47.00522875618498,
+      "fixed": false
+    },
+    {
+      "id": "node-420",
+      "name": "Unknown",
+      "latitude": 62.03594853656091,
+      "longitude": -6.9128370952990394,
+      "fixed": false
+    },
+    {
+      "id": "node-421",
+      "name": "Unknown",
+      "latitude": 24.349063673662144,
+      "longitude": 144.07197207699687,
+      "fixed": false
+    },
+    {
+      "id": "node-422",
+      "name": "Unknown",
+      "latitude": -17.88949179973298,
+      "longitude": 7.458204302835696,
+      "fixed": false
+    },
+    {
+      "id": "node-423",
+      "name": "Unknown",
+      "latitude": -0.7368056887112857,
+      "longitude": -81.87931615517095,
+      "fixed": false
+    },
+    {
+      "id": "node-424",
+      "name": "Unknown",
+      "latitude": -61.17308986308617,
+      "longitude": -106.7734597550584,
+      "fixed": false
+    },
+    {
+      "id": "node-425",
+      "name": "Russia",
+      "latitude": 72.22349913131814,
+      "longitude": 109.6586959402444,
+      "fixed": false
+    },
+    {
+      "id": "node-426",
+      "name": "Unknown",
+      "latitude": -6.174898412487437,
+      "longitude": -19.83369738009378,
+      "fixed": false
+    },
+    {
+      "id": "node-427",
+      "name": "Russia",
+      "latitude": 61.573589357302694,
+      "longitude": 42.64496022030718,
+      "fixed": false
+    },
+    {
+      "id": "node-428",
+      "name": "Unknown",
+      "latitude": -64.61995201280729,
+      "longitude": -172.38594677262853,
+      "fixed": false
+    },
+    {
+      "id": "node-429",
+      "name": "Unknown",
+      "latitude": -29.573737737215453,
+      "longitude": 39.92778133194989,
+      "fixed": false
+    },
+    {
+      "id": "node-430",
+      "name": "Tajikistan",
+      "latitude": 38.79311766278121,
+      "longitude": 72.52965588637403,
+      "fixed": false
+    },
+    {
+      "id": "node-431",
+      "name": "China",
+      "latitude": 41.669335870335146,
+      "longitude": 91.83281878963413,
+      "fixed": false
+    },
+    {
+      "id": "node-432",
+      "name": "Unknown",
+      "latitude": -36.31703729386894,
+      "longitude": 27.055760376405317,
+      "fixed": false
+    },
+    {
+      "id": "node-433",
+      "name": "Canada",
+      "latitude": 53.951984495208336,
+      "longitude": -101.25279341913465,
+      "fixed": false
+    },
+    {
+      "id": "node-434",
+      "name": "China",
+      "latitude": 44.56792109598939,
+      "longitude": 126.89162339066303,
+      "fixed": false
+    },
+    {
+      "id": "node-435",
+      "name": "Unknown",
+      "latitude": -25.5907681089284,
+      "longitude": -133.78526952765304,
+      "fixed": false
+    },
+    {
+      "id": "node-436",
+      "name": "Unknown",
+      "latitude": 59.57642929339724,
+      "longitude": -55.65020925376062,
+      "fixed": false
+    },
+    {
+      "id": "node-437",
+      "name": "Antarctica",
+      "latitude": -69.73401981882122,
+      "longitude": 147.71476069023072,
+      "fixed": false
+    },
+    {
+      "id": "node-438",
+      "name": "United States of America",
+      "latitude": 39.46260273251542,
+      "longitude": -110.37690208903395,
+      "fixed": false
+    },
+    {
+      "id": "node-439",
+      "name": "Unknown",
+      "latitude": 84.61530894189781,
+      "longitude": -15.374723059148465,
+      "fixed": false
+    },
+    {
+      "id": "node-440",
+      "name": "Unknown",
+      "latitude": -6.07888387846927,
+      "longitude": 165.1158200494546,
+      "fixed": false
+    },
+    {
+      "id": "node-441",
+      "name": "Unknown",
+      "latitude": -52.255845447258686,
+      "longitude": -60.43781487512379,
+      "fixed": false
+    },
+    {
+      "id": "node-442",
+      "name": "Sierra Leone",
+      "latitude": 8.244333207206921,
+      "longitude": -10.620470649828007,
+      "fixed": false
+    },
+    {
+      "id": "node-443",
+      "name": "Unknown",
+      "latitude": 49.48706148223093,
+      "longitude": -14.831563299634666,
+      "fixed": false
+    },
+    {
+      "id": "node-444",
+      "name": "Unknown",
+      "latitude": -22.123855563509963,
+      "longitude": -91.38296639957542,
+      "fixed": false
+    },
+    {
+      "id": "node-445",
+      "name": "China",
+      "latitude": 41.039029534644726,
+      "longitude": 89.21678976926034,
+      "fixed": false
+    },
+    {
+      "id": "node-446",
+      "name": "Russia",
+      "latitude": 53.698138805178104,
+      "longitude": 112.60032890760635,
+      "fixed": false
+    },
+    {
+      "id": "node-447",
+      "name": "Unknown",
+      "latitude": -16.444378952394118,
+      "longitude": 92.74902245958503,
+      "fixed": false
+    },
+    {
+      "id": "node-448",
+      "name": "Unknown",
+      "latitude": -39.93716407355994,
+      "longitude": -120.27019108352354,
+      "fixed": false
+    },
+    {
+      "id": "node-449",
+      "name": "Unknown",
+      "latitude": 13.47210495770534,
+      "longitude": -71.97091493113592,
+      "fixed": false
+    },
+    {
+      "id": "node-450",
+      "name": "Antarctica",
+      "latitude": -76.4488446942056,
+      "longitude": -140.2338367398936,
+      "fixed": false
+    },
+    {
+      "id": "node-451",
+      "name": "Unknown",
+      "latitude": -45.40414811295299,
+      "longitude": -9.698375931669062,
+      "fixed": false
+    },
+    {
+      "id": "node-452",
+      "name": "Antarctica",
+      "latitude": -81.9304142212111,
+      "longitude": 90.41381225314984,
+      "fixed": false
+    },
+    {
+      "id": "node-453",
+      "name": "China",
+      "latitude": 30.978858667634384,
+      "longitude": 117.30386188673765,
+      "fixed": false
+    },
+    {
+      "id": "node-454",
+      "name": "Unknown",
+      "latitude": -29.325841035872216,
+      "longitude": -98.25986177740502,
+      "fixed": false
+    },
+    {
+      "id": "node-455",
+      "name": "Unknown",
+      "latitude": -30.13752220692669,
+      "longitude": 58.69728067078529,
+      "fixed": false
+    },
+    {
+      "id": "node-456",
+      "name": "Unknown",
+      "latitude": -26.2792310447131,
+      "longitude": -136.57285231225637,
+      "fixed": false
+    },
+    {
+      "id": "node-457",
+      "name": "Russia",
+      "latitude": 62.877101268034295,
+      "longitude": 109.84210426533559,
+      "fixed": false
+    },
+    {
+      "id": "node-458",
+      "name": "Unknown",
+      "latitude": 6.931864412400415,
+      "longitude": -141.3805226193964,
+      "fixed": false
+    },
+    {
+      "id": "node-459",
+      "name": "Nigeria",
+      "latitude": 7.741488730702855,
+      "longitude": 6.711019457669153,
+      "fixed": false
+    },
+    {
+      "id": "node-460",
+      "name": "Greenland",
+      "latitude": 69.95553482327566,
+      "longitude": -45.07345762324627,
+      "fixed": false
+    },
+    {
+      "id": "node-461",
+      "name": "Antarctica",
+      "latitude": -78.67986851321596,
+      "longitude": 65.2027018620814,
+      "fixed": false
+    },
+    {
+      "id": "node-462",
+      "name": "India",
+      "latitude": 21.688882843043785,
+      "longitude": 86.66328972271384,
+      "fixed": false
+    },
+    {
+      "id": "node-463",
+      "name": "Unknown",
+      "latitude": -1.498683839898007,
+      "longitude": 53.89435616345463,
+      "fixed": false
+    },
+    {
+      "id": "node-464",
+      "name": "Japan",
+      "latitude": 35.82601212421932,
+      "longitude": 138.24380889305172,
+      "fixed": false
+    },
+    {
+      "id": "node-465",
+      "name": "Unknown",
+      "latitude": -42.498958291027165,
+      "longitude": -162.2211874106171,
+      "fixed": false
+    },
+    {
+      "id": "node-466",
+      "name": "Unknown",
+      "latitude": -55.49837198634887,
+      "longitude": -149.2314424898871,
+      "fixed": false
+    },
+    {
+      "id": "node-467",
+      "name": "Canada",
+      "latitude": 57.63058143140799,
+      "longitude": -130.8945884000667,
+      "fixed": false
+    },
+    {
+      "id": "node-468",
+      "name": "Turkey",
+      "latitude": 38.22100637519728,
+      "longitude": 34.3053854860369,
+      "fixed": false
+    },
+    {
+      "id": "node-469",
+      "name": "Unknown",
+      "latitude": 86.21407680140788,
+      "longitude": -5.408306663817228,
+      "fixed": false
+    },
+    {
+      "id": "node-470",
+      "name": "Russia",
+      "latitude": 43.28617357481724,
+      "longitude": 46.919910444436596,
+      "fixed": false
+    },
+    {
+      "id": "node-471",
+      "name": "Antarctica",
+      "latitude": -73.11455339324496,
+      "longitude": -3.8005236245893173,
+      "fixed": false
+    },
+    {
+      "id": "node-472",
+      "name": "Australia",
+      "latitude": -23.379494294584305,
+      "longitude": 133.454735743931,
+      "fixed": false
+    },
+    {
+      "id": "node-473",
+      "name": "Unknown",
+      "latitude": -0.5312143788746511,
+      "longitude": 84.5089918057954,
+      "fixed": false
+    },
+    {
+      "id": "node-474",
+      "name": "Unknown",
+      "latitude": -59.07992624584969,
+      "longitude": 73.20544333036398,
+      "fixed": false
+    },
+    {
+      "id": "node-475",
+      "name": "Unknown",
+      "latitude": 85.80140532986621,
+      "longitude": 44.36845787425557,
+      "fixed": false
+    },
+    {
+      "id": "node-476",
+      "name": "Antarctica",
+      "latitude": -86.57848877329336,
+      "longitude": -174.15268214981734,
+      "fixed": false
+    },
+    {
+      "id": "node-477",
+      "name": "Kazakhstan",
+      "latitude": 47.660246826175666,
+      "longitude": 84.31237494661559,
+      "fixed": false
+    },
+    {
+      "id": "node-478",
+      "name": "Unknown",
+      "latitude": -63.73723415547862,
+      "longitude": -0.6208979098861107,
+      "fixed": false
+    },
+    {
+      "id": "node-479",
+      "name": "Unknown",
+      "latitude": 10.394283276650086,
+      "longitude": -137.429211565018,
+      "fixed": false
+    },
+    {
+      "id": "node-480",
+      "name": "Unknown",
+      "latitude": -53.20056576145757,
+      "longitude": 57.45968224339154,
+      "fixed": false
+    },
+    {
+      "id": "node-481",
+      "name": "Unknown",
+      "latitude": -0.10539722547963493,
+      "longitude": -31.546384730316106,
+      "fixed": false
+    },
+    {
+      "id": "node-482",
+      "name": "Canada",
+      "latitude": 57.40752544764703,
+      "longitude": -102.66907620488459,
+      "fixed": false
+    },
+    {
+      "id": "node-483",
+      "name": "Antarctica",
+      "latitude": -78.40487575773622,
+      "longitude": -105.03329569769689,
+      "fixed": false
+    },
+    {
+      "id": "node-484",
+      "name": "Unknown",
+      "latitude": 76.88886665679073,
+      "longitude": -141.38999848679705,
+      "fixed": false
+    },
+    {
+      "id": "node-485",
+      "name": "Unknown",
+      "latitude": -40.87505872118967,
+      "longitude": 37.76685157109404,
+      "fixed": false
+    },
+    {
+      "id": "node-486",
+      "name": "Unknown",
+      "latitude": 34.23390795225119,
+      "longitude": -73.3743132007146,
+      "fixed": false
+    },
+    {
+      "id": "node-487",
+      "name": "Unknown",
+      "latitude": -46.166336732089654,
+      "longitude": -75.75207599704189,
+      "fixed": false
+    },
+    {
+      "id": "node-488",
+      "name": "Antarctica",
+      "latitude": -76.55667418846654,
+      "longitude": -76.68331553203711,
+      "fixed": false
+    },
+    {
+      "id": "node-489",
+      "name": "Unknown",
+      "latitude": 46.95738959412654,
+      "longitude": -125.61413580353496,
+      "fixed": false
+    },
+    {
+      "id": "node-490",
+      "name": "Unknown",
+      "latitude": -57.4682894659221,
+      "longitude": -16.829442609026245,
+      "fixed": false
+    },
+    {
+      "id": "node-491",
+      "name": "Australia",
+      "latitude": -27.21734957434036,
+      "longitude": 141.07495633979005,
+      "fixed": false
+    },
+    {
+      "id": "node-492",
+      "name": "Unknown",
+      "latitude": 67.18307050909192,
+      "longitude": 7.218241580421875,
+      "fixed": false
+    },
+    {
+      "id": "node-493",
+      "name": "Unknown",
+      "latitude": -73.67708948086182,
+      "longitude": -164.06757887791593,
+      "fixed": false
+    },
+    {
+      "id": "node-494",
+      "name": "Unknown",
+      "latitude": 89.25962015420117,
+      "longitude": -127.06271156713956,
+      "fixed": false
+    },
+    {
+      "id": "node-495",
+      "name": "Antarctica",
+      "latitude": -72.58720251191711,
+      "longitude": 106.55468264924508,
+      "fixed": false
+    },
+    {
+      "id": "node-496",
+      "name": "Unknown",
+      "latitude": 17.865276640587965,
+      "longitude": 86.00562989051701,
+      "fixed": false
+    },
+    {
+      "id": "node-497",
+      "name": "Unknown",
+      "latitude": -79.96545349423062,
+      "longitude": -59.286499054619455,
+      "fixed": false
+    },
+    {
+      "id": "node-498",
+      "name": "Unknown",
+      "latitude": 7.2566404000309035,
+      "longitude": -22.313310926504442,
+      "fixed": false
+    },
+    {
+      "id": "node-499",
+      "name": "Canada",
+      "latitude": 69.56395468705557,
+      "longitude": -120.66276396988854,
+      "fixed": false
+    },
+    {
+      "id": "node-500",
+      "name": "Tanzania",
+      "latitude": -6.123268520664482,
+      "longitude": 30.028482857470635,
+      "fixed": false
+    },
+    {
+      "id": "node-501",
+      "name": "Unknown",
+      "latitude": 80.09990659733788,
+      "longitude": 72.62135921670372,
+      "fixed": false
+    },
+    {
+      "id": "node-502",
+      "name": "Unknown",
+      "latitude": 77.61259170473406,
+      "longitude": 160.23691329455409,
+      "fixed": false
+    },
+    {
+      "id": "node-503",
+      "name": "Unknown",
+      "latitude": 77.00449752155271,
+      "longitude": 72.61236216388585,
+      "fixed": false
+    },
+    {
+      "id": "node-504",
+      "name": "Unknown",
+      "latitude": -0.23186219738288116,
+      "longitude": 137.92007740360066,
+      "fixed": false
+    },
+    {
+      "id": "node-505",
+      "name": "Russia",
+      "latitude": 64.19395349844999,
+      "longitude": 73.16333040044734,
+      "fixed": false
+    },
+    {
+      "id": "node-506",
+      "name": "Unknown",
+      "latitude": -3.6577652246256065,
+      "longitude": -32.95482027021956,
+      "fixed": false
+    },
+    {
+      "id": "node-507",
+      "name": "Mongolia",
+      "latitude": 44.689378765901154,
+      "longitude": 97.12711605663543,
+      "fixed": false
+    },
+    {
+      "id": "node-508",
+      "name": "Unknown",
+      "latitude": -25.70747599051903,
+      "longitude": -117.96731452256455,
+      "fixed": false
+    },
+    {
+      "id": "node-509",
+      "name": "Unknown",
+      "latitude": 10.774716828882973,
+      "longitude": 144.51778946275834,
+      "fixed": false
+    },
+    {
+      "id": "node-510",
+      "name": "Unknown",
+      "latitude": -13.216379659897726,
+      "longitude": 161.35193564971513,
+      "fixed": false
+    },
+    {
+      "id": "node-511",
+      "name": "Unknown",
+      "latitude": -59.01337970569444,
+      "longitude": -29.76252257353846,
+      "fixed": false
+    },
+    {
+      "id": "node-512",
+      "name": "Unknown",
+      "latitude": 21.037055991915906,
+      "longitude": -131.74876214490658,
+      "fixed": false
+    },
+    {
+      "id": "node-513",
+      "name": "Unknown",
+      "latitude": 55.30578177025993,
+      "longitude": -23.949602315930406,
+      "fixed": false
+    },
+    {
+      "id": "node-514",
+      "name": "Unknown",
+      "latitude": -62.79123738155738,
+      "longitude": 121.4361102576687,
+      "fixed": false
+    },
+    {
+      "id": "node-515",
+      "name": "Antarctica",
+      "latitude": -85.91773588175668,
+      "longitude": -23.219320247542242,
+      "fixed": false
+    },
+    {
+      "id": "node-516",
+      "name": "Mauritania",
+      "latitude": 15.599275164066569,
+      "longitude": -8.103315438154482,
+      "fixed": false
+    },
+    {
+      "id": "node-517",
+      "name": "Unknown",
+      "latitude": -49.52733147664333,
+      "longitude": 45.29183710621032,
+      "fixed": false
+    },
+    {
+      "id": "node-518",
+      "name": "Unknown",
+      "latitude": -60.35301079579916,
+      "longitude": 98.21894763931715,
+      "fixed": false
+    },
+    {
+      "id": "node-519",
+      "name": "Antarctica",
+      "latitude": -72.1559155678774,
+      "longitude": 57.415549761549215,
+      "fixed": false
+    },
+    {
+      "id": "node-520",
+      "name": "Unknown",
+      "latitude": -44.69040445067796,
+      "longitude": -28.350440609134097,
+      "fixed": false
+    },
+    {
+      "id": "node-521",
+      "name": "Canada",
+      "latitude": 52.10340901108185,
+      "longitude": -66.24762375935123,
+      "fixed": false
+    },
+    {
+      "id": "node-522",
+      "name": "Unknown",
+      "latitude": -37.641086971569734,
+      "longitude": 73.64999122638233,
+      "fixed": false
+    },
+    {
+      "id": "node-523",
+      "name": "Unknown",
+      "latitude": -37.84245666700436,
+      "longitude": 71.00340692331113,
+      "fixed": false
+    },
+    {
+      "id": "node-524",
+      "name": "Unknown",
+      "latitude": 43.083413520586475,
+      "longitude": -22.76424727193097,
+      "fixed": false
+    },
+    {
+      "id": "node-525",
+      "name": "Unknown",
+      "latitude": -33.51502594490073,
+      "longitude": -10.195326881343163,
+      "fixed": false
+    },
+    {
+      "id": "node-526",
+      "name": "Unknown",
+      "latitude": 77.6951260553698,
+      "longitude": 159.67090912949146,
+      "fixed": false
+    },
+    {
+      "id": "node-527",
+      "name": "Unknown",
+      "latitude": 79.87637067414173,
+      "longitude": 70.93600320978601,
+      "fixed": false
+    },
+    {
+      "id": "node-528",
+      "name": "Algeria",
+      "latitude": 30.651058372707865,
+      "longitude": 0.4148095964082188,
+      "fixed": false
+    },
+    {
+      "id": "node-529",
+      "name": "Unknown",
+      "latitude": -37.78368875405079,
+      "longitude": 38.665123986582756,
+      "fixed": false
+    },
+    {
+      "id": "node-530",
+      "name": "Unknown",
+      "latitude": 76.34797539587271,
+      "longitude": -116.80917299553246,
+      "fixed": false
+    },
+    {
+      "id": "node-531",
+      "name": "Unknown",
+      "latitude": -1.5109432094426438,
+      "longitude": -44.87290077176826,
+      "fixed": false
+    },
+    {
+      "id": "node-532",
+      "name": "Canada",
+      "latitude": 52.33036909451542,
+      "longitude": -86.52744596023356,
+      "fixed": false
+    },
+    {
+      "id": "node-533",
+      "name": "Unknown",
+      "latitude": -70.81673675640224,
+      "longitude": -163.04206540865226,
+      "fixed": false
+    },
+    {
+      "id": "node-534",
+      "name": "Unknown",
+      "latitude": 38.25869245534258,
+      "longitude": 136.5536625924252,
+      "fixed": false
+    },
+    {
+      "id": "node-535",
+      "name": "Unknown",
+      "latitude": -14.731818607569153,
+      "longitude": 45.86302622003964,
+      "fixed": false
+    },
+    {
+      "id": "node-536",
+      "name": "Unknown",
+      "latitude": 10.368744545768621,
+      "longitude": -43.122982961895076,
+      "fixed": false
+    },
+    {
+      "id": "node-537",
+      "name": "Unknown",
+      "latitude": 27.858130941627266,
+      "longitude": -122.01155190273539,
+      "fixed": false
+    },
+    {
+      "id": "node-538",
+      "name": "Unknown",
+      "latitude": 37.458003927033374,
+      "longitude": 23.690948827087652,
+      "fixed": false
+    },
+    {
+      "id": "node-539",
+      "name": "Unknown",
+      "latitude": 53.27024591099095,
+      "longitude": -142.76152970119068,
+      "fixed": false
+    },
+    {
+      "id": "node-540",
+      "name": "Unknown",
+      "latitude": -29.598474894607932,
+      "longitude": 13.891368417374736,
+      "fixed": false
+    },
+    {
+      "id": "node-541",
+      "name": "Unknown",
+      "latitude": -77.94870050751298,
+      "longitude": -169.33562889426497,
+      "fixed": false
+    },
+    {
+      "id": "node-542",
+      "name": "Libya",
+      "latitude": 21.681671351599263,
+      "longitude": 23.938416341222933,
+      "fixed": false
+    },
+    {
+      "id": "node-543",
+      "name": "Unknown",
+      "latitude": -9.073407028581002,
+      "longitude": -10.652383757417113,
+      "fixed": false
+    },
+    {
+      "id": "node-544",
+      "name": "Unknown",
+      "latitude": 7.447704576143252,
+      "longitude": -98.51396017591898,
+      "fixed": false
+    },
+    {
+      "id": "node-545",
+      "name": "Unknown",
+      "latitude": -62.87732989114745,
+      "longitude": 54.30791269699645,
+      "fixed": false
+    },
+    {
+      "id": "node-546",
+      "name": "Antarctica",
+      "latitude": -84.19966895478713,
+      "longitude": -120.29065135400276,
+      "fixed": false
+    },
+    {
+      "id": "node-547",
+      "name": "Unknown",
+      "latitude": -63.855860871933444,
+      "longitude": -140.16343505951227,
+      "fixed": false
+    },
+    {
+      "id": "node-548",
+      "name": "Namibia",
+      "latitude": -19.645919702281688,
+      "longitude": 13.227268178471263,
+      "fixed": false
+    },
+    {
+      "id": "node-549",
+      "name": "Unknown",
+      "latitude": 49.794379857645424,
+      "longitude": 148.24389048075284,
+      "fixed": false
+    },
+    {
+      "id": "node-550",
+      "name": "Brazil",
+      "latitude": -8.44376701601142,
+      "longitude": -52.41437857890379,
+      "fixed": false
+    },
+    {
+      "id": "node-551",
+      "name": "Unknown",
+      "latitude": -6.391385192422021,
+      "longitude": 125.97275479560369,
+      "fixed": false
+    },
+    {
+      "id": "node-552",
+      "name": "Unknown",
+      "latitude": -20.848399503059085,
+      "longitude": -93.14438267172204,
+      "fixed": false
+    },
+    {
+      "id": "node-553",
+      "name": "Myanmar",
+      "latitude": 21.272819451417874,
+      "longitude": 92.62249738936714,
+      "fixed": false
+    },
+    {
+      "id": "node-554",
+      "name": "Unknown",
+      "latitude": -63.1049110032481,
+      "longitude": -81.31598995611246,
+      "fixed": false
+    },
+    {
+      "id": "node-555",
+      "name": "Unknown",
+      "latitude": 14.46649511627578,
+      "longitude": -96.10151659793779,
+      "fixed": false
+    },
+    {
+      "id": "node-556",
+      "name": "Norway",
+      "latitude": 78.23625924729521,
+      "longitude": 13.731114245533377,
+      "fixed": false
+    },
+    {
+      "id": "node-557",
+      "name": "Unknown",
+      "latitude": -43.10621872625149,
+      "longitude": -102.144427883012,
+      "fixed": false
+    },
+    {
+      "id": "node-558",
+      "name": "Unknown",
+      "latitude": -52.328660619742315,
+      "longitude": 132.5104238565334,
+      "fixed": false
+    },
+    {
+      "id": "node-559",
+      "name": "Canada",
+      "latitude": 65.80183225272367,
+      "longitude": -70.88298872617911,
+      "fixed": false
+    },
+    {
+      "id": "node-560",
+      "name": "Unknown",
+      "latitude": -64.15214804317262,
+      "longitude": 108.22817930660244,
+      "fixed": false
+    },
+    {
+      "id": "node-561",
+      "name": "Unknown",
+      "latitude": 25.83231948577624,
+      "longitude": 124.41008900670329,
+      "fixed": false
+    },
+    {
+      "id": "node-562",
+      "name": "Canada",
+      "latitude": 65.67322733187763,
+      "longitude": -88.60459748496626,
+      "fixed": false
+    },
+    {
+      "id": "node-563",
+      "name": "Unknown",
+      "latitude": -38.2246940325074,
+      "longitude": 67.52502729164686,
+      "fixed": false
+    },
+    {
+      "id": "node-564",
+      "name": "Unknown",
+      "latitude": 87.91419521028482,
+      "longitude": 100.05185698404773,
+      "fixed": false
+    },
+    {
+      "id": "node-565",
+      "name": "Unknown",
+      "latitude": -61.43667320465447,
+      "longitude": -56.54412334551277,
+      "fixed": false
+    },
+    {
+      "id": "node-566",
+      "name": "Unknown",
+      "latitude": -40.639753109182706,
+      "longitude": -60.43827301220023,
+      "fixed": false
+    },
+    {
+      "id": "node-567",
+      "name": "Unknown",
+      "latitude": -33.6771656892217,
+      "longitude": -82.93762192471974,
+      "fixed": false
+    },
+    {
+      "id": "node-568",
+      "name": "Unknown",
+      "latitude": -66.46161676727196,
+      "longitude": -50.782571902958495,
+      "fixed": false
+    },
+    {
+      "id": "node-569",
+      "name": "Unknown",
+      "latitude": -15.827743028802061,
+      "longitude": 177.63607343771366,
+      "fixed": false
+    },
+    {
+      "id": "node-570",
+      "name": "Unknown",
+      "latitude": -2.088831289281586,
+      "longitude": -4.931748995483076,
+      "fixed": false
+    },
+    {
+      "id": "node-571",
+      "name": "Unknown",
+      "latitude": -70.94556935844395,
+      "longitude": 70.6784262713685,
+      "fixed": false
+    },
+    {
+      "id": "node-572",
+      "name": "Russia",
+      "latitude": 63.44075261396134,
+      "longitude": 41.382502725472335,
+      "fixed": false
+    },
+    {
+      "id": "node-573",
+      "name": "Unknown",
+      "latitude": -47.61222182967531,
+      "longitude": -81.79295497862212,
+      "fixed": false
+    },
+    {
+      "id": "node-574",
+      "name": "Unknown",
+      "latitude": -10.771758423878438,
+      "longitude": 136.1965913232064,
+      "fixed": false
+    },
+    {
+      "id": "node-575",
+      "name": "Unknown",
+      "latitude": -21.42466955984348,
+      "longitude": -147.70115981789013,
+      "fixed": false
+    },
+    {
+      "id": "node-576",
+      "name": "Unknown",
+      "latitude": 10.752043815461548,
+      "longitude": -109.19711512070747,
+      "fixed": false
+    },
+    {
+      "id": "node-577",
+      "name": "Unknown",
+      "latitude": -37.769729247919244,
+      "longitude": 111.16990095136168,
+      "fixed": false
+    },
+    {
+      "id": "node-578",
+      "name": "Antarctica",
+      "latitude": -82.46432163562784,
+      "longitude": -67.21856830310936,
+      "fixed": false
+    },
+    {
+      "id": "node-579",
+      "name": "Unknown",
+      "latitude": -22.787270738838913,
+      "longitude": -39.77869505498276,
+      "fixed": false
+    },
+    {
+      "id": "node-580",
+      "name": "Russia",
+      "latitude": 69.07997250267346,
+      "longitude": 72.5555374757576,
+      "fixed": false
+    },
+    {
+      "id": "node-581",
+      "name": "Unknown",
+      "latitude": 68.13522285475202,
+      "longitude": 7.042357806274765,
+      "fixed": false
+    },
+    {
+      "id": "node-582",
+      "name": "Unknown",
+      "latitude": -26.559583350841848,
+      "longitude": -159.20539489795814,
+      "fixed": false
+    },
+    {
+      "id": "node-583",
+      "name": "Unknown",
+      "latitude": 32.17543404844781,
+      "longitude": -135.69397138418844,
+      "fixed": false
+    },
+    {
+      "id": "node-584",
+      "name": "Unknown",
+      "latitude": 72.54636995884209,
+      "longitude": 56.741385067267686,
+      "fixed": false
+    },
+    {
+      "id": "node-585",
+      "name": "United States of America",
+      "latitude": 39.49748244407809,
+      "longitude": -79.47741373353227,
+      "fixed": false
+    },
+    {
+      "id": "node-586",
+      "name": "Unknown",
+      "latitude": 12.872735228783654,
+      "longitude": 127.98836840287129,
+      "fixed": false
+    },
+    {
+      "id": "node-587",
+      "name": "Unknown",
+      "latitude": 51.87957599326259,
+      "longitude": -133.4441296190756,
+      "fixed": false
+    },
+    {
+      "id": "node-588",
+      "name": "Unknown",
+      "latitude": -54.486473627638304,
+      "longitude": 70.91607661349514,
+      "fixed": false
+    },
+    {
+      "id": "node-589",
+      "name": "Kenya",
+      "latitude": -1.1865702453634697,
+      "longitude": 41.14792367626006,
+      "fixed": false
+    },
+    {
+      "id": "node-590",
+      "name": "Unknown",
+      "latitude": -11.184078297972349,
+      "longitude": -130.96815674869063,
+      "fixed": false
+    },
+    {
+      "id": "node-591",
+      "name": "Unknown",
+      "latitude": -62.66646575419352,
+      "longitude": -62.62125462892652,
+      "fixed": false
+    },
+    {
+      "id": "node-592",
+      "name": "Russia",
+      "latitude": 54.32607192926457,
+      "longitude": 44.42638985253353,
+      "fixed": false
+    },
+    {
+      "id": "node-593",
+      "name": "Unknown",
+      "latitude": -16.513642960131875,
+      "longitude": 113.43149942193816,
+      "fixed": false
+    },
+    {
+      "id": "node-594",
+      "name": "Canada",
+      "latitude": 53.61039696884984,
+      "longitude": -110.29069499142496,
+      "fixed": false
+    },
+    {
+      "id": "node-595",
+      "name": "United Kingdom",
+      "latitude": 56.70656300574521,
+      "longitude": -5.204665346388822,
+      "fixed": false
+    },
+    {
+      "id": "node-596",
+      "name": "Canada",
+      "latitude": 62.12393380243708,
+      "longitude": -113.82447415931026,
+      "fixed": false
+    },
+    {
+      "id": "node-597",
+      "name": "Greenland",
+      "latitude": 77.33759982625361,
+      "longitude": -61.575166015524005,
+      "fixed": false
+    },
+    {
+      "id": "node-598",
+      "name": "Unknown",
+      "latitude": 38.27154437220199,
+      "longitude": -36.55576769060363,
+      "fixed": false
+    },
+    {
+      "id": "node-599",
+      "name": "Unknown",
+      "latitude": 12.220641685061409,
+      "longitude": -166.8937032819242,
+      "fixed": false
+    },
+    {
+      "id": "node-600",
+      "name": "Unknown",
+      "latitude": -33.56141451123434,
+      "longitude": -8.956780766661552,
+      "fixed": false
+    },
+    {
+      "id": "node-601",
+      "name": "Unknown",
+      "latitude": -65.97422560067733,
+      "longitude": -67.7638693249806,
+      "fixed": false
+    },
+    {
+      "id": "node-602",
+      "name": "Unknown",
+      "latitude": -30.696840705975212,
+      "longitude": 179.00331571968496,
+      "fixed": false
+    },
+    {
+      "id": "node-603",
+      "name": "Unknown",
+      "latitude": -10.391887908923877,
+      "longitude": 103.24360590813416,
+      "fixed": false
+    },
+    {
+      "id": "node-604",
+      "name": "Unknown",
+      "latitude": -57.029569020037236,
+      "longitude": -117.34833605837196,
+      "fixed": false
+    },
+    {
+      "id": "node-605",
+      "name": "Unknown",
+      "latitude": -34.101329982334356,
+      "longitude": 77.95498067909489,
+      "fixed": false
+    },
+    {
+      "id": "node-606",
+      "name": "Unknown",
+      "latitude": 35.46272809097418,
+      "longitude": -146.40797422408548,
+      "fixed": false
+    },
+    {
+      "id": "node-607",
+      "name": "Unknown",
+      "latitude": 2.7965960791781868,
+      "longitude": 139.57547420958622,
+      "fixed": false
+    },
+    {
+      "id": "node-608",
+      "name": "Unknown",
+      "latitude": 6.366322443351038,
+      "longitude": -120.18977650438585,
+      "fixed": false
+    },
+    {
+      "id": "node-609",
+      "name": "Unknown",
+      "latitude": -30.01682402596962,
+      "longitude": -89.35567372534577,
+      "fixed": false
+    },
+    {
+      "id": "node-610",
+      "name": "Unknown",
+      "latitude": 61.58905517067154,
+      "longitude": 5.038973319483404,
+      "fixed": false
+    },
+    {
+      "id": "node-611",
+      "name": "Unknown",
+      "latitude": -28.256804725842983,
+      "longitude": 163.26463045520285,
+      "fixed": false
+    },
+    {
+      "id": "node-612",
+      "name": "Russia",
+      "latitude": 67.41374152962936,
+      "longitude": 34.34340046363542,
+      "fixed": false
+    },
+    {
+      "id": "node-613",
+      "name": "Unknown",
+      "latitude": 84.50199313938032,
+      "longitude": -32.497507730822775,
+      "fixed": false
+    },
+    {
+      "id": "node-614",
+      "name": "Unknown",
+      "latitude": 74.12493182166037,
+      "longitude": -132.11288316124305,
+      "fixed": false
+    },
+    {
+      "id": "node-615",
+      "name": "Unknown",
+      "latitude": 58.001036626481294,
+      "longitude": -174.7267434036758,
+      "fixed": false
+    },
+    {
+      "id": "node-616",
+      "name": "Unknown",
+      "latitude": 66.4718467277257,
+      "longitude": 35.67755485917547,
+      "fixed": false
+    },
+    {
+      "id": "node-617",
+      "name": "Unknown",
+      "latitude": -44.0556402407949,
+      "longitude": 97.15388105798252,
+      "fixed": false
+    },
+    {
+      "id": "node-618",
+      "name": "Unknown",
+      "latitude": 32.47914720276505,
+      "longitude": -144.96453043000756,
+      "fixed": false
+    },
+    {
+      "id": "node-619",
+      "name": "Unknown",
+      "latitude": -26.15541662874015,
+      "longitude": 101.36211613741312,
+      "fixed": false
+    },
+    {
+      "id": "node-620",
+      "name": "Sudan",
+      "latitude": 15.26812831050293,
+      "longitude": 30.19502290883719,
+      "fixed": false
+    },
+    {
+      "id": "node-621",
+      "name": "Unknown",
+      "latitude": 61.79962359138176,
+      "longitude": -13.751086319452213,
+      "fixed": false
+    },
+    {
+      "id": "node-622",
+      "name": "Unknown",
+      "latitude": -68.74359007410797,
+      "longitude": -76.82460701832161,
+      "fixed": false
+    },
+    {
+      "id": "node-623",
+      "name": "Antarctica",
+      "latitude": -70.82585564922763,
+      "longitude": 137.75060376344533,
+      "fixed": false
+    },
+    {
+      "id": "node-624",
+      "name": "Unknown",
+      "latitude": -7.16172495767772,
+      "longitude": -175.02147788003234,
+      "fixed": false
+    },
+    {
+      "id": "node-625",
+      "name": "Unknown",
+      "latitude": -52.80403541166045,
+      "longitude": 123.55343188567758,
+      "fixed": false
+    },
+    {
+      "id": "node-626",
+      "name": "Unknown",
+      "latitude": -49.24570889292815,
+      "longitude": 26.640663149634577,
+      "fixed": false
+    },
+    {
+      "id": "node-627",
+      "name": "Unknown",
+      "latitude": -48.70725973728395,
+      "longitude": -112.78785386722856,
+      "fixed": false
+    },
+    {
+      "id": "node-628",
+      "name": "Hungary",
+      "latitude": 46.8150930082283,
+      "longitude": 21.421863671469424,
+      "fixed": false
+    },
+    {
+      "id": "node-629",
+      "name": "Antarctica",
+      "latitude": -88.30341000753816,
+      "longitude": -151.9312891143808,
+      "fixed": false
+    },
+    {
+      "id": "node-630",
+      "name": "Unknown",
+      "latitude": -7.5777938145644725,
+      "longitude": -88.42761120610733,
+      "fixed": false
+    },
+    {
+      "id": "node-631",
+      "name": "Russia",
+      "latitude": 64.35341342312825,
+      "longitude": 91.91912951517804,
+      "fixed": false
+    },
+    {
+      "id": "node-632",
+      "name": "Unknown",
+      "latitude": 52.85069733134205,
+      "longitude": -152.11399403320507,
+      "fixed": false
+    },
+    {
+      "id": "node-633",
+      "name": "Unknown",
+      "latitude": -63.722938143039045,
+      "longitude": -99.45245296657494,
+      "fixed": false
+    },
+    {
+      "id": "node-634",
+      "name": "Unknown",
+      "latitude": -21.537580829516486,
+      "longitude": 89.92518311819947,
+      "fixed": false
+    },
+    {
+      "id": "node-635",
+      "name": "Canada",
+      "latitude": 63.24752995116151,
+      "longitude": -111.75143064424984,
+      "fixed": false
+    },
+    {
+      "id": "node-636",
+      "name": "Argentina",
+      "latitude": -35.95896486765133,
+      "longitude": -62.306525388066035,
+      "fixed": false
+    },
+    {
+      "id": "node-637",
+      "name": "United States of America",
+      "latitude": 31.930510176341684,
+      "longitude": -87.97897193242736,
+      "fixed": false
+    },
+    {
+      "id": "node-638",
+      "name": "Iran",
+      "latitude": 33.84305653240396,
+      "longitude": 49.072507731557806,
+      "fixed": false
+    },
+    {
+      "id": "node-639",
+      "name": "Unknown",
+      "latitude": -54.65704061085931,
+      "longitude": 106.37730427910975,
+      "fixed": false
+    },
+    {
+      "id": "node-640",
+      "name": "Unknown",
+      "latitude": -35.64597416340517,
+      "longitude": -31.30704060073907,
+      "fixed": false
+    },
+    {
+      "id": "node-641",
+      "name": "Russia",
+      "latitude": 59.419177099437945,
+      "longitude": 93.16667609357046,
+      "fixed": false
+    },
+    {
+      "id": "node-642",
+      "name": "Unknown",
+      "latitude": 82.11490049782128,
+      "longitude": 37.86809410056682,
+      "fixed": false
+    },
+    {
+      "id": "node-643",
+      "name": "Unknown",
+      "latitude": 13.953504222742879,
+      "longitude": -165.0092242483317,
+      "fixed": false
+    },
+    {
+      "id": "node-644",
+      "name": "Unknown",
+      "latitude": -7.835611790642801,
+      "longitude": 136.46111600581213,
+      "fixed": false
+    },
+    {
+      "id": "node-645",
+      "name": "Unknown",
+      "latitude": 12.346329096444236,
+      "longitude": -80.43722428260227,
+      "fixed": false
+    },
+    {
+      "id": "node-646",
+      "name": "Canada",
+      "latitude": 59.22560079420586,
+      "longitude": -76.01918421157816,
+      "fixed": false
+    },
+    {
+      "id": "node-647",
+      "name": "Unknown",
+      "latitude": 25.39911400543646,
+      "longitude": 159.52768241205104,
+      "fixed": false
+    },
+    {
+      "id": "node-648",
+      "name": "Unknown",
+      "latitude": -5.476336926913717,
+      "longitude": 157.00337203479353,
+      "fixed": false
+    },
+    {
+      "id": "node-649",
+      "name": "Unknown",
+      "latitude": -38.48136180101852,
+      "longitude": 89.364301732098,
+      "fixed": false
+    },
+    {
+      "id": "node-650",
+      "name": "Unknown",
+      "latitude": 67.07114546053234,
+      "longitude": -11.017074473547808,
+      "fixed": false
+    },
+    {
+      "id": "node-651",
+      "name": "Unknown",
+      "latitude": -65.38684374248774,
+      "longitude": 96.03421440581712,
+      "fixed": false
+    },
+    {
+      "id": "node-652",
+      "name": "Unknown",
+      "latitude": -26.80063527997258,
+      "longitude": 51.22715645226444,
+      "fixed": false
+    },
+    {
+      "id": "node-653",
+      "name": "Unknown",
+      "latitude": -34.73153618898476,
+      "longitude": -159.81361116296787,
+      "fixed": false
+    },
+    {
+      "id": "node-654",
+      "name": "Saudi Arabia",
+      "latitude": 27.77058968058728,
+      "longitude": 47.57508713237013,
+      "fixed": false
+    },
+    {
+      "id": "node-655",
+      "name": "Antarctica",
+      "latitude": -76.37042256334931,
+      "longitude": 152.91921248116233,
+      "fixed": false
+    },
+    {
+      "id": "node-656",
+      "name": "Unknown",
+      "latitude": -67.52180872633028,
+      "longitude": 66.58072390900071,
+      "fixed": false
+    },
+    {
+      "id": "node-657",
+      "name": "Unknown",
+      "latitude": -48.499376345176564,
+      "longitude": -142.04692845607613,
+      "fixed": false
+    },
+    {
+      "id": "node-658",
+      "name": "Unknown",
+      "latitude": 82.70904513957899,
+      "longitude": -113.95426974540563,
+      "fixed": false
+    },
+    {
+      "id": "node-659",
+      "name": "Unknown",
+      "latitude": 85.25656113983746,
+      "longitude": 77.2581951849699,
+      "fixed": false
+    },
+    {
+      "id": "node-660",
+      "name": "Unknown",
+      "latitude": 85.07886634373008,
+      "longitude": 18.03838190616375,
+      "fixed": false
+    },
+    {
+      "id": "node-661",
+      "name": "Unknown",
+      "latitude": 6.50596821850786,
+      "longitude": -33.05322149587428,
+      "fixed": false
+    },
+    {
+      "id": "node-662",
+      "name": "Zambia",
+      "latitude": -14.609274921194952,
+      "longitude": 27.252421478752012,
+      "fixed": false
+    },
+    {
+      "id": "node-663",
+      "name": "South Africa",
+      "latitude": -27.92864834980687,
+      "longitude": 29.62426587154374,
+      "fixed": false
+    },
+    {
+      "id": "node-664",
+      "name": "Uzbekistan",
+      "latitude": 40.40518937668571,
+      "longitude": 66.36310319641245,
+      "fixed": false
+    },
+    {
+      "id": "node-665",
+      "name": "Unknown",
+      "latitude": -41.564239265347446,
+      "longitude": 162.63352909860868,
+      "fixed": false
+    },
+    {
+      "id": "node-666",
+      "name": "Egypt",
+      "latitude": 26.378891791654908,
+      "longitude": 29.211236230184767,
+      "fixed": false
+    },
+    {
+      "id": "node-667",
+      "name": "Antarctica",
+      "latitude": -68.55491559348698,
+      "longitude": 142.41893984866346,
+      "fixed": false
+    },
+    {
+      "id": "node-668",
+      "name": "Unknown",
+      "latitude": -15.775171511351672,
+      "longitude": 111.22126023516381,
+      "fixed": false
+    },
+    {
+      "id": "node-669",
+      "name": "Unknown",
+      "latitude": 89.43714482909175,
+      "longitude": 37.43038708246502,
+      "fixed": false
+    },
+    {
+      "id": "node-670",
+      "name": "Brazil",
+      "latitude": 0.09458868490295913,
+      "longitude": -53.57722225520591,
+      "fixed": false
+    },
+    {
+      "id": "node-671",
+      "name": "Dem. Rep. Congo",
+      "latitude": 1.9181350721087966,
+      "longitude": 22.9494218202488,
+      "fixed": false
+    },
+    {
+      "id": "node-672",
+      "name": "Unknown",
+      "latitude": -53.55932510747238,
+      "longitude": -11.098319526577882,
+      "fixed": false
+    },
+    {
+      "id": "node-673",
+      "name": "Canada",
+      "latitude": 65.86346243548874,
+      "longitude": -95.39928810835569,
+      "fixed": false
+    },
+    {
+      "id": "node-674",
+      "name": "Antarctica",
+      "latitude": -75.34977576476616,
+      "longitude": -126.17687214405927,
+      "fixed": false
+    },
+    {
+      "id": "node-675",
+      "name": "Antarctica",
+      "latitude": -68.42811510876393,
+      "longitude": 80.21000341358337,
+      "fixed": false
+    },
+    {
+      "id": "node-676",
+      "name": "Unknown",
+      "latitude": -2.980250460771458,
+      "longitude": -126.0307571290947,
+      "fixed": false
+    },
+    {
+      "id": "node-677",
+      "name": "Unknown",
+      "latitude": -28.890604021688723,
+      "longitude": -32.21649716853389,
+      "fixed": false
+    },
+    {
+      "id": "node-678",
+      "name": "Unknown",
+      "latitude": 17.507402240873716,
+      "longitude": 127.3615363408336,
+      "fixed": false
+    },
+    {
+      "id": "node-679",
+      "name": "Unknown",
+      "latitude": -59.30360723939826,
+      "longitude": -126.77911927605984,
+      "fixed": false
+    },
+    {
+      "id": "node-680",
+      "name": "Unknown",
+      "latitude": -2.3706881269697107,
+      "longitude": 84.3609112870983,
+      "fixed": false
+    },
+    {
+      "id": "node-681",
+      "name": "Angola",
+      "latitude": -9.856420731064446,
+      "longitude": 18.377564487699402,
+      "fixed": false
+    },
+    {
+      "id": "node-682",
+      "name": "Unknown",
+      "latitude": 4.191240069578257,
+      "longitude": -172.00019470991597,
+      "fixed": false
+    },
+    {
+      "id": "node-683",
+      "name": "Russia",
+      "latitude": 69.43656609645956,
+      "longitude": 138.2390520403497,
+      "fixed": false
+    },
+    {
+      "id": "node-684",
+      "name": "Unknown",
+      "latitude": 51.533028116471314,
+      "longitude": -170.25765788893992,
+      "fixed": false
+    },
+    {
+      "id": "node-685",
+      "name": "United States of America",
+      "latitude": 29.772119569155294,
+      "longitude": -102.698651471241,
+      "fixed": false
+    },
+    {
+      "id": "node-686",
+      "name": "Unknown",
+      "latitude": 7.995317351931632,
+      "longitude": 149.84194828585657,
+      "fixed": false
+    },
+    {
+      "id": "node-687",
+      "name": "Unknown",
+      "latitude": 44.7772624854519,
+      "longitude": 35.16006826230472,
+      "fixed": false
+    },
+    {
+      "id": "node-688",
+      "name": "Antarctica",
+      "latitude": -84.82025931004287,
+      "longitude": 114.52474457833091,
+      "fixed": false
+    },
+    {
+      "id": "node-689",
+      "name": "Unknown",
+      "latitude": -76.06055918643663,
+      "longitude": -154.38607266217826,
+      "fixed": false
+    },
+    {
+      "id": "node-690",
+      "name": "Russia",
+      "latitude": 54.82212169496677,
+      "longitude": 115.9185430391305,
+      "fixed": false
+    },
+    {
+      "id": "node-691",
+      "name": "Unknown",
+      "latitude": -61.818740169368944,
+      "longitude": -179.99608940815102,
+      "fixed": false
+    },
+    {
+      "id": "node-692",
+      "name": "Unknown",
+      "latitude": -62.5115359563155,
+      "longitude": -77.07916061768267,
+      "fixed": false
+    },
+    {
+      "id": "node-693",
+      "name": "Unknown",
+      "latitude": 76.61879194536206,
+      "longitude": -75.39306985874877,
+      "fixed": false
+    },
+    {
+      "id": "node-694",
+      "name": "Unknown",
+      "latitude": -40.93884912169612,
+      "longitude": 157.5215151043031,
+      "fixed": false
+    },
+    {
+      "id": "node-695",
+      "name": "Unknown",
+      "latitude": -33.07272488036373,
+      "longitude": -50.83318533194395,
+      "fixed": false
+    },
+    {
+      "id": "node-696",
+      "name": "Kenya",
+      "latitude": -2.0885891152773723,
+      "longitude": 40.35692849317775,
+      "fixed": false
+    },
+    {
+      "id": "node-697",
+      "name": "Unknown",
+      "latitude": 32.380634488465105,
+      "longitude": -132.03172741535488,
+      "fixed": false
+    },
+    {
+      "id": "node-698",
+      "name": "Unknown",
+      "latitude": 59.386747314260106,
+      "longitude": -0.9173605295619041,
+      "fixed": false
+    },
+    {
+      "id": "node-699",
+      "name": "Canada",
+      "latitude": 64.72486269630247,
+      "longitude": -109.42629156558121,
+      "fixed": false
+    },
+    {
+      "id": "node-700",
+      "name": "Unknown",
+      "latitude": 15.017294936525943,
+      "longitude": 137.9760953455787,
+      "fixed": false
+    },
+    {
+      "id": "node-701",
+      "name": "Unknown",
+      "latitude": 2.24138762163156,
+      "longitude": -115.97406773247081,
+      "fixed": false
+    },
+    {
+      "id": "node-702",
+      "name": "Unknown",
+      "latitude": -22.700816977903003,
+      "longitude": 40.29382591290033,
+      "fixed": false
+    },
+    {
+      "id": "node-703",
+      "name": "Unknown",
+      "latitude": -73.23679158199552,
+      "longitude": -30.803275381410515,
+      "fixed": false
+    },
+    {
+      "id": "node-704",
+      "name": "Unknown",
+      "latitude": -34.88468989553661,
+      "longitude": -147.93460496560354,
+      "fixed": false
+    },
+    {
+      "id": "node-705",
+      "name": "South Africa",
+      "latitude": -24.420750813383492,
+      "longitude": 29.650117075806804,
+      "fixed": false
+    },
+    {
+      "id": "node-706",
+      "name": "Unknown",
+      "latitude": 40.90081264183323,
+      "longitude": 138.59481099694926,
+      "fixed": false
+    },
+    {
+      "id": "node-707",
+      "name": "Unknown",
+      "latitude": 18.713333987373446,
+      "longitude": 70.95880153266802,
+      "fixed": false
+    },
+    {
+      "id": "node-708",
+      "name": "Unknown",
+      "latitude": 85.73597039884189,
+      "longitude": 70.5003664108057,
+      "fixed": false
+    },
+    {
+      "id": "node-709",
+      "name": "Unknown",
+      "latitude": -12.253154675384991,
+      "longitude": -160.364287047176,
+      "fixed": false
+    },
+    {
+      "id": "node-710",
+      "name": "Antarctica",
+      "latitude": -84.91020223431735,
+      "longitude": 63.36269501133296,
+      "fixed": false
+    },
+    {
+      "id": "node-711",
+      "name": "Unknown",
+      "latitude": -34.741746079500516,
+      "longitude": -177.45865322844307,
+      "fixed": false
+    },
+    {
+      "id": "node-712",
+      "name": "Unknown",
+      "latitude": -24.403822965612292,
+      "longitude": -10.421853246804005,
+      "fixed": false
+    },
+    {
+      "id": "node-713",
+      "name": "Unknown",
+      "latitude": -20.287439269768285,
+      "longitude": 162.9136348924394,
+      "fixed": false
+    },
+    {
+      "id": "node-714",
+      "name": "Unknown",
+      "latitude": -28.300639666201192,
+      "longitude": 64.40692973717472,
+      "fixed": false
+    },
+    {
+      "id": "node-715",
+      "name": "Unknown",
+      "latitude": -17.466639816621125,
+      "longitude": 54.68540795942087,
+      "fixed": false
+    },
+    {
+      "id": "node-716",
+      "name": "United States of America",
+      "latitude": 32.152788655827294,
+      "longitude": -82.97464998679703,
+      "fixed": false
+    },
+    {
+      "id": "node-717",
+      "name": "Unknown",
+      "latitude": -35.93740699792774,
+      "longitude": 27.20997950134452,
+      "fixed": false
+    },
+    {
+      "id": "node-718",
+      "name": "Unknown",
+      "latitude": 89.59542072865321,
+      "longitude": 20.788893047920624,
+      "fixed": false
+    },
+    {
+      "id": "node-719",
+      "name": "Unknown",
+      "latitude": 5.593558610068598,
+      "longitude": 91.42413239705257,
+      "fixed": false
+    },
+    {
+      "id": "node-720",
+      "name": "Unknown",
+      "latitude": 13.461303189596919,
+      "longitude": -125.8894424704551,
+      "fixed": false
+    },
+    {
+      "id": "node-721",
+      "name": "Unknown",
+      "latitude": -1.986890730612771,
+      "longitude": 90.40252264201536,
+      "fixed": false
+    },
+    {
+      "id": "node-722",
+      "name": "Lebanon",
+      "latitude": 34.50958731918078,
+      "longitude": 35.92924736811108,
+      "fixed": false
+    },
+    {
+      "id": "node-723",
+      "name": "Antarctica",
+      "latitude": -89.32470274574644,
+      "longitude": 28.03143306035207,
+      "fixed": false
+    },
+    {
+      "id": "node-724",
+      "name": "Unknown",
+      "latitude": 46.12772106433803,
+      "longitude": -48.93397213087607,
+      "fixed": false
+    },
+    {
+      "id": "node-725",
+      "name": "Unknown",
+      "latitude": -80.47333322367287,
+      "longitude": -149.25795634971442,
+      "fixed": false
+    },
+    {
+      "id": "node-726",
+      "name": "Russia",
+      "latitude": 63.96103263389301,
+      "longitude": 176.8518975774689,
+      "fixed": false
+    },
+    {
+      "id": "node-727",
+      "name": "Unknown",
+      "latitude": -46.35062770819455,
+      "longitude": 105.69860124973366,
+      "fixed": false
+    },
+    {
+      "id": "node-728",
+      "name": "Antarctica",
+      "latitude": -74.56343707430801,
+      "longitude": 116.53533650554778,
+      "fixed": false
+    },
+    {
+      "id": "node-729",
+      "name": "Unknown",
+      "latitude": -69.31601907991184,
+      "longitude": -32.445901967086314,
+      "fixed": false
+    },
+    {
+      "id": "node-730",
+      "name": "Antarctica",
+      "latitude": -72.5609305714207,
+      "longitude": 22.227143283800473,
+      "fixed": false
+    },
+    {
+      "id": "node-731",
+      "name": "China",
+      "latitude": 26.752254667951803,
+      "longitude": 113.22094685429227,
+      "fixed": false
+    },
+    {
+      "id": "node-732",
+      "name": "Unknown",
+      "latitude": -35.92079199155297,
+      "longitude": -123.25456936863603,
+      "fixed": false
+    },
+    {
+      "id": "node-733",
+      "name": "Unknown",
+      "latitude": 87.16783870633807,
+      "longitude": -179.03095476081276,
+      "fixed": false
+    },
+    {
+      "id": "node-734",
+      "name": "Unknown",
+      "latitude": -21.89904761063785,
+      "longitude": 160.86259042059038,
+      "fixed": false
+    },
+    {
+      "id": "node-735",
+      "name": "China",
+      "latitude": 46.4580583357735,
+      "longitude": 117.14594039240552,
+      "fixed": false
+    },
+    {
+      "id": "node-736",
+      "name": "Unknown",
+      "latitude": 11.015276326862733,
+      "longitude": -62.88797144256287,
+      "fixed": false
+    },
+    {
+      "id": "node-737",
+      "name": "Unknown",
+      "latitude": -65.95299966229248,
+      "longitude": 131.43201854917817,
+      "fixed": false
+    },
+    {
+      "id": "node-738",
+      "name": "Unknown",
+      "latitude": -46.81149302293019,
+      "longitude": -65.80163892469825,
+      "fixed": false
+    },
+    {
+      "id": "node-739",
+      "name": "Unknown",
+      "latitude": 51.07310156659446,
+      "longitude": 177.3760516630963,
+      "fixed": false
+    },
+    {
+      "id": "node-740",
+      "name": "Unknown",
+      "latitude": -54.64295416627029,
+      "longitude": -99.22014446054757,
+      "fixed": false
+    },
+    {
+      "id": "node-741",
+      "name": "Unknown",
+      "latitude": 28.78713479109119,
+      "longitude": -116.04681804127829,
+      "fixed": false
+    },
+    {
+      "id": "node-742",
+      "name": "Unknown",
+      "latitude": -10.759442422438468,
+      "longitude": -6.164403282073266,
+      "fixed": false
+    },
+    {
+      "id": "node-743",
+      "name": "Unknown",
+      "latitude": -13.106429429681782,
+      "longitude": -174.56215231616451,
+      "fixed": false
+    },
+    {
+      "id": "node-744",
+      "name": "Unknown",
+      "latitude": 14.186130383980668,
+      "longitude": -24.43380830693431,
+      "fixed": false
+    },
+    {
+      "id": "node-745",
+      "name": "Greenland",
+      "latitude": 75.31645366470704,
+      "longitude": -51.08421008870903,
+      "fixed": false
+    },
+    {
+      "id": "node-746",
+      "name": "Unknown",
+      "latitude": 85.4914941523156,
+      "longitude": -16.00318480903755,
+      "fixed": false
+    },
+    {
+      "id": "node-747",
+      "name": "Yemen",
+      "latitude": 15.250006426946925,
+      "longitude": 50.11783428569191,
+      "fixed": false
+    },
+    {
+      "id": "node-748",
+      "name": "Unknown",
+      "latitude": 80.80627870323804,
+      "longitude": 157.31103733663076,
+      "fixed": false
+    },
+    {
+      "id": "node-749",
+      "name": "Unknown",
+      "latitude": -17.38587805807299,
+      "longitude": 111.01705286396356,
+      "fixed": false
+    },
+    {
+      "id": "node-750",
+      "name": "Unknown",
+      "latitude": 50.62338288195201,
+      "longitude": -174.7423697565226,
+      "fixed": false
+    },
+    {
+      "id": "node-751",
+      "name": "Unknown",
+      "latitude": 13.783045278042323,
+      "longitude": -130.558780976732,
+      "fixed": false
+    },
+    {
+      "id": "node-752",
+      "name": "Unknown",
+      "latitude": 55.11871084131769,
+      "longitude": -79.60985320899732,
+      "fixed": false
+    },
+    {
+      "id": "node-753",
+      "name": "Unknown",
+      "latitude": 33.08050395621744,
+      "longitude": -55.57349031119456,
+      "fixed": false
+    },
+    {
+      "id": "node-754",
+      "name": "United States of America",
+      "latitude": 44.47298212173271,
+      "longitude": -90.69515197256797,
+      "fixed": false
+    },
+    {
+      "id": "node-755",
+      "name": "Ukraine",
+      "latitude": 51.212187025454966,
+      "longitude": 24.630063089586713,
+      "fixed": false
+    },
+    {
+      "id": "node-756",
+      "name": "Canada",
+      "latitude": 58.14883753564672,
+      "longitude": -128.9305477358659,
+      "fixed": false
+    },
+    {
+      "id": "node-757",
+      "name": "Unknown",
+      "latitude": 9.917284035267372,
+      "longitude": 72.59676667607195,
+      "fixed": false
+    },
+    {
+      "id": "node-758",
+      "name": "Unknown",
+      "latitude": -78.96348469609542,
+      "longitude": -36.62226624898409,
+      "fixed": false
+    },
+    {
+      "id": "node-759",
+      "name": "Unknown",
+      "latitude": -19.575547976282053,
+      "longitude": -95.35290222279444,
+      "fixed": false
+    },
+    {
+      "id": "node-760",
+      "name": "Antarctica",
+      "latitude": -82.38285498466692,
+      "longitude": 91.69076149352526,
+      "fixed": false
+    },
+    {
+      "id": "node-761",
+      "name": "Unknown",
+      "latitude": -46.97644387591894,
+      "longitude": -92.8971736358841,
+      "fixed": false
+    },
+    {
+      "id": "node-762",
+      "name": "Russia",
+      "latitude": 67.39423611350878,
+      "longitude": 148.0423555846608,
+      "fixed": false
+    },
+    {
+      "id": "node-763",
+      "name": "Unknown",
+      "latitude": 83.52471661680752,
+      "longitude": 97.081673448414,
+      "fixed": false
+    },
+    {
+      "id": "node-764",
+      "name": "Unknown",
+      "latitude": 3.080559367587483,
+      "longitude": -165.27354703113414,
+      "fixed": false
+    },
+    {
+      "id": "node-765",
+      "name": "Unknown",
+      "latitude": -30.441148513089374,
+      "longitude": -12.3744689955046,
+      "fixed": false
+    },
+    {
+      "id": "node-766",
+      "name": "Unknown",
+      "latitude": -58.648128189528634,
+      "longitude": -55.71461031013531,
+      "fixed": false
+    },
+    {
+      "id": "node-767",
+      "name": "Unknown",
+      "latitude": 49.6187399226184,
+      "longitude": -163.5673071048103,
+      "fixed": false
+    },
+    {
+      "id": "node-768",
+      "name": "Unknown",
+      "latitude": 82.38416993244707,
+      "longitude": -149.07326580563944,
+      "fixed": false
+    },
+    {
+      "id": "node-769",
+      "name": "Cambodia",
+      "latitude": 12.338068885706107,
+      "longitude": 106.64781337863673,
+      "fixed": false
+    },
+    {
+      "id": "node-770",
+      "name": "Unknown",
+      "latitude": -67.78024568930769,
+      "longitude": -150.96912967154043,
+      "fixed": false
+    },
+    {
+      "id": "node-771",
+      "name": "Unknown",
+      "latitude": -67.9882234399479,
+      "longitude": -129.82912337271006,
+      "fixed": false
+    },
+    {
+      "id": "node-772",
+      "name": "Unknown",
+      "latitude": -46.34114013950795,
+      "longitude": -11.617213966025474,
+      "fixed": false
+    },
+    {
+      "id": "node-773",
+      "name": "Unknown",
+      "latitude": -33.838636240395346,
+      "longitude": -110.0489558145169,
+      "fixed": false
+    },
+    {
+      "id": "node-774",
+      "name": "Antarctica",
+      "latitude": -78.95353064897529,
+      "longitude": 12.197140105764248,
+      "fixed": false
+    },
+    {
+      "id": "node-775",
+      "name": "Unknown",
+      "latitude": -29.73518483679814,
+      "longitude": 57.13041628753925,
+      "fixed": false
+    },
+    {
+      "id": "node-776",
+      "name": "Unknown",
+      "latitude": -30.61163973552697,
+      "longitude": -110.20390893621412,
+      "fixed": false
+    },
+    {
+      "id": "node-777",
+      "name": "Unknown",
+      "latitude": -40.42827119760004,
+      "longitude": -152.1204559849789,
+      "fixed": false
+    },
+    {
+      "id": "node-778",
+      "name": "Unknown",
+      "latitude": -26.737445378736354,
+      "longitude": 50.67074530242144,
+      "fixed": false
+    },
+    {
+      "id": "node-779",
+      "name": "Unknown",
+      "latitude": 73.04041609060977,
+      "longitude": 51.67485303697305,
+      "fixed": false
+    },
+    {
+      "id": "node-780",
+      "name": "Unknown",
+      "latitude": 60.62333686474932,
+      "longitude": -15.494532793568055,
+      "fixed": false
+    },
+    {
+      "id": "node-781",
+      "name": "Antarctica",
+      "latitude": -77.60529629849907,
+      "longitude": 101.98086612808493,
+      "fixed": false
+    },
+    {
+      "id": "node-782",
+      "name": "Unknown",
+      "latitude": 89.54477257488932,
+      "longitude": -107.2348058320751,
+      "fixed": false
+    },
+    {
+      "id": "node-783",
+      "name": "Unknown",
+      "latitude": -17.536230643130324,
+      "longitude": 162.33622663113778,
+      "fixed": false
+    },
+    {
+      "id": "node-784",
+      "name": "Macedonia",
+      "latitude": 42.12450730197449,
+      "longitude": 21.362705040681504,
+      "fixed": false
+    },
+    {
+      "id": "node-785",
+      "name": "Antarctica",
+      "latitude": -73.78051072110826,
+      "longitude": -66.78904758554812,
+      "fixed": false
+    },
+    {
+      "id": "node-786",
+      "name": "Unknown",
+      "latitude": 78.40751889163857,
+      "longitude": 92.34289988987524,
+      "fixed": false
+    },
+    {
+      "id": "node-787",
+      "name": "Unknown",
+      "latitude": -15.758679704469586,
+      "longitude": 109.60677151781624,
+      "fixed": false
+    },
+    {
+      "id": "node-788",
+      "name": "Unknown",
+      "latitude": 23.24707461475751,
+      "longitude": 174.14314443768143,
+      "fixed": false
+    },
+    {
+      "id": "node-789",
+      "name": "Unknown",
+      "latitude": -9.296828509516544,
+      "longitude": 68.01407932042031,
+      "fixed": false
+    },
+    {
+      "id": "node-790",
+      "name": "Canada",
+      "latitude": 54.43601026464253,
+      "longitude": -71.95257185393811,
+      "fixed": false
+    },
+    {
+      "id": "node-791",
+      "name": "Unknown",
+      "latitude": -41.386779122396824,
+      "longitude": 96.17673137585183,
+      "fixed": false
+    },
+    {
+      "id": "node-792",
+      "name": "Unknown",
+      "latitude": 83.57905277006742,
+      "longitude": 34.21421948216877,
+      "fixed": false
+    },
+    {
+      "id": "node-793",
+      "name": "Unknown",
+      "latitude": -55.08912553515826,
+      "longitude": -27.164167998724963,
+      "fixed": false
+    },
+    {
+      "id": "node-794",
+      "name": "Unknown",
+      "latitude": -26.369705589512662,
+      "longitude": 109.491787393766,
+      "fixed": false
+    },
+    {
+      "id": "node-795",
+      "name": "Unknown",
+      "latitude": -16.272541989884786,
+      "longitude": 54.33645593045355,
+      "fixed": false
+    },
+    {
+      "id": "node-796",
+      "name": "Unknown",
+      "latitude": 83.7410920162896,
+      "longitude": -133.71537500793204,
+      "fixed": false
+    },
+    {
+      "id": "node-797",
+      "name": "Unknown",
+      "latitude": 83.31856586926008,
+      "longitude": 34.47738548946111,
+      "fixed": false
+    },
+    {
+      "id": "node-798",
+      "name": "Unknown",
+      "latitude": 21.004022671884556,
+      "longitude": -161.85447478677037,
+      "fixed": false
+    },
+    {
+      "id": "node-799",
+      "name": "Ukraine",
+      "latitude": 51.628677532284456,
+      "longitude": 33.50495454424404,
+      "fixed": false
+    },
+    {
+      "id": "node-800",
+      "name": "Unknown",
+      "latitude": 21.872668439743123,
+      "longitude": -160.83250738213448,
+      "fixed": false
+    },
+    {
+      "id": "node-801",
+      "name": "Unknown",
+      "latitude": 88.78189664268902,
+      "longitude": -126.92046912104232,
+      "fixed": false
+    },
+    {
+      "id": "node-802",
+      "name": "Unknown",
+      "latitude": -3.709124032845267,
+      "longitude": 110.21965389035137,
+      "fixed": false
+    },
+    {
+      "id": "node-803",
+      "name": "Botswana",
+      "latitude": -18.47764000816528,
+      "longitude": 23.827120166834703,
+      "fixed": false
+    },
+    {
+      "id": "node-804",
+      "name": "Unknown",
+      "latitude": -51.925318552132,
+      "longitude": 23.86283671932179,
+      "fixed": false
+    },
+    {
+      "id": "node-805",
+      "name": "Unknown",
+      "latitude": 4.638806351826034,
+      "longitude": 84.05249606760225,
+      "fixed": false
+    },
+    {
+      "id": "node-806",
+      "name": "Antarctica",
+      "latitude": -82.57768062159685,
+      "longitude": 61.159154309455005,
+      "fixed": false
+    },
+    {
+      "id": "node-807",
+      "name": "Unknown",
+      "latitude": 15.743343461838506,
+      "longitude": -34.50480471035161,
+      "fixed": false
+    },
+    {
+      "id": "node-808",
+      "name": "Myanmar",
+      "latitude": 22.740217793338942,
+      "longitude": 95.43094532735728,
+      "fixed": false
+    },
+    {
+      "id": "node-809",
+      "name": "Unknown",
+      "latitude": -21.363823450055804,
+      "longitude": -28.176196582537074,
+      "fixed": false
+    },
+    {
+      "id": "node-810",
+      "name": "Unknown",
+      "latitude": -47.2775292700703,
+      "longitude": -117.83119512122622,
+      "fixed": false
+    },
+    {
+      "id": "node-811",
+      "name": "Myanmar",
+      "latitude": 23.820834954150754,
+      "longitude": 95.5211373406795,
+      "fixed": false
+    },
+    {
+      "id": "node-812",
+      "name": "Unknown",
+      "latitude": -32.642594671053295,
+      "longitude": -129.0166450905319,
+      "fixed": false
+    },
+    {
+      "id": "node-813",
+      "name": "Unknown",
+      "latitude": -76.11514695601444,
+      "longitude": -68.29679934984969,
+      "fixed": false
+    },
+    {
+      "id": "node-814",
+      "name": "Unknown",
+      "latitude": -2.800335298156284,
+      "longitude": 7.299035357627645,
+      "fixed": false
+    },
+    {
+      "id": "node-815",
+      "name": "Unknown",
+      "latitude": 18.299909350664464,
+      "longitude": -21.472068614380248,
+      "fixed": false
+    },
+    {
+      "id": "node-816",
+      "name": "Unknown",
+      "latitude": -44.872138329984345,
+      "longitude": -153.21340189781148,
+      "fixed": false
+    },
+    {
+      "id": "node-817",
+      "name": "Antarctica",
+      "latitude": -70.40269545538547,
+      "longitude": 109.31690967773523,
+      "fixed": false
+    },
+    {
+      "id": "node-818",
+      "name": "Unknown",
+      "latitude": 22.522045812895698,
+      "longitude": 116.88200089047666,
+      "fixed": false
+    },
+    {
+      "id": "node-819",
+      "name": "Russia",
+      "latitude": 55.07224726789167,
+      "longitude": 113.62252121156871,
+      "fixed": false
+    },
+    {
+      "id": "node-820",
+      "name": "Unknown",
+      "latitude": -70.68603700470979,
+      "longitude": -94.4448222854615,
+      "fixed": false
+    },
+    {
+      "id": "node-821",
+      "name": "Central African Rep.",
+      "latitude": 7.98697730476195,
+      "longitude": 20.820708068456383,
+      "fixed": false
+    },
+    {
+      "id": "node-822",
+      "name": "Unknown",
+      "latitude": 15.68375741534578,
+      "longitude": -158.26719578463664,
+      "fixed": false
+    },
+    {
+      "id": "node-823",
+      "name": "Russia",
+      "latitude": 54.94721802231294,
+      "longitude": 64.67227390055538,
+      "fixed": false
+    },
+    {
+      "id": "node-824",
+      "name": "Unknown",
+      "latitude": -81.68367657276468,
+      "longitude": -170.3598663754556,
+      "fixed": false
+    },
+    {
+      "id": "node-825",
+      "name": "Botswana",
+      "latitude": -20.022905325951555,
+      "longitude": 26.444290243018827,
+      "fixed": false
+    },
+    {
+      "id": "node-826",
+      "name": "Antarctica",
+      "latitude": -77.05128466646639,
+      "longitude": 65.70212065331674,
+      "fixed": false
+    },
+    {
+      "id": "node-827",
+      "name": "Antarctica",
+      "latitude": -88.43647675470505,
+      "longitude": -35.57283554950129,
+      "fixed": false
+    },
+    {
+      "id": "node-828",
+      "name": "Unknown",
+      "latitude": 30.152356868893122,
+      "longitude": -172.53125459225527,
+      "fixed": false
+    },
+    {
+      "id": "node-829",
+      "name": "Russia",
+      "latitude": 54.98607562568438,
+      "longitude": 87.24908647812077,
+      "fixed": false
+    },
+    {
+      "id": "node-830",
+      "name": "Unknown",
+      "latitude": 49.42270419333883,
+      "longitude": 174.68199693664292,
+      "fixed": false
+    },
+    {
+      "id": "node-831",
+      "name": "Brazil",
+      "latitude": -4.946488226908883,
+      "longitude": -69.6155782766864,
+      "fixed": false
+    },
+    {
+      "id": "node-832",
+      "name": "Unknown",
+      "latitude": 42.458431350998495,
+      "longitude": -125.30671451717242,
+      "fixed": false
+    },
+    {
+      "id": "node-833",
+      "name": "Unknown",
+      "latitude": -71.69072835285027,
+      "longitude": -88.34566248535549,
+      "fixed": false
+    },
+    {
+      "id": "node-834",
+      "name": "Antarctica",
+      "latitude": -84.77306236626316,
+      "longitude": 156.93869759722315,
+      "fixed": false
+    },
+    {
+      "id": "node-835",
+      "name": "Australia",
+      "latitude": -33.343473656251675,
+      "longitude": 123.45209228303838,
+      "fixed": false
+    },
+    {
+      "id": "node-836",
+      "name": "Unknown",
+      "latitude": -49.257672098997126,
+      "longitude": -22.3201861343681,
+      "fixed": false
+    },
+    {
+      "id": "node-837",
+      "name": "Unknown",
+      "latitude": 45.393059278466524,
+      "longitude": -142.51884014969949,
+      "fixed": false
+    },
+    {
+      "id": "node-838",
+      "name": "Greenland",
+      "latitude": 73.38140763276826,
+      "longitude": -46.55497232089104,
+      "fixed": false
+    },
+    {
+      "id": "node-839",
+      "name": "Antarctica",
+      "latitude": -83.62232953104888,
+      "longitude": -138.9158676560833,
+      "fixed": false
+    },
+    {
+      "id": "node-840",
+      "name": "Unknown",
+      "latitude": -36.44905556982124,
+      "longitude": 47.8031320257862,
+      "fixed": false
+    },
+    {
+      "id": "node-841",
+      "name": "Unknown",
+      "latitude": -64.93281933149177,
+      "longitude": -126.82206138456934,
+      "fixed": false
+    },
+    {
+      "id": "node-842",
+      "name": "Unknown",
+      "latitude": -46.80892522250942,
+      "longitude": 145.8788201235073,
+      "fixed": false
+    },
+    {
+      "id": "node-843",
+      "name": "Unknown",
+      "latitude": 85.80826330144575,
+      "longitude": -114.81863214076542,
+      "fixed": false
+    },
+    {
+      "id": "node-844",
+      "name": "Guyana",
+      "latitude": 5.479820829257761,
+      "longitude": -60.7958291990808,
+      "fixed": false
+    },
+    {
+      "id": "node-845",
+      "name": "Unknown",
+      "latitude": 14.820926115181948,
+      "longitude": -119.70909222335678,
+      "fixed": false
+    },
+    {
+      "id": "node-846",
+      "name": "Unknown",
+      "latitude": 8.466637591909816,
+      "longitude": 157.66270545386863,
+      "fixed": false
+    },
+    {
+      "id": "node-847",
+      "name": "Antarctica",
+      "latitude": -83.94005320342433,
+      "longitude": -8.454836806413738,
+      "fixed": false
+    },
+    {
+      "id": "node-848",
+      "name": "Unknown",
+      "latitude": 59.091707287538725,
+      "longitude": 163.2561716647014,
+      "fixed": false
+    },
+    {
+      "id": "node-849",
+      "name": "Unknown",
+      "latitude": 21.240257608705022,
+      "longitude": 165.78857671056284,
+      "fixed": false
+    },
+    {
+      "id": "node-850",
+      "name": "Unknown",
+      "latitude": -15.854574561936374,
+      "longitude": 71.60398786999846,
+      "fixed": false
+    },
+    {
+      "id": "node-851",
+      "name": "Unknown",
+      "latitude": 23.331672177049953,
+      "longitude": -17.124996583517174,
+      "fixed": false
+    },
+    {
+      "id": "node-852",
+      "name": "Unknown",
+      "latitude": 79.8430531330608,
+      "longitude": 55.50247732352099,
+      "fixed": false
+    },
+    {
+      "id": "node-853",
+      "name": "China",
+      "latitude": 31.986256531621905,
+      "longitude": 95.94757632854748,
+      "fixed": false
+    },
+    {
+      "id": "node-854",
+      "name": "Unknown",
+      "latitude": 27.556049324667498,
+      "longitude": 157.8875082929423,
+      "fixed": false
+    },
+    {
+      "id": "node-855",
+      "name": "Unknown",
+      "latitude": -4.036137175106333,
+      "longitude": 3.7699771784436678,
+      "fixed": false
+    },
+    {
+      "id": "node-856",
+      "name": "Unknown",
+      "latitude": -42.054583416292644,
+      "longitude": -40.87696831485559,
+      "fixed": false
+    },
+    {
+      "id": "node-857",
+      "name": "Unknown",
+      "latitude": 17.07636371614744,
+      "longitude": 144.56251503226355,
+      "fixed": false
+    },
+    {
+      "id": "node-858",
+      "name": "Unknown",
+      "latitude": -19.916018247541373,
+      "longitude": 85.74377459248569,
+      "fixed": false
+    },
+    {
+      "id": "node-859",
+      "name": "Unknown",
+      "latitude": 67.16590174257797,
+      "longitude": -55.299230669808935,
+      "fixed": false
+    },
+    {
+      "id": "node-860",
+      "name": "Unknown",
+      "latitude": -28.813648544231867,
+      "longitude": -114.81066247542694,
+      "fixed": false
+    },
+    {
+      "id": "node-861",
+      "name": "Peru",
+      "latitude": -4.015666495589969,
+      "longitude": -70.52380634901026,
+      "fixed": false
+    },
+    {
+      "id": "node-862",
+      "name": "Spain",
+      "latitude": 42.50571125407896,
+      "longitude": -2.674643586698494,
+      "fixed": false
+    },
+    {
+      "id": "node-863",
+      "name": "Unknown",
+      "latitude": 28.344260104707374,
+      "longitude": -57.93405901827603,
+      "fixed": false
+    },
+    {
+      "id": "node-864",
+      "name": "Unknown",
+      "latitude": -50.39095078609799,
+      "longitude": -165.49935765071766,
+      "fixed": false
+    },
+    {
+      "id": "node-865",
+      "name": "Unknown",
+      "latitude": -1.5945802197064154,
+      "longitude": -32.19125652608088,
+      "fixed": false
+    },
+    {
+      "id": "node-866",
+      "name": "Unknown",
+      "latitude": -54.412226501424605,
+      "longitude": -94.25449171739261,
+      "fixed": false
+    },
+    {
+      "id": "node-867",
+      "name": "Unknown",
+      "latitude": -2.4967690140490504,
+      "longitude": -23.13135413066462,
+      "fixed": false
+    },
+    {
+      "id": "node-868",
+      "name": "Unknown",
+      "latitude": -7.234946441300565,
+      "longitude": -170.08741027569627,
+      "fixed": false
+    },
+    {
+      "id": "node-869",
+      "name": "Unknown",
+      "latitude": 61.00023499712671,
+      "longitude": -49.9825923661233,
+      "fixed": false
+    },
+    {
+      "id": "node-870",
+      "name": "Paraguay",
+      "latitude": -19.558412732990575,
+      "longitude": -59.09370493532067,
+      "fixed": false
+    },
+    {
+      "id": "node-871",
+      "name": "Peru",
+      "latitude": -9.457096416912862,
+      "longitude": -75.50077273591059,
+      "fixed": false
+    },
+    {
+      "id": "node-872",
+      "name": "Unknown",
+      "latitude": 4.528999202403739,
+      "longitude": -48.0482170398532,
+      "fixed": false
+    },
+    {
+      "id": "node-873",
+      "name": "Unknown",
+      "latitude": 5.755288307189133,
+      "longitude": 155.1418108808167,
+      "fixed": false
+    },
+    {
+      "id": "node-874",
+      "name": "United States of America",
+      "latitude": 38.68216314079402,
+      "longitude": -76.8148533992166,
+      "fixed": false
+    },
+    {
+      "id": "node-875",
+      "name": "Unknown",
+      "latitude": -20.12555163316597,
+      "longitude": 5.722781680847248,
+      "fixed": false
+    },
+    {
+      "id": "node-876",
+      "name": "Unknown",
+      "latitude": -32.71336571515584,
+      "longitude": 37.757198417842034,
+      "fixed": false
+    },
+    {
+      "id": "node-877",
+      "name": "Niger",
+      "latitude": 14.65576752834616,
+      "longitude": 1.3110763909664627,
+      "fixed": false
+    },
+    {
+      "id": "node-878",
+      "name": "Unknown",
+      "latitude": 10.232111414226168,
+      "longitude": 155.30616664269712,
+      "fixed": false
+    },
+    {
+      "id": "node-879",
+      "name": "Unknown",
+      "latitude": 87.27350869010803,
+      "longitude": -99.54693242603001,
+      "fixed": false
+    },
+    {
+      "id": "node-880",
+      "name": "Unknown",
+      "latitude": 7.123354695161666,
+      "longitude": -149.16086988519328,
+      "fixed": false
+    },
+    {
+      "id": "node-881",
+      "name": "Canada",
+      "latitude": 63.893296080291634,
+      "longitude": -97.25854490157441,
+      "fixed": false
+    },
+    {
+      "id": "node-882",
+      "name": "Antarctica",
+      "latitude": -71.77822232100517,
+      "longitude": 45.91251980741629,
+      "fixed": false
+    },
+    {
+      "id": "node-883",
+      "name": "Russia",
+      "latitude": 66.89060385924668,
+      "longitude": 115.40525805705147,
+      "fixed": false
+    },
+    {
+      "id": "node-884",
+      "name": "Unknown",
+      "latitude": 20.43409168240676,
+      "longitude": 162.5404069550919,
+      "fixed": false
+    },
+    {
+      "id": "node-885",
+      "name": "Unknown",
+      "latitude": -56.916944143286436,
+      "longitude": 28.728260150298297,
+      "fixed": false
+    },
+    {
+      "id": "node-886",
+      "name": "Unknown",
+      "latitude": -16.42938224672902,
+      "longitude": -161.2887077098854,
+      "fixed": false
+    },
+    {
+      "id": "node-887",
+      "name": "Unknown",
+      "latitude": 89.43808525027566,
+      "longitude": -78.08454703070892,
+      "fixed": false
+    },
+    {
+      "id": "node-888",
+      "name": "Russia",
+      "latitude": 60.70703455656775,
+      "longitude": 163.2782619796833,
+      "fixed": false
+    },
+    {
+      "id": "node-889",
+      "name": "Unknown",
+      "latitude": 6.626567891630799,
+      "longitude": -116.22921214050345,
+      "fixed": false
+    },
+    {
+      "id": "node-890",
+      "name": "Unknown",
+      "latitude": 1.6488818290470704,
+      "longitude": -3.7908904772294534,
+      "fixed": false
+    },
+    {
+      "id": "node-891",
+      "name": "Unknown",
+      "latitude": -41.0540252244903,
+      "longitude": -170.09106291350264,
+      "fixed": false
+    },
+    {
+      "id": "node-892",
+      "name": "Antarctica",
+      "latitude": -71.9223720741225,
+      "longitude": 126.82061848282467,
+      "fixed": false
+    },
+    {
+      "id": "node-893",
+      "name": "Unknown",
+      "latitude": -68.85146611562055,
+      "longitude": -142.6181238609086,
+      "fixed": false
+    },
+    {
+      "id": "node-894",
+      "name": "Unknown",
+      "latitude": -82.13246027382259,
+      "longitude": 169.0300649839047,
+      "fixed": false
+    },
+    {
+      "id": "node-895",
+      "name": "Unknown",
+      "latitude": 52.32341245799037,
+      "longitude": -178.94947734341991,
+      "fixed": false
+    },
+    {
+      "id": "node-896",
+      "name": "Unknown",
+      "latitude": 77.60401898774427,
+      "longitude": 94.15605843615293,
+      "fixed": false
+    },
+    {
+      "id": "node-897",
+      "name": "Antarctica",
+      "latitude": -81.21477687242698,
+      "longitude": 158.38379257123393,
+      "fixed": false
+    },
+    {
+      "id": "node-898",
+      "name": "Antarctica",
+      "latitude": -88.95627468719327,
+      "longitude": -116.7091876107188,
+      "fixed": false
+    },
+    {
+      "id": "node-899",
+      "name": "China",
+      "latitude": 32.36086246552284,
+      "longitude": 113.64708367918672,
+      "fixed": false
+    },
+    {
+      "id": "node-900",
+      "name": "Unknown",
+      "latitude": -34.05038467023132,
+      "longitude": 155.90962440344197,
+      "fixed": false
+    },
+    {
+      "id": "node-901",
+      "name": "Unknown",
+      "latitude": 32.81285165860929,
+      "longitude": -53.52084281627464,
+      "fixed": false
+    },
+    {
+      "id": "node-902",
+      "name": "Australia",
+      "latitude": -26.273351036249608,
+      "longitude": 152.70069588308974,
+      "fixed": false
+    },
+    {
+      "id": "node-903",
+      "name": "Greenland",
+      "latitude": 65.40660878271234,
+      "longitude": -41.73007265413344,
+      "fixed": false
+    },
+    {
+      "id": "node-904",
+      "name": "Antarctica",
+      "latitude": -70.95938021548285,
+      "longitude": 163.80084344388666,
+      "fixed": false
+    },
+    {
+      "id": "node-905",
+      "name": "Unknown",
+      "latitude": 28.46877970598247,
+      "longitude": 169.8908225567739,
+      "fixed": false
+    },
+    {
+      "id": "node-906",
+      "name": "Antarctica",
+      "latitude": -81.47475141062363,
+      "longitude": 97.11980943977858,
+      "fixed": false
+    },
+    {
+      "id": "node-907",
+      "name": "Unknown",
+      "latitude": 5.946424452798212,
+      "longitude": 162.41051223169956,
+      "fixed": false
+    },
+    {
+      "id": "node-908",
+      "name": "Unknown",
+      "latitude": -61.01206132664918,
+      "longitude": -8.191852378088527,
+      "fixed": false
+    },
+    {
+      "id": "node-909",
+      "name": "Unknown",
+      "latitude": -7.566598258134562,
+      "longitude": 59.7269142582615,
+      "fixed": false
+    },
+    {
+      "id": "node-910",
+      "name": "Egypt",
+      "latitude": 27.605215058591483,
+      "longitude": 31.50206361415505,
+      "fixed": false
+    },
+    {
+      "id": "node-911",
+      "name": "Antarctica",
+      "latitude": -85.80321526644735,
+      "longitude": 172.37007218296827,
+      "fixed": false
+    },
+    {
+      "id": "node-912",
+      "name": "Australia",
+      "latitude": -37.28432176467423,
+      "longitude": 143.31613985059266,
+      "fixed": false
+    },
+    {
+      "id": "node-913",
+      "name": "Unknown",
+      "latitude": 55.854012449349966,
+      "longitude": -133.4678554865545,
+      "fixed": false
+    },
+    {
+      "id": "node-914",
+      "name": "Unknown",
+      "latitude": -51.70845583104373,
+      "longitude": 75.12165165767476,
+      "fixed": false
+    },
+    {
+      "id": "node-915",
+      "name": "Unknown",
+      "latitude": -24.46492151731745,
+      "longitude": -24.717825184716304,
+      "fixed": false
+    },
+    {
+      "id": "node-916",
+      "name": "Unknown",
+      "latitude": 16.933850829276253,
+      "longitude": -44.142923617401664,
+      "fixed": false
+    },
+    {
+      "id": "node-917",
+      "name": "Antarctica",
+      "latitude": -67.89771120209053,
+      "longitude": 123.68241629212787,
+      "fixed": false
+    },
+    {
+      "id": "node-918",
+      "name": "Unknown",
+      "latitude": -66.19965167969912,
+      "longitude": 46.45707946756585,
+      "fixed": false
+    },
+    {
+      "id": "node-919",
+      "name": "Unknown",
+      "latitude": -34.611619338480786,
+      "longitude": 112.47812644695773,
+      "fixed": false
+    },
+    {
+      "id": "node-920",
+      "name": "Russia",
+      "latitude": 68.09825056841217,
+      "longitude": 114.37142289969,
+      "fixed": false
+    },
+    {
+      "id": "node-921",
+      "name": "Unknown",
+      "latitude": 20.71514041954501,
+      "longitude": 177.78727678367972,
+      "fixed": false
+    },
+    {
+      "id": "node-922",
+      "name": "China",
+      "latitude": 41.384723147154716,
+      "longitude": 96.6559834153515,
+      "fixed": false
+    },
+    {
+      "id": "node-923",
+      "name": "Madagascar",
+      "latitude": -16.523621215718364,
+      "longitude": 48.58123668080435,
+      "fixed": false
+    },
+    {
+      "id": "node-924",
+      "name": "Unknown",
+      "latitude": 82.87600527717436,
+      "longitude": -59.09144119324736,
+      "fixed": false
+    },
+    {
+      "id": "node-925",
+      "name": "Iraq",
+      "latitude": 32.0591562589897,
+      "longitude": 45.241827970570085,
+      "fixed": false
+    },
+    {
+      "id": "node-926",
+      "name": "China",
+      "latitude": 31.40432719009752,
+      "longitude": 79.28175159686805,
+      "fixed": false
+    },
+    {
+      "id": "node-927",
+      "name": "Unknown",
+      "latitude": -37.985748327630745,
+      "longitude": -102.14456438634257,
+      "fixed": false
+    },
+    {
+      "id": "node-928",
+      "name": "Unknown",
+      "latitude": -60.62677021312929,
+      "longitude": 27.87164887315194,
+      "fixed": false
+    },
+    {
+      "id": "node-929",
+      "name": "Indonesia",
+      "latitude": 1.600987488358328,
+      "longitude": 100.1705713304068,
+      "fixed": false
+    },
+    {
+      "id": "node-930",
+      "name": "Unknown",
+      "latitude": -53.542312853443995,
+      "longitude": 152.4704358284996,
+      "fixed": false
+    },
+    {
+      "id": "node-931",
+      "name": "Russia",
+      "latitude": 60.51630668392494,
+      "longitude": 57.11836905291855,
+      "fixed": false
+    },
+    {
+      "id": "node-932",
+      "name": "Unknown",
+      "latitude": -12.817754159107594,
+      "longitude": 145.54840269564852,
+      "fixed": false
+    },
+    {
+      "id": "node-933",
+      "name": "Unknown",
+      "latitude": -68.05429361139264,
+      "longitude": -9.39202525075251,
+      "fixed": false
+    },
+    {
+      "id": "node-934",
+      "name": "India",
+      "latitude": 18.106846125826507,
+      "longitude": 76.36166724271175,
+      "fixed": false
+    },
+    {
+      "id": "node-935",
+      "name": "Unknown",
+      "latitude": -52.24458848261881,
+      "longitude": -145.28104809724752,
+      "fixed": false
+    },
+    {
+      "id": "node-936",
+      "name": "Greenland",
+      "latitude": 73.5115754408506,
+      "longitude": -37.12566589076579,
+      "fixed": false
+    },
+    {
+      "id": "node-937",
+      "name": "Unknown",
+      "latitude": -51.326240623084495,
+      "longitude": -158.9809864172205,
+      "fixed": false
+    },
+    {
+      "id": "node-938",
+      "name": "Antarctica",
+      "latitude": -71.4347863289091,
+      "longitude": 11.1248478103455,
+      "fixed": false
+    },
+    {
+      "id": "node-939",
+      "name": "Unknown",
+      "latitude": 16.347876176463046,
+      "longitude": 71.65314039759159,
+      "fixed": false
+    },
+    {
+      "id": "node-940",
+      "name": "Unknown",
+      "latitude": 86.81556095875001,
+      "longitude": -159.80703571517074,
+      "fixed": false
+    },
+    {
+      "id": "node-941",
+      "name": "Unknown",
+      "latitude": 85.01515003232993,
+      "longitude": -128.23680696465817,
+      "fixed": false
+    },
+    {
+      "id": "node-942",
+      "name": "Unknown",
+      "latitude": 77.44455171281902,
+      "longitude": 52.79271735019242,
+      "fixed": false
+    },
+    {
+      "id": "node-943",
+      "name": "Canada",
+      "latitude": 56.727571069704226,
+      "longitude": -64.32357353518155,
+      "fixed": false
+    },
+    {
+      "id": "node-944",
+      "name": "Antarctica",
+      "latitude": -78.88148668738518,
+      "longitude": 36.269693156932675,
+      "fixed": false
+    },
+    {
+      "id": "node-945",
+      "name": "Unknown",
+      "latitude": 30.735409275146523,
+      "longitude": -78.95072281716791,
+      "fixed": false
+    },
+    {
+      "id": "node-946",
+      "name": "Unknown",
+      "latitude": 45.96354396582055,
+      "longitude": -160.8354285316581,
+      "fixed": false
+    },
+    {
+      "id": "node-947",
+      "name": "Unknown",
+      "latitude": 26.553385544835194,
+      "longitude": -155.16296490914934,
+      "fixed": false
+    },
+    {
+      "id": "node-948",
+      "name": "Unknown",
+      "latitude": 0.5904841215327252,
+      "longitude": 57.54780770714174,
+      "fixed": false
+    },
+    {
+      "id": "node-949",
+      "name": "Unknown",
+      "latitude": -67.85743970092781,
+      "longitude": 8.30642276260113,
+      "fixed": false
+    },
+    {
+      "id": "node-950",
+      "name": "Unknown",
+      "latitude": -64.0937996785735,
+      "longitude": -74.36624828889094,
+      "fixed": false
+    },
+    {
+      "id": "node-951",
+      "name": "Unknown",
+      "latitude": -11.552046285456441,
+      "longitude": 118.4385710203158,
+      "fixed": false
+    },
+    {
+      "id": "node-952",
+      "name": "Unknown",
+      "latitude": 86.32013638203082,
+      "longitude": -8.959704294638868,
+      "fixed": false
+    },
+    {
+      "id": "node-953",
+      "name": "Panama",
+      "latitude": 9.112090596124702,
+      "longitude": -82.28280084481722,
+      "fixed": false
+    },
+    {
+      "id": "node-954",
+      "name": "Unknown",
+      "latitude": -13.958020536846178,
+      "longitude": 169.27722335893367,
+      "fixed": false
+    },
+    {
+      "id": "node-955",
+      "name": "Unknown",
+      "latitude": -45.294197215556416,
+      "longitude": -99.56537202671359,
+      "fixed": false
+    },
+    {
+      "id": "node-956",
+      "name": "Unknown",
+      "latitude": 71.91575251120719,
+      "longitude": -131.74057340834526,
+      "fixed": false
+    },
+    {
+      "id": "node-957",
+      "name": "Unknown",
+      "latitude": 84.19446638338792,
+      "longitude": 33.70079016181717,
+      "fixed": false
+    },
+    {
+      "id": "node-958",
+      "name": "United Kingdom",
+      "latitude": 56.36600778692983,
+      "longitude": -3.719725502822996,
+      "fixed": false
+    },
+    {
+      "id": "node-959",
+      "name": "Unknown",
+      "latitude": -41.25550238776863,
+      "longitude": 58.924957090668016,
+      "fixed": false
+    },
+    {
+      "id": "node-960",
+      "name": "Unknown",
+      "latitude": -64.12291531439477,
+      "longitude": 110.41861960053984,
+      "fixed": false
+    },
+    {
+      "id": "node-961",
+      "name": "Unknown",
+      "latitude": 7.128425771069658,
+      "longitude": -147.7142291764771,
+      "fixed": false
+    },
+    {
+      "id": "node-962",
+      "name": "Unknown",
+      "latitude": 73.36833844427713,
+      "longitude": -170.48946181797152,
+      "fixed": false
+    },
+    {
+      "id": "node-963",
+      "name": "Unknown",
+      "latitude": -13.155388609002543,
+      "longitude": 159.44819032691788,
+      "fixed": false
+    },
+    {
+      "id": "node-964",
+      "name": "Unknown",
+      "latitude": -21.89886966740174,
+      "longitude": 81.08297022996652,
+      "fixed": false
+    },
+    {
+      "id": "node-965",
+      "name": "Unknown",
+      "latitude": -60.51015687770528,
+      "longitude": -172.09568611664622,
+      "fixed": false
+    },
+    {
+      "id": "node-966",
+      "name": "Unknown",
+      "latitude": -65.40908523276653,
+      "longitude": 84.12113826247082,
+      "fixed": false
+    },
+    {
+      "id": "node-967",
+      "name": "Unknown",
+      "latitude": -32.433070689718164,
+      "longitude": -121.5532197453623,
+      "fixed": false
+    },
+    {
+      "id": "node-968",
+      "name": "Ireland",
+      "latitude": 53.45923449315583,
+      "longitude": -6.668700656723786,
+      "fixed": false
+    },
+    {
+      "id": "node-969",
+      "name": "Unknown",
+      "latitude": 9.952604591319613,
+      "longitude": 89.9790587745942,
+      "fixed": false
+    },
+    {
+      "id": "node-970",
+      "name": "Unknown",
+      "latitude": -0.7380792921087931,
+      "longitude": 162.91607771232168,
+      "fixed": false
+    },
+    {
+      "id": "node-971",
+      "name": "Unknown",
+      "latitude": -33.2794479023542,
+      "longitude": -0.8236765063468852,
+      "fixed": false
+    },
+    {
+      "id": "node-972",
+      "name": "Russia",
+      "latitude": 60.77212196929759,
+      "longitude": 65.16911771716514,
+      "fixed": false
+    },
+    {
+      "id": "node-973",
+      "name": "Unknown",
+      "latitude": -76.132064501765,
+      "longitude": -35.480942299688195,
+      "fixed": false
+    },
+    {
+      "id": "node-974",
+      "name": "Unknown",
+      "latitude": 18.707713317609915,
+      "longitude": -122.7955041021138,
+      "fixed": false
+    },
+    {
+      "id": "node-975",
+      "name": "Unknown",
+      "latitude": 65.49637507388039,
+      "longitude": -168.4217522579919,
+      "fixed": false
+    },
+    {
+      "id": "node-976",
+      "name": "Unknown",
+      "latitude": -18.45019281170633,
+      "longitude": -166.8398011013556,
+      "fixed": false
+    },
+    {
+      "id": "node-977",
+      "name": "Unknown",
+      "latitude": -53.26950433454162,
+      "longitude": -6.125431933499613,
+      "fixed": false
+    },
+    {
+      "id": "node-978",
+      "name": "Unknown",
+      "latitude": 55.27444580448514,
+      "longitude": -141.0133268470379,
+      "fixed": false
+    },
+    {
+      "id": "node-979",
+      "name": "Brazil",
+      "latitude": -8.749239623943495,
+      "longitude": -49.9652823004335,
+      "fixed": false
+    },
+    {
+      "id": "node-980",
+      "name": "Unknown",
+      "latitude": 56.44293214521389,
+      "longitude": 148.9657161914938,
+      "fixed": false
+    },
+    {
+      "id": "node-981",
+      "name": "Unknown",
+      "latitude": -66.54619826212965,
+      "longitude": 23.756718406269187,
+      "fixed": false
+    },
+    {
+      "id": "node-982",
+      "name": "Antarctica",
+      "latitude": -82.81628762376758,
+      "longitude": -31.534974098619728,
+      "fixed": false
+    },
+    {
+      "id": "node-983",
+      "name": "Antarctica",
+      "latitude": -81.761945501992,
+      "longitude": -118.15262534990667,
+      "fixed": false
+    },
+    {
+      "id": "node-984",
+      "name": "Unknown",
+      "latitude": -59.1690328785481,
+      "longitude": -150.215240111497,
+      "fixed": false
+    },
+    {
+      "id": "node-985",
+      "name": "Unknown",
+      "latitude": 44.01300279668325,
+      "longitude": -160.3803835219868,
+      "fixed": false
+    },
+    {
+      "id": "node-986",
+      "name": "Pakistan",
+      "latitude": 34.19150722953063,
+      "longitude": 73.58608366906503,
+      "fixed": false
+    },
+    {
+      "id": "node-987",
+      "name": "Unknown",
+      "latitude": -70.54611419638715,
+      "longitude": -43.457305034936866,
+      "fixed": false
+    },
+    {
+      "id": "node-988",
+      "name": "Unknown",
+      "latitude": -1.7293701273214452,
+      "longitude": 141.4705875431261,
+      "fixed": false
+    },
+    {
+      "id": "node-989",
+      "name": "United States of America",
+      "latitude": 69.84467042616802,
+      "longitude": -155.95867260541652,
+      "fixed": false
+    },
+    {
+      "id": "node-990",
+      "name": "Unknown",
+      "latitude": -52.367762929327974,
+      "longitude": 14.85237715467943,
+      "fixed": false
+    },
+    {
+      "id": "node-991",
+      "name": "Antarctica",
+      "latitude": -87.55093161092954,
+      "longitude": 153.29808656780938,
+      "fixed": false
+    },
+    {
+      "id": "node-992",
+      "name": "Antarctica",
+      "latitude": -73.66833685920325,
+      "longitude": 158.51583387893686,
+      "fixed": false
+    },
+    {
+      "id": "node-993",
+      "name": "Unknown",
+      "latitude": -43.57370931896944,
+      "longitude": 50.089170430074375,
+      "fixed": false
+    },
+    {
+      "id": "node-994",
+      "name": "Unknown",
+      "latitude": -0.07334017373761981,
+      "longitude": -128.984823435273,
+      "fixed": false
+    },
+    {
+      "id": "node-995",
+      "name": "Russia",
+      "latitude": 79.67841560136264,
+      "longitude": 94.43112069124516,
+      "fixed": false
+    },
+    {
+      "id": "node-996",
+      "name": "Unknown",
+      "latitude": 83.18748496733818,
+      "longitude": 110.84484044163327,
+      "fixed": false
+    },
+    {
+      "id": "node-997",
+      "name": "Unknown",
+      "latitude": 50.961716635871994,
+      "longitude": -135.3272229033289,
+      "fixed": false
+    },
+    {
+      "id": "node-998",
+      "name": "Antarctica",
+      "latitude": -86.53860031621623,
+      "longitude": -126.11253497343,
+      "fixed": false
+    },
+    {
+      "id": "node-999",
+      "name": "Unknown",
+      "latitude": -10.539483076311896,
+      "longitude": -167.3693204579527,
+      "fixed": false
+    }
+  ]
+}

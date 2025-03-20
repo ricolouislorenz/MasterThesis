@@ -1,9 +1,12 @@
-// src/components/LeftSidebar.tsx
 import React, { useState } from 'react';
 import { Box, Typography, List, ListItemButton, ListItemText, Button } from '@mui/material';
 import { peerSelectionAlgorithms, setPeerSelectionAlgorithm } from '../modules/peerSelection';
 
-const LeftSidebar: React.FC = () => {
+interface LeftSidebarProps {
+  onPeerSelectionChange: () => void;
+}
+
+const LeftSidebar: React.FC<LeftSidebarProps> = ({ onPeerSelectionChange }) => {
   const [view, setView] = useState<'overview' | 'peer'>('overview');
 
   const overviewView = (
@@ -13,19 +16,24 @@ const LeftSidebar: React.FC = () => {
         <ListItemButton onClick={() => setView('peer')}>
           <ListItemText primary="Choose Peer-Selection Algorithm" />
         </ListItemButton>
-        {/* Weitere Optionen können hier hinzugefügt werden */}
+        {/* Weitere Optionen */}
       </List>
     </Box>
   );
 
   const peerView = (
     <Box>
-      <Typography variant="h6" sx={{ mb: 2 }}>Peer-Auswahl Algorithmus</Typography>
+      <Typography variant="h6" sx={{ mb: 2 }}>Peer-Selection Algorithm</Typography>
       {Object.keys(peerSelectionAlgorithms).map(key => (
-        <ListItemButton key={key} onClick={() => {
-          setPeerSelectionAlgorithm(key);
-          setView('overview');
-        }}>
+        <ListItemButton
+          key={key}
+          onClick={() => {
+            setPeerSelectionAlgorithm(key);
+            // Reset der Simulation beim Wechsel des Algorithmus
+            onPeerSelectionChange();
+            setView('overview');
+          }}
+        >
           <ListItemText primary={key} />
         </ListItemButton>
       ))}
